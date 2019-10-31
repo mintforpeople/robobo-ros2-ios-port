@@ -1,5 +1,11 @@
 # robobo-ros2-ios-port
 
+This is the repository with the ROS2 workspace and libraries used to run ROS2 on the iOS platform with Swift.
+
+In order to use it, it must be downloaded on the machine running XCode and in the build settings of the project in the section Library Paths and User Header Search Paths the path to the install folder must be included in recursive manner.
+Also, "-lc++" must be added in "Other Linker Flags" 
+
+
 
 
 ## Acknowledgement

@@ -1,0 +1,21 @@
+{
+  "package_name": "builtin_interfaces",
+  "output_dir": "/Users/lbajo/ros2_mod_ws/build/builtin_interfaces/rosidl_generator_c/builtin_interfaces",
+  "template_dir": "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "ros_interface_files": [
+    "/Users/lbajo/ros2_mod_ws/src/ros2/rcl_interfaces/builtin_interfaces/msg/Duration.msg",
+    "/Users/lbajo/ros2_mod_ws/src/ros2/rcl_interfaces/builtin_interfaces/msg/Time.msg"
+  ],
+  "target_dependencies": [
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.7/site-packages/rosidl_generator_c/__init__.py",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_c/cmake/../resource/msg.h.em",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_c/cmake/../resource/srv.h.em",
+    "/Users/lbajo/ros2_mod_ws/src/ros2/rcl_interfaces/builtin_interfaces/msg/Duration.msg",
+    "/Users/lbajo/ros2_mod_ws/src/ros2/rcl_interfaces/builtin_interfaces/msg/Time.msg"
+  ]
+}

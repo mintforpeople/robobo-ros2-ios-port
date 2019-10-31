@@ -1,0 +1,4 @@
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/CMakeFiles/install.dir
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/CMakeFiles/poco-1.8.0.1-release.dir
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/CMakeFiles/ALL_BUILD.dir
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/CMakeFiles/ZERO_CHECK.dir

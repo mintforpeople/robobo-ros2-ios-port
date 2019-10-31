@@ -1,0 +1,15 @@
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/rmw_typesupport_c/rmw_implementation
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_implementation
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/rmw_typesupport/rmw_implementation
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/package_run_dependencies/rmw_implementation
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/parent_prefix_path/rmw_implementation
+/Users/lbajo/ros2_mod_ws/install/share/rmw_implementation/environment/ament_prefix_path.sh
+/Users/lbajo/ros2_mod_ws/install/share/rmw_implementation/environment/path.sh
+/Users/lbajo/ros2_mod_ws/install/share/rmw_implementation/local_setup.bash
+/Users/lbajo/ros2_mod_ws/install/share/rmw_implementation/local_setup.sh
+/Users/lbajo/ros2_mod_ws/install/share/rmw_implementation/local_setup.zsh
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/packages/rmw_implementation
+/Users/lbajo/ros2_mod_ws/install/share/rmw_implementation/cmake/rmw_implementation-extras.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rmw_implementation/cmake/rmw_implementationConfig.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rmw_implementation/cmake/rmw_implementationConfig-version.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rmw_implementation/package.xml

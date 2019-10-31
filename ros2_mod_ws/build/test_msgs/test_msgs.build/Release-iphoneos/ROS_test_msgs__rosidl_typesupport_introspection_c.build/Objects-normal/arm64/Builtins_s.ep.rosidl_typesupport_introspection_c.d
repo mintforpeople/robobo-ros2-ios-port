@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/lbajo/ros2_mod_ws/build/test_msgs/rosidl_generator_objc/ROS_test_msgs/msg/Builtins_s.ep.rosidl_typesupport_introspection_c.m \
+  /Users/lbajo/ros2_mod_ws/build/test_msgs/rosidl_generator_c/test_msgs/msg/builtins.h \
+  /Users/lbajo/ros2_mod_ws/build/test_msgs/rosidl_generator_c/test_msgs/msg/builtins__struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/duration__struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/time__struct.h \
+  /Users/lbajo/ros2_mod_ws/build/test_msgs/rosidl_generator_c/test_msgs/msg/builtins__functions.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/build/test_msgs/rosidl_generator_c/test_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/build/test_msgs/rosidl_generator_c/test_msgs/msg/builtins__type_support.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/message_type_support_struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_interface/macros.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/string.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/primitives_array.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/string_functions.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/primitives_array_functions.h \
+  /Users/lbajo/ros2_mod_ws/build/test_msgs/rosidl_generator_objc/ROS_test_msgs/msg/Builtins.h \
+  /Users/lbajo/ros2_mod_ws/install/include/ROS_builtin_interfaces/msg/Duration.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/duration.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/duration__functions.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/duration__type_support.h \
+  /Users/lbajo/ros2_mod_ws/install/include/ROS_builtin_interfaces/msg/Time.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/time.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/time__functions.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/time__type_support.h

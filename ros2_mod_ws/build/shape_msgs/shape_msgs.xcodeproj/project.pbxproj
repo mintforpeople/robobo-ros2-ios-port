@@ -1,0 +1,3003 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6F359E64548B4396BBF4B6D2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				844C2DD6299E4FCDAB203432 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		457E154300DA440DB41C5A8C /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 64994C2EA0B849AF801BD570 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				DB903028AF9D4126B127C0C9 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				38A2B4BB7826484D968E3E79 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		749E225AD32548A59A191D0A /* shape_msgs__objc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 89C51C69158C4743A2DC2FF7 /* Build configuration list for PBXAggregateTarget "shape_msgs__objc" */;
+			buildPhases = (
+				766993AC1EEC463AABF06BF5 /* CMake Rules */,
+			);
+			dependencies = (
+				AD1C42D089634CF7B5B0B6CF /* PBXTargetDependency */,
+			);
+			name = shape_msgs__objc;
+			productName = shape_msgs__objc;
+		};
+		7E4D836597B14D1195C33B4D /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 01574A5A317E450DBA8F80E5 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				83E5A10CD0874DA590550046 /* CMake Rules */,
+			);
+			dependencies = (
+				ACDB164137524F1DA71CDAD9 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		9D89A5057E0A4AD786136ED9 /* shape_msgs__cpp */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 590EC4A90694422AB8CAAF80 /* Build configuration list for PBXAggregateTarget "shape_msgs__cpp" */;
+			buildPhases = (
+				65E92D9B5923485DAD62A72D /* CMake Rules */,
+			);
+			dependencies = (
+				0544C133A7CA42518ED8DF83 /* PBXTargetDependency */,
+			);
+			name = shape_msgs__cpp;
+			productName = shape_msgs__cpp;
+		};
+		9FBD64F50CEB44AF90A69312 /* shape_msgs */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BAC0F30C58D9486B84F75C4C /* Build configuration list for PBXAggregateTarget "shape_msgs" */;
+			buildPhases = (
+				343EC347A9044EBB831B19BD /* CMake Rules */,
+			);
+			dependencies = (
+				C9A6D1EA715C48FAB5EBF180 /* PBXTargetDependency */,
+				060FAD9AE91D4016A430ADA0 /* PBXTargetDependency */,
+				65F3154F6AEE48AB82E8351B /* PBXTargetDependency */,
+				BE79B002FABD4270979410CE /* PBXTargetDependency */,
+				557F593C39FF495DACC1AE03 /* PBXTargetDependency */,
+				BB2B822C2A3A4E4196FE69D4 /* PBXTargetDependency */,
+				71E5199B849B45C0A726BB47 /* PBXTargetDependency */,
+				D419665C5A29458490E37138 /* PBXTargetDependency */,
+			);
+			name = shape_msgs;
+			productName = shape_msgs;
+		};
+		E361CB4CA8A346D991106CFE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 40C398BC295C479096A16758 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				23374DAA12A14385A7BA3550 /* CMake Rules */,
+			);
+			dependencies = (
+				808190F2372644808C661CF1 /* PBXTargetDependency */,
+				D63B52A96A9648D185804135 /* PBXTargetDependency */,
+				161B688ABF7D4D6DAC390C62 /* PBXTargetDependency */,
+				0F7B511B6DF34C65A7DDE924 /* PBXTargetDependency */,
+				3D25220B1AF44BFD8F604385 /* PBXTargetDependency */,
+				9300BA18F10C4A2684D398DF /* PBXTargetDependency */,
+				192266D2FB294F5CB7F837AC /* PBXTargetDependency */,
+				C33AD406478441088C40A2D9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00E2E26C455A4A23B848B34E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh.h */ = {isa = PBXBuildFile; fileRef = A983D35090A44F31A5062119 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh.h */; };
+		01C4E794C8B047A082BF9672 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 8F866BEE5FFF4B4BB7636307 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp */; };
+		02640397DC76439E9FEB8EDC /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B19EEA6F365D47AEA0429E9C /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */; };
+		08A6BA95B88248038491389F /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.c */ = {isa = PBXBuildFile; fileRef = C961885369E0472D8AA0082D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.c */; };
+		0A0F4A737CCA45CD87F98684 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__rosidl_typesupport_introspection_c.h */ = {isa = PBXBuildFile; fileRef = FED2238247E14A1887FD7D3E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__rosidl_typesupport_introspection_c.h */; };
+		0CEB888762BD4E179FD85C37 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__type_support.h */ = {isa = PBXBuildFile; fileRef = 65EE88389CBB4FE7AC90B498 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__type_support.h */; };
+		0DA24E0D4B1E41AB9A98F80E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 6FFC5EAB3AF34A719B7AB871 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp */; };
+		0F1C8F7EDDCD4A10B13DABC2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXBuildFile; fileRef = 7E6680C0742141E0A0C5495B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__rosidl_typesupport_introspection_cpp.hpp */; };
+		12783B5D3E8B4FA89EFC2B5A /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__type_support.cpp */ = {isa = PBXBuildFile; fileRef = D020465FE2494EC198FCE2C8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__type_support.cpp */; };
+		1363EE246DCE4C71A31B080B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__type_support.cpp */ = {isa = PBXBuildFile; fileRef = F31742C63320474CB1E76112 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__type_support.cpp */; };
+		1392CBC1295F44E4B0EB186E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__type_support.c */ = {isa = PBXBuildFile; fileRef = 11519A0FB4584B8CA6EDA298 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__type_support.c */; };
+		1809FA8AD3A54CD48401BEF8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__struct.h */ = {isa = PBXBuildFile; fileRef = 5A7F92FBB1B94FCA8C55DACE /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__struct.h */; };
+		23BD65B608FE4810BE0781FC /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8E5FB29ED8C44748B30C0028 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */; };
+		244EA56B702D4715B167A068 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.c */ = {isa = PBXBuildFile; fileRef = 0140B6B0874A4EB09BFF75B1 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.c */; };
+		25630122B5FD43AEBEB341A7 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DC902C592F164E818B3E83FE /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */; };
+		2747E88B822144E3B53EB8EC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp */ = {isa = PBXBuildFile; fileRef = A58A4F18B3754C289C0C3D6C /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp */; };
+		291FE4FCBEFE47FEA6FD28DE /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__struct.h */ = {isa = PBXBuildFile; fileRef = 2CF71E63A1BA4CC4A0CAA986 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__struct.h */; };
+		2C42FBF35F214DF7ABCB62BD /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__type_support.cpp */ = {isa = PBXBuildFile; fileRef = FBC0FCA7A9A74D8287E35F58 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__type_support.cpp */; };
+		3206F8769CB74904B8C6A588 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_generator_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 078AE81DBC4543AAB058E593 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_generator_c.dir/Info.plist */; };
+		331DE8F273D04801BD82C1FC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.rule */ = {isa = PBXBuildFile; fileRef = BAA1A30B019045D28519DFA8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.rule */; };
+		439FF69B4CA84F5FBD18E9A6 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.h */ = {isa = PBXBuildFile; fileRef = AB03713881DD450F814B31AA /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.h */; };
+		4F8D801CCCF34C94AEE462CA /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6987BDC62A21403E837A7EEF /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */; };
+		56C075233DB34054ADAFE5FF /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__struct.h */ = {isa = PBXBuildFile; fileRef = 620493178F254F38A6CE86C2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__struct.h */; };
+		5A5114DE05AC4E6BA15DEBAD /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 93345580787C4825B5A183F7 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/Info.plist */; };
+		5AAA41C94D3043CA837BB813 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 0E82F0BBAAD441309EEBF07E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp */; };
+		69D6A654A83A4A67BE690826 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__rosidl_typesupport_introspection_cpp.hpp.rule */ = {isa = PBXBuildFile; fileRef = 289FAC64CF78421DA99D4D02 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__rosidl_typesupport_introspection_cpp.hpp.rule */; };
+		6AB49201EC89483D80CFA772 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXBuildFile; fileRef = 393731B49C464EB28480DA89 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__rosidl_typesupport_introspection_cpp.hpp */; };
+		6C97FA809DF445018CC5E8CA /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__struct.h */ = {isa = PBXBuildFile; fileRef = D868A64BF613404BBFA8D57E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__struct.h */; };
+		7293679666954B838246C7BE /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 1BD2481153C245C387C7713C /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp */; };
+		75A4AA2FD5FC4FB1984FBE49 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXBuildFile; fileRef = 31B8B58F86354EA6A9EDD645 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__rosidl_typesupport_introspection_cpp.hpp */; };
+		781F0591665D4F2A921D2191 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__type_support.h */ = {isa = PBXBuildFile; fileRef = D453E76D0F3B4AB09A5AD3F3 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__type_support.h */; };
+		7B7FB53B7B9F45FF8FCAEECA /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 219E9058EC04407794C5A8FD /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */; };
+		7CC5B34C24194DF4B7D9501D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 07F6F332E5764E18AB6E2B9B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */; };
+		7D9CB2BD335E4541932ECF36 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__type_support.c */ = {isa = PBXBuildFile; fileRef = 867190FF566148D6BCD21268 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__type_support.c */; };
+		7E09ED9BBE2E4F7E808326DC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/SolidPrimitive_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXBuildFile; fileRef = 4A8288F4B11C4B258976449C /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/SolidPrimitive_s.ep.rosidl_typesupport_introspection_c.m */; };
+		8B48956E2B89456692F8C311 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__type_support.h */ = {isa = PBXBuildFile; fileRef = 247E4044B022454D9BC24CB0 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__type_support.h */; };
+		946A29716AF1463D84AD18B9 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__type_support.c */ = {isa = PBXBuildFile; fileRef = 8E4B46A7E1E84A559F494C5B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__type_support.c */; };
+		9BDDDB2D618E4B81995A1E4E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__rosidl_typesupport_introspection_c.h */ = {isa = PBXBuildFile; fileRef = E8433307F22841A293FEDEA4 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__rosidl_typesupport_introspection_c.h */; };
+		9BF9147A0E634D07B0745E72 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__rosidl_typesupport_introspection_c.h.rule */ = {isa = PBXBuildFile; fileRef = 010472562A464B999608EB7D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__rosidl_typesupport_introspection_c.h.rule */; };
+		9ED650FD243F424D81B27D71 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane.h */ = {isa = PBXBuildFile; fileRef = CE422FC77B8A4B0882845AF9 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane.h */; };
+		9FD5E6936B9341D19363DFA6 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__type_support.c */ = {isa = PBXBuildFile; fileRef = 4200FF3CBAAA49CEB7A65ED1 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__type_support.c */; };
+		A0C989D25FF543E4A1F3DE23 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9C8D8240D8CE4FFC8BCDBC5F /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */; };
+		A0F7845B2E4F4EFC821180F5 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh.h.rule */ = {isa = PBXBuildFile; fileRef = 5924463DDBC842358D158E8E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh.h.rule */; };
+		AB6D975E9370478D92A5508E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle.h */ = {isa = PBXBuildFile; fileRef = F247DE0EF4BC420BB9F306F6 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle.h */; };
+		AC4ADBBCB22849D583C5E299 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.h */ = {isa = PBXBuildFile; fileRef = 4381E5EEC0534C688485CC9B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.h */; };
+		AD2D1BCC906D447A82242C0C /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.h */ = {isa = PBXBuildFile; fileRef = E500AEC251C34AC8ACE5523A /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.h */; };
+		B0252FBCAB6D4F85A7398CE8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.h */ = {isa = PBXBuildFile; fileRef = 5A6675A9BAF94C79AE61F2C7 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.h */; };
+		B12AD0D74DE44FC5B803E74E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = F6B0C511D0474C119BB49305 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/Info.plist */; };
+		B269E750D5E346A8A57B3801 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh.h.rule */ = {isa = PBXBuildFile; fileRef = F0AA82C9E9C74A679C72D999 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh.h.rule */; };
+		B331FECBBFF74DE89E1BB5CC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 22094C3287CF4D10B6E8FAA1 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp */; };
+		B6F8FC93EDDD4602B4C3830F /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/rosidl_generator_c__visibility_control.h */ = {isa = PBXBuildFile; fileRef = 4C62A6EBDEC64A7584A2867E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/rosidl_generator_c__visibility_control.h */; };
+		BD884A95491E4DEF85F9663B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXBuildFile; fileRef = 319349029EF04A7FB792C5C0 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh_s.ep.rosidl_typesupport_introspection_c.m */; };
+		C2F44631ED8947E2A3EE748D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/MeshTriangle_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXBuildFile; fileRef = DDF87DFD57D246E2995BB1BC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/MeshTriangle_s.ep.rosidl_typesupport_introspection_c.m */; };
+		C4003A102DDB45A1B8E9F194 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 130BDFC183D74F61B5310CC8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp */; };
+		D4156C4D51E14361A83CDC29 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXBuildFile; fileRef = 0AB5F9839C574C30AC4255BC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp */; };
+		D6276C1DDAAD47319B823B33 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 4F67E256F84B41A183BA694B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp */; };
+		D9981131990549D2B04C98D7 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__type_support.h */ = {isa = PBXBuildFile; fileRef = F4AE2A2DD9A64A989032BBD8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__type_support.h */; };
+		DA15D2DF100945E2B1126879 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Plane_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXBuildFile; fileRef = 0E955ED1EBD8471F95B73ECB /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Plane_s.ep.rosidl_typesupport_introspection_c.m */; };
+		DD6567CF96764104A7E3FF50 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__rosidl_typesupport_introspection_c.h */ = {isa = PBXBuildFile; fileRef = E9E657AAEBC64A90ACECFAE8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__rosidl_typesupport_introspection_c.h */; };
+		DDD124A150B34C8EB0022C11 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__rosidl_typesupport_introspection_c.h */ = {isa = PBXBuildFile; fileRef = A92040D2BC1F43B3B68E275A /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__rosidl_typesupport_introspection_c.h */; };
+		DEA00C3CCB29426AB0D7C1D2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.c */ = {isa = PBXBuildFile; fileRef = B53021477667422AA79DD8D6 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.c */; };
+		E00BC72C945E4F63A914FAA9 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.c */ = {isa = PBXBuildFile; fileRef = 27620E0F9E9146E992AD411D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.c */; };
+		E6211CB2856D4E0693CE7969 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */ = {isa = PBXBuildFile; fileRef = BED18CA44CA94E12A4317976 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */; };
+		EBA3FAB9EBB948BF8E5E6605 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 5795AAB3050845A79E3E6955 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp */; };
+		F2802352237449988646C524 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/ROS_shape_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 478BE75E95154E4D902928D7 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/ROS_shape_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */; };
+		F3CB44FD852A4B25977C4155 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 55B8EFD2B6454FD7BB2ED0E0 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */; };
+		FB89A31DCEE04313B3AB1FEC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive.h */ = {isa = PBXBuildFile; fileRef = 9F52B318BFFA4797A8B2F6C2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive.h */; };
+		FF3DBE8843B74D799E730CDA /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.rule */ = {isa = PBXBuildFile; fileRef = 25B0E80DE4D545BA8D6686F2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.rule */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		01D5362D6FA24D24B0960145 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		0D3E997AB0DC41A685D50951 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		31BE8EB44C144B9F8C0232BB /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		934EA8A9EA234B27B9BAA83B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		05B02C8530D84883B23AE538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA555AC8D0E9484C9758A93C;
+			remoteInfo = shape_msgs__rosidl_typesupport_cpp;
+		};
+		0C60F29EC69C432DA02547DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA555AC8D0E9484C9758A93C;
+			remoteInfo = shape_msgs__rosidl_typesupport_cpp;
+		};
+		1E2308CE53D24C8FACDE745D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B88685DA745D59131BF15;
+			remoteInfo = shape_msgs__rosidl_typesupport_introspection_c;
+		};
+		216C4C0A70444A23BDEFFFF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+		24BAE14E5FB04C77B0E8C922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+		26839A70C30142209FB800A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+		37AA41D99123485B9710C178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674D67565D114B888527D0AF;
+			remoteInfo = shape_msgs__rosidl_generator_c;
+		};
+		3A2E621A729543F9B14205D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FBD64F50CEB44AF90A69312;
+			remoteInfo = shape_msgs;
+		};
+		4682D7EDC17548E89670E5C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D89A5057E0A4AD786136ED9;
+			remoteInfo = shape_msgs__cpp;
+		};
+		547DDAC849F54AEFB172CB9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+		5CE4E7EB4DF840B2B218C9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D89A5057E0A4AD786136ED9;
+			remoteInfo = shape_msgs__cpp;
+		};
+		69348F17C95D431EAF075583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B88685DA745D59131BF15;
+			remoteInfo = shape_msgs__rosidl_typesupport_introspection_c;
+		};
+		6B520A3DACC648C18AA8A837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 596F155C9DFD4AC08D39E237;
+			remoteInfo = shape_msgs__rosidl_typesupport_c;
+		};
+		73DBF55DE42D4700952156C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674D67565D114B888527D0AF;
+			remoteInfo = shape_msgs__rosidl_generator_c;
+		};
+		77466981A3424992A28CBFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76FD8489BF5D479390F7B98D;
+			remoteInfo = ROS_shape_msgs__rosidl_typesupport_introspection_c;
+		};
+		7C90B9FDC3404ACAAAF22965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749E225AD32548A59A191D0A;
+			remoteInfo = shape_msgs__objc;
+		};
+		847A9384DA51443BB7D97B76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+		890E75EA3B594D3496059AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD297E106C94A55B19C407F;
+			remoteInfo = shape_msgs__rosidl_typesupport_introspection_cpp;
+		};
+		8E3C55BECB544BD2B0739ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674D67565D114B888527D0AF;
+			remoteInfo = shape_msgs__rosidl_generator_c;
+		};
+		94A7CA1191584B81BFF4B875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD297E106C94A55B19C407F;
+			remoteInfo = shape_msgs__rosidl_typesupport_introspection_cpp;
+		};
+		A226021C4D734C42A55BFEEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+		AA35BC562C7244C6B50BE2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D89A5057E0A4AD786136ED9;
+			remoteInfo = shape_msgs__cpp;
+		};
+		B20D8F3CA43940FAB9060404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B88685DA745D59131BF15;
+			remoteInfo = shape_msgs__rosidl_typesupport_introspection_c;
+		};
+		BBA7C5C8A2E54C76B2C77C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+		C08BDFD422F04E15BBEB6E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+		C1F220D089A140E0B7F1D4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 596F155C9DFD4AC08D39E237;
+			remoteInfo = shape_msgs__rosidl_typesupport_c;
+		};
+		C2D35B3B37504D109D6377D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E361CB4CA8A346D991106CFE;
+			remoteInfo = ALL_BUILD;
+		};
+		C906559D358549E693BB80A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749E225AD32548A59A191D0A;
+			remoteInfo = shape_msgs__objc;
+		};
+		D57D794BDB5D46D59AC5E62F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FBD64F50CEB44AF90A69312;
+			remoteInfo = shape_msgs;
+		};
+		DBE563FE81D642A6BC0E5962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674D67565D114B888527D0AF;
+			remoteInfo = shape_msgs__rosidl_generator_c;
+		};
+		E6A8C504EF894E1C8B1CBF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 596F155C9DFD4AC08D39E237;
+			remoteInfo = shape_msgs__rosidl_typesupport_c;
+		};
+		E89EC333DB6C417D9597D6B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674D67565D114B888527D0AF;
+			remoteInfo = shape_msgs__rosidl_generator_c;
+		};
+		F1AFD08A217546D89A045A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B88685DA745D59131BF15;
+			remoteInfo = shape_msgs__rosidl_typesupport_introspection_c;
+		};
+		F1BF17DAA0A6462FAE4A2CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD297E106C94A55B19C407F;
+			remoteInfo = shape_msgs__rosidl_typesupport_introspection_cpp;
+		};
+		F43147F2DFE240B49CD1EA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+		FE7C9CA816F845C28FDE3905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+		FEA3755F4B1B4572BE9FE8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BE1A3C72FF4D319BF4726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CED4D0AF3334DCC9C09981F;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010472562A464B999608EB7D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__rosidl_typesupport_introspection_c.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mesh__rosidl_typesupport_introspection_c.h.rule; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__rosidl_typesupport_introspection_c.h.rule; sourceTree = SOURCE_ROOT; };
+		0140B6B0874A4EB09BFF75B1 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = plane__functions.c; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.c; sourceTree = SOURCE_ROOT; };
+		078AE81DBC4543AAB058E593 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_generator_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/shape_msgs/CMakeFiles/shape_msgs__rosidl_generator_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		07F6F332E5764E18AB6E2B9B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		0AB5F9839C574C30AC4255BC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mesh_triangle__rosidl_typesupport_introspection_cpp.hpp; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp; sourceTree = SOURCE_ROOT; };
+		0B2A56D0A3C44754B399F0E7 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0E82F0BBAAD441309EEBF07E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plane__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		0E955ED1EBD8471F95B73ECB /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Plane_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = Plane_s.ep.rosidl_typesupport_introspection_c.m; path = ../../../../build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Plane_s.ep.rosidl_typesupport_introspection_c.m; sourceTree = SOURCE_ROOT; };
+		11519A0FB4584B8CA6EDA298 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__type_support.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mesh_triangle__type_support.c; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__type_support.c; sourceTree = SOURCE_ROOT; };
+		130BDFC183D74F61B5310CC8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = solid_primitive__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		175EB698193E4F66B657D82D /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/msg/MeshTriangle.msg */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = MeshTriangle.msg; path = msg/MeshTriangle.msg; sourceTree = SOURCE_ROOT; };
+		1BD2481153C245C387C7713C /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plane__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		219E9058EC04407794C5A8FD /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		22094C3287CF4D10B6E8FAA1 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh_triangle__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		247E4044B022454D9BC24CB0 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__type_support.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh_triangle__type_support.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__type_support.h; sourceTree = SOURCE_ROOT; };
+		25B0E80DE4D545BA8D6686F2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mesh__type_support.cpp.rule; path = ../../../../build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.rule; sourceTree = SOURCE_ROOT; };
+		27620E0F9E9146E992AD411D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = solid_primitive__functions.c; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.c; sourceTree = SOURCE_ROOT; };
+		289FAC64CF78421DA99D4D02 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__rosidl_typesupport_introspection_cpp.hpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mesh__rosidl_typesupport_introspection_cpp.hpp.rule; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__rosidl_typesupport_introspection_cpp.hpp.rule; sourceTree = SOURCE_ROOT; };
+		2CF71E63A1BA4CC4A0CAA986 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__struct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plane__struct.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__struct.h; sourceTree = SOURCE_ROOT; };
+		317F375C424F4B3995D4D039 /* shape_msgs__rosidl_typesupport_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libshape_msgs__rosidl_typesupport_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		319349029EF04A7FB792C5C0 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = Mesh_s.ep.rosidl_typesupport_introspection_c.m; path = ../../../../build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh_s.ep.rosidl_typesupport_introspection_c.m; sourceTree = SOURCE_ROOT; };
+		31B8B58F86354EA6A9EDD645 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = plane__rosidl_typesupport_introspection_cpp.hpp; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__rosidl_typesupport_introspection_cpp.hpp; sourceTree = SOURCE_ROOT; };
+		393731B49C464EB28480DA89 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mesh__rosidl_typesupport_introspection_cpp.hpp; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__rosidl_typesupport_introspection_cpp.hpp; sourceTree = SOURCE_ROOT; };
+		4200FF3CBAAA49CEB7A65ED1 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__type_support.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mesh__type_support.c; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__type_support.c; sourceTree = SOURCE_ROOT; };
+		435E334D639249BC851A00B7 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4381E5EEC0534C688485CC9B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = solid_primitive__functions.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.h; sourceTree = SOURCE_ROOT; };
+		478BE75E95154E4D902928D7 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/ROS_shape_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/shape_msgs/CMakeFiles/ROS_shape_msgs__rosidl_typesupport_introspection_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		4865505076AD4EBA9E5E24D2 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4A8288F4B11C4B258976449C /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/SolidPrimitive_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SolidPrimitive_s.ep.rosidl_typesupport_introspection_c.m; path = ../../../../build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/SolidPrimitive_s.ep.rosidl_typesupport_introspection_c.m; sourceTree = SOURCE_ROOT; };
+		4C62A6EBDEC64A7584A2867E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/rosidl_generator_c__visibility_control.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rosidl_generator_c__visibility_control.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/rosidl_generator_c__visibility_control.h; sourceTree = SOURCE_ROOT; };
+		4F67E256F84B41A183BA694B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh_triangle__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		55B8EFD2B6454FD7BB2ED0E0 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		5795AAB3050845A79E3E6955 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = solid_primitive__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		5924463DDBC842358D158E8E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = Mesh.h.rule; path = ../../../../build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh.h.rule; sourceTree = SOURCE_ROOT; };
+		5A6675A9BAF94C79AE61F2C7 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh__functions.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.h; sourceTree = SOURCE_ROOT; };
+		5A7F92FBB1B94FCA8C55DACE /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__struct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh_triangle__struct.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__struct.h; sourceTree = SOURCE_ROOT; };
+		5D50A0CDC9734798B2F048E8 /* shape_msgs__rosidl_generator_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libshape_msgs__rosidl_generator_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		620493178F254F38A6CE86C2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__struct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh__struct.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__struct.h; sourceTree = SOURCE_ROOT; };
+		65EE88389CBB4FE7AC90B498 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__type_support.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh__type_support.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__type_support.h; sourceTree = SOURCE_ROOT; };
+		6987BDC62A21403E837A7EEF /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6FFC5EAB3AF34A719B7AB871 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		71BA4FE1FCF04A0687205807 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/msg/Plane.msg */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = Plane.msg; path = msg/Plane.msg; sourceTree = SOURCE_ROOT; };
+		757BCDE1E2E240A5B7352F9F /* shape_msgs__rosidl_typesupport_cpp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libshape_msgs__rosidl_typesupport_cppd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6680C0742141E0A0C5495B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = solid_primitive__rosidl_typesupport_introspection_cpp.hpp; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__rosidl_typesupport_introspection_cpp.hpp; sourceTree = SOURCE_ROOT; };
+		867190FF566148D6BCD21268 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__type_support.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = solid_primitive__type_support.c; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__type_support.c; sourceTree = SOURCE_ROOT; };
+		87A4E5BC531B4B2BAC5CE769 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/msg/Mesh.msg */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = Mesh.msg; path = msg/Mesh.msg; sourceTree = SOURCE_ROOT; };
+		8E4B46A7E1E84A559F494C5B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__type_support.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = plane__type_support.c; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__type_support.c; sourceTree = SOURCE_ROOT; };
+		8E5FB29ED8C44748B30C0028 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8F866BEE5FFF4B4BB7636307 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh_triangle__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		93345580787C4825B5A183F7 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		972A900264C74D198C1D3C04 /* ROS_shape_msgs__rosidl_typesupport_introspection_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libROS_shape_msgs__rosidl_typesupport_introspection_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B9559E85294328B7A28894 /* shape_msgs__rosidl_typesupport_introspection_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libshape_msgs__rosidl_typesupport_introspection_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8D8240D8CE4FFC8BCDBC5F /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9CBD1CA6CB484849AB8D50B0 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9F52B318BFFA4797A8B2F6C2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = solid_primitive.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive.h; sourceTree = SOURCE_ROOT; };
+		A58A4F18B3754C289C0C3D6C /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		A92040D2BC1F43B3B68E275A /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__rosidl_typesupport_introspection_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh_triangle__rosidl_typesupport_introspection_c.h; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__rosidl_typesupport_introspection_c.h; sourceTree = SOURCE_ROOT; };
+		A983D35090A44F31A5062119 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh.h; sourceTree = SOURCE_ROOT; };
+		AB03713881DD450F814B31AA /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plane__functions.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.h; sourceTree = SOURCE_ROOT; };
+		B19EEA6F365D47AEA0429E9C /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B53021477667422AA79DD8D6 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mesh__functions.c; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.c; sourceTree = SOURCE_ROOT; };
+		BAA1A30B019045D28519DFA8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mesh__type_support.cpp.rule; path = ../../../../build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.rule; sourceTree = SOURCE_ROOT; };
+		BED18CA44CA94E12A4317976 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rosidl_typesupport_introspection_c__visibility_control.h; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h; sourceTree = SOURCE_ROOT; };
+		C2353B62DA03497396538C4F /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/msg/SolidPrimitive.msg */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = SolidPrimitive.msg; path = msg/SolidPrimitive.msg; sourceTree = SOURCE_ROOT; };
+		C961885369E0472D8AA0082D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mesh_triangle__functions.c; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.c; sourceTree = SOURCE_ROOT; };
+		CE422FC77B8A4B0882845AF9 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plane.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane.h; sourceTree = SOURCE_ROOT; };
+		D020465FE2494EC198FCE2C8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plane__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		D453E76D0F3B4AB09A5AD3F3 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__type_support.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = solid_primitive__type_support.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__type_support.h; sourceTree = SOURCE_ROOT; };
+		D868A64BF613404BBFA8D57E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__struct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = solid_primitive__struct.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__struct.h; sourceTree = SOURCE_ROOT; };
+		DC902C592F164E818B3E83FE /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DDF87DFD57D246E2995BB1BC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/MeshTriangle_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = MeshTriangle_s.ep.rosidl_typesupport_introspection_c.m; path = ../../../../build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/MeshTriangle_s.ep.rosidl_typesupport_introspection_c.m; sourceTree = SOURCE_ROOT; };
+		E0C48CB7D0E64AD4874EA417 /* shape_msgs__rosidl_typesupport_introspection_cpp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libshape_msgs__rosidl_typesupport_introspection_cppd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E500AEC251C34AC8ACE5523A /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh_triangle__functions.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.h; sourceTree = SOURCE_ROOT; };
+		E8433307F22841A293FEDEA4 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__rosidl_typesupport_introspection_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh__rosidl_typesupport_introspection_c.h; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__rosidl_typesupport_introspection_c.h; sourceTree = SOURCE_ROOT; };
+		E9E657AAEBC64A90ACECFAE8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__rosidl_typesupport_introspection_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = solid_primitive__rosidl_typesupport_introspection_c.h; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__rosidl_typesupport_introspection_c.h; sourceTree = SOURCE_ROOT; };
+		F0AA82C9E9C74A679C72D999 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mesh.h.rule; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh.h.rule; sourceTree = SOURCE_ROOT; };
+		F247DE0EF4BC420BB9F306F6 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh_triangle.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle.h; sourceTree = SOURCE_ROOT; };
+		F31742C63320474CB1E76112 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		F4AE2A2DD9A64A989032BBD8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__type_support.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plane__type_support.h; path = ../../../../build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__type_support.h; sourceTree = SOURCE_ROOT; };
+		F6B0C511D0474C119BB49305 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		FB0CDBED1B554F039109FBCF /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FBC0FCA7A9A74D8287E35F58 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = solid_primitive__type_support.cpp; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		FED2238247E14A1887FD7D3E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__rosidl_typesupport_introspection_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plane__rosidl_typesupport_introspection_c.h; path = ../../../../build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__rosidl_typesupport_introspection_c.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08740B459C1A4FBC9448CC42 /* ROS_shape_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXGroup;
+			children = (
+				96601737FDF040648AB8E048 /* Source Files */,
+				172969E9CDA3454E97E2F999 /* CMake Rules */,
+				63F0B74FE1AC485B883C3E7C /* Resources */,
+				219E9058EC04407794C5A8FD /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = ROS_shape_msgs__rosidl_typesupport_introspection_c;
+			sourceTree = "<group>";
+		};
+		172969E9CDA3454E97E2F999 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				5924463DDBC842358D158E8E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1FEADFD1488C4776AC98548A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0C511D0474C119BB49305 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		354398A229CC400080388B25 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				877414BDB533406680E3E269 /* CMake Rules */,
+				FB0CDBED1B554F039109FBCF /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		358DC6211F954F5F8C8C8551 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53021477667422AA79DD8D6 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.c */,
+				C961885369E0472D8AA0082D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.c */,
+				0140B6B0874A4EB09BFF75B1 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.c */,
+				27620E0F9E9146E992AD411D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3E74560D3C824527935550A7 /* shape_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXGroup;
+			children = (
+				8AD95ECB4CCD4D8591E97AD7 /* Header Files */,
+				9A50BFACC5C14CF885EF7B75 /* Source Files */,
+				F0B3EB388CE04249A9DDE44E /* CMake Rules */,
+				55F126F0A85C4A8B8585162B /* Resources */,
+				6987BDC62A21403E837A7EEF /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = shape_msgs__rosidl_typesupport_introspection_c;
+			sourceTree = "<group>";
+		};
+		46FE4CC6A1684202842EBD96 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				289FAC64CF78421DA99D4D02 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__rosidl_typesupport_introspection_cpp.hpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		55F126F0A85C4A8B8585162B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07F6F332E5764E18AB6E2B9B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		57406D8CB0F3407F982BFD1C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		63F0B74FE1AC485B883C3E7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				478BE75E95154E4D902928D7 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/ROS_shape_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6AE3DCC659134FD28C9397DC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		702CA9503224473F99B6A58B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6AE3DCC659134FD28C9397DC /* CMake Rules */,
+				0B2A56D0A3C44754B399F0E7 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		796D1027FCB94F4A805C7D28 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7D38CBF95CF642EDB3F4A849 /* shape_msgs__rosidl_typesupport_cpp */ = {
+			isa = PBXGroup;
+			children = (
+				A4582A5DA1324D7989C37D90 /* Source Files */,
+				9399C4ABDDA948B7B5B9AEE9 /* CMake Rules */,
+				1FEADFD1488C4776AC98548A /* Resources */,
+				8E5FB29ED8C44748B30C0028 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = shape_msgs__rosidl_typesupport_cpp;
+			sourceTree = "<group>";
+		};
+		7DB0FE480E2545ACB2ECCBFA /* shape_msgs__rosidl_generator_c */ = {
+			isa = PBXGroup;
+			children = (
+				DECD5BDD6B304A8089AEC9EF /* Header Files */,
+				358DC6211F954F5F8C8C8551 /* Source Files */,
+				F499B79921244C9391DCBD29 /* CMake Rules */,
+				BD087F9CC74644E9BE538BC9 /* Resources */,
+				B19EEA6F365D47AEA0429E9C /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = shape_msgs__rosidl_generator_c;
+			sourceTree = "<group>";
+		};
+		877414BDB533406680E3E269 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8AD95ECB4CCD4D8591E97AD7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8433307F22841A293FEDEA4 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__rosidl_typesupport_introspection_c.h */,
+				A92040D2BC1F43B3B68E275A /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__rosidl_typesupport_introspection_c.h */,
+				FED2238247E14A1887FD7D3E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__rosidl_typesupport_introspection_c.h */,
+				BED18CA44CA94E12A4317976 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */,
+				E9E657AAEBC64A90ACECFAE8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__rosidl_typesupport_introspection_c.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8F3D94308B334284A9D10703 /* shape_msgs__cpp */ = {
+			isa = PBXGroup;
+			children = (
+				57406D8CB0F3407F982BFD1C /* CMake Rules */,
+				9CBD1CA6CB484849AB8D50B0 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = shape_msgs__cpp;
+			sourceTree = "<group>";
+		};
+		915CA9F7168D4C6F9DC9528B /* shape_msgs__objc */ = {
+			isa = PBXGroup;
+			children = (
+				796D1027FCB94F4A805C7D28 /* CMake Rules */,
+				4865505076AD4EBA9E5E24D2 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = shape_msgs__objc;
+			sourceTree = "<group>";
+		};
+		9399C4ABDDA948B7B5B9AEE9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				BAA1A30B019045D28519DFA8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		96601737FDF040648AB8E048 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF87DFD57D246E2995BB1BC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/MeshTriangle_s.ep.rosidl_typesupport_introspection_c.m */,
+				319349029EF04A7FB792C5C0 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh_s.ep.rosidl_typesupport_introspection_c.m */,
+				0E955ED1EBD8471F95B73ECB /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Plane_s.ep.rosidl_typesupport_introspection_c.m */,
+				4A8288F4B11C4B258976449C /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/SolidPrimitive_s.ep.rosidl_typesupport_introspection_c.m */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9A50BFACC5C14CF885EF7B75 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4200FF3CBAAA49CEB7A65ED1 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__type_support.c */,
+				11519A0FB4584B8CA6EDA298 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__type_support.c */,
+				8E4B46A7E1E84A559F494C5B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__type_support.c */,
+				867190FF566148D6BCD21268 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__type_support.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9E413E93EDA8440EB5AB864A /* shape_msgs__rosidl_typesupport_c */ = {
+			isa = PBXGroup;
+			children = (
+				F8C7F7DA621C4DE1AF084BF1 /* Source Files */,
+				D312467323DD47B58B1FF312 /* CMake Rules */,
+				B52E23E0F13A49D1BFE5EFA2 /* Resources */,
+				DC902C592F164E818B3E83FE /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = shape_msgs__rosidl_typesupport_c;
+			sourceTree = "<group>";
+		};
+		A4582A5DA1324D7989C37D90 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A58A4F18B3754C289C0C3D6C /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp */,
+				4F67E256F84B41A183BA694B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp */,
+				0E82F0BBAAD441309EEBF07E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp */,
+				130BDFC183D74F61B5310CC8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AF5C7A102DB745A398D2581C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B52E23E0F13A49D1BFE5EFA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93345580787C4825B5A183F7 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD087F9CC74644E9BE538BC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				078AE81DBC4543AAB058E593 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_generator_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BE3FACD0399A4F5685CC9630 /* shape_msgs */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C7A102DB745A398D2581C /* CMake Rules */,
+				87A4E5BC531B4B2BAC5CE769 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/msg/Mesh.msg */,
+				175EB698193E4F66B657D82D /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/msg/MeshTriangle.msg */,
+				71BA4FE1FCF04A0687205807 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/msg/Plane.msg */,
+				C2353B62DA03497396538C4F /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/msg/SolidPrimitive.msg */,
+				435E334D639249BC851A00B7 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = shape_msgs;
+			sourceTree = "<group>";
+		};
+		C2A1AE4AA31F47A5B2312DC6 = {
+			isa = PBXGroup;
+			children = (
+				E5F651BC9E494A2EBFDE0AA8 /* shape_msgs__rosidl_typesupport_introspection_cpp */,
+				915CA9F7168D4C6F9DC9528B /* shape_msgs__objc */,
+				3E74560D3C824527935550A7 /* shape_msgs__rosidl_typesupport_introspection_c */,
+				7DB0FE480E2545ACB2ECCBFA /* shape_msgs__rosidl_generator_c */,
+				8F3D94308B334284A9D10703 /* shape_msgs__cpp */,
+				7D38CBF95CF642EDB3F4A849 /* shape_msgs__rosidl_typesupport_cpp */,
+				9E413E93EDA8440EB5AB864A /* shape_msgs__rosidl_typesupport_c */,
+				08740B459C1A4FBC9448CC42 /* ROS_shape_msgs__rosidl_typesupport_introspection_c */,
+				BE3FACD0399A4F5685CC9630 /* shape_msgs */,
+				354398A229CC400080388B25 /* uninstall */,
+				702CA9503224473F99B6A58B /* ALL_BUILD */,
+				E6BDEA068CBA42438113252F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D312467323DD47B58B1FF312 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				25B0E80DE4D545BA8D6686F2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D85586C875D843B58699C667 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F31742C63320474CB1E76112 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__type_support.cpp */,
+				22094C3287CF4D10B6E8FAA1 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp */,
+				D020465FE2494EC198FCE2C8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__type_support.cpp */,
+				FBC0FCA7A9A74D8287E35F58 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__type_support.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D97615FFF77B4F28A3A89F8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55B8EFD2B6454FD7BB2ED0E0 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DECD5BDD6B304A8089AEC9EF /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A983D35090A44F31A5062119 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh.h */,
+				5A6675A9BAF94C79AE61F2C7 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.h */,
+				620493178F254F38A6CE86C2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__struct.h */,
+				65EE88389CBB4FE7AC90B498 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__type_support.h */,
+				F247DE0EF4BC420BB9F306F6 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle.h */,
+				E500AEC251C34AC8ACE5523A /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.h */,
+				5A7F92FBB1B94FCA8C55DACE /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__struct.h */,
+				247E4044B022454D9BC24CB0 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__type_support.h */,
+				CE422FC77B8A4B0882845AF9 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane.h */,
+				AB03713881DD450F814B31AA /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.h */,
+				2CF71E63A1BA4CC4A0CAA986 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__struct.h */,
+				F4AE2A2DD9A64A989032BBD8 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__type_support.h */,
+				4C62A6EBDEC64A7584A2867E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/rosidl_generator_c__visibility_control.h */,
+				9F52B318BFFA4797A8B2F6C2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive.h */,
+				4381E5EEC0534C688485CC9B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.h */,
+				D868A64BF613404BBFA8D57E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__struct.h */,
+				D453E76D0F3B4AB09A5AD3F3 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__type_support.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E5F651BC9E494A2EBFDE0AA8 /* shape_msgs__rosidl_typesupport_introspection_cpp */ = {
+			isa = PBXGroup;
+			children = (
+				FC3915A7B0B84EFFA0832E55 /* Header Files */,
+				D85586C875D843B58699C667 /* Source Files */,
+				46FE4CC6A1684202842EBD96 /* CMake Rules */,
+				D97615FFF77B4F28A3A89F8C /* Resources */,
+				9C8D8240D8CE4FFC8BCDBC5F /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs/CMakeLists.txt */,
+			);
+			name = shape_msgs__rosidl_typesupport_introspection_cpp;
+			sourceTree = "<group>";
+		};
+		E6BDEA068CBA42438113252F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				972A900264C74D198C1D3C04 /* ROS_shape_msgs__rosidl_typesupport_introspection_c */,
+				5D50A0CDC9734798B2F048E8 /* shape_msgs__rosidl_generator_c */,
+				317F375C424F4B3995D4D039 /* shape_msgs__rosidl_typesupport_c */,
+				757BCDE1E2E240A5B7352F9F /* shape_msgs__rosidl_typesupport_cpp */,
+				97B9559E85294328B7A28894 /* shape_msgs__rosidl_typesupport_introspection_c */,
+				E0C48CB7D0E64AD4874EA417 /* shape_msgs__rosidl_typesupport_introspection_cpp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0B3EB388CE04249A9DDE44E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				010472562A464B999608EB7D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__rosidl_typesupport_introspection_c.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F499B79921244C9391DCBD29 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				F0AA82C9E9C74A679C72D999 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F8C7F7DA621C4DE1AF084BF1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FFC5EAB3AF34A719B7AB871 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp */,
+				8F866BEE5FFF4B4BB7636307 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp */,
+				1BD2481153C245C387C7713C /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp */,
+				5795AAB3050845A79E3E6955 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FC3915A7B0B84EFFA0832E55 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				393731B49C464EB28480DA89 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__rosidl_typesupport_introspection_cpp.hpp */,
+				0AB5F9839C574C30AC4255BC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp */,
+				31B8B58F86354EA6A9EDD645 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__rosidl_typesupport_introspection_cpp.hpp */,
+				7E6680C0742141E0A0C5495B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__rosidl_typesupport_introspection_cpp.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044B88685DA745D59131BF15 /* shape_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D59110642B4C5997FCC2D5 /* Build configuration list for PBXNativeTarget "shape_msgs__rosidl_typesupport_introspection_c" */;
+			buildPhases = (
+				779A7981B174489691AA2700 /* CMake Rules */,
+				B412345D36394FA29E67930D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA0F4FE7D3240ADB214217D /* PBXTargetDependency */,
+				290F93904F11489481796018 /* PBXTargetDependency */,
+			);
+			name = shape_msgs__rosidl_typesupport_introspection_c;
+			productName = shape_msgs__rosidl_typesupport_introspection_c;
+			productReference = 97B9559E85294328B7A28894 /* shape_msgs__rosidl_typesupport_introspection_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1DD297E106C94A55B19C407F /* shape_msgs__rosidl_typesupport_introspection_cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C19FCDD2AC41AFB3F40A8D /* Build configuration list for PBXNativeTarget "shape_msgs__rosidl_typesupport_introspection_cpp" */;
+			buildPhases = (
+				B53A8D0F9C1F405CBE414F6D /* CMake Rules */,
+				5739E9E7B73C401D85D878D2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668687DAF1CA4904B0EF4288 /* PBXTargetDependency */,
+				68994148067F43DEBDF75019 /* PBXTargetDependency */,
+			);
+			name = shape_msgs__rosidl_typesupport_introspection_cpp;
+			productName = shape_msgs__rosidl_typesupport_introspection_cpp;
+			productReference = E0C48CB7D0E64AD4874EA417 /* shape_msgs__rosidl_typesupport_introspection_cpp */;
+			productType = "com.apple.product-type.library.static";
+		};
+		596F155C9DFD4AC08D39E237 /* shape_msgs__rosidl_typesupport_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864B898F803B48468D8CFD60 /* Build configuration list for PBXNativeTarget "shape_msgs__rosidl_typesupport_c" */;
+			buildPhases = (
+				A5C06D43008D4156BCA60396 /* CMake Rules */,
+				34D5C7592B8A46E7BF35361F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8198E1CA08A4162876F01B9 /* PBXTargetDependency */,
+				E61846A3A47043739420824B /* PBXTargetDependency */,
+				FA35FD04451045B58CC967B4 /* PBXTargetDependency */,
+			);
+			name = shape_msgs__rosidl_typesupport_c;
+			productName = shape_msgs__rosidl_typesupport_c;
+			productReference = 317F375C424F4B3995D4D039 /* shape_msgs__rosidl_typesupport_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+		674D67565D114B888527D0AF /* shape_msgs__rosidl_generator_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C588493C48B7492998FFF72B /* Build configuration list for PBXNativeTarget "shape_msgs__rosidl_generator_c" */;
+			buildPhases = (
+				9CADB1375A1548D282675A32 /* CMake Rules */,
+				98ECBDCAE0274CAF9FDA6D5B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23A0265C7D3B4BC69E967EC1 /* PBXTargetDependency */,
+			);
+			name = shape_msgs__rosidl_generator_c;
+			productName = shape_msgs__rosidl_generator_c;
+			productReference = 5D50A0CDC9734798B2F048E8 /* shape_msgs__rosidl_generator_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76FD8489BF5D479390F7B98D /* ROS_shape_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6590A7471CA47F691D01FA5 /* Build configuration list for PBXNativeTarget "ROS_shape_msgs__rosidl_typesupport_introspection_c" */;
+			buildPhases = (
+				DC41B826791549DE90820A2C /* CMake Rules */,
+				16551C1E2FE7464A874EFA70 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0DF707477A4C22AFDEF087 /* PBXTargetDependency */,
+				2D1204882D3447BCA7C1E93C /* PBXTargetDependency */,
+				A35F6B40D48B49CF953D0E7F /* PBXTargetDependency */,
+				0A8180C1B6594558A82C5333 /* PBXTargetDependency */,
+				5F7D1DBC028A4B3A8F94C9EF /* PBXTargetDependency */,
+				79F006696BC14890ADC3BBD7 /* PBXTargetDependency */,
+			);
+			name = ROS_shape_msgs__rosidl_typesupport_introspection_c;
+			productName = ROS_shape_msgs__rosidl_typesupport_introspection_c;
+			productReference = 972A900264C74D198C1D3C04 /* ROS_shape_msgs__rosidl_typesupport_introspection_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA555AC8D0E9484C9758A93C /* shape_msgs__rosidl_typesupport_cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A93B9FA17A94C309ABC5398 /* Build configuration list for PBXNativeTarget "shape_msgs__rosidl_typesupport_cpp" */;
+			buildPhases = (
+				794B2193E84840B5A1A1E23E /* CMake Rules */,
+				A7A00F43A95F4D3CA9E0BC51 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808B67F068564133A4BE8DAF /* PBXTargetDependency */,
+				2E712A728B7144CDB0CB7403 /* PBXTargetDependency */,
+				721EE38289E848EE92426A17 /* PBXTargetDependency */,
+			);
+			name = shape_msgs__rosidl_typesupport_cpp;
+			productName = shape_msgs__rosidl_typesupport_cpp;
+			productReference = 757BCDE1E2E240A5B7352F9F /* shape_msgs__rosidl_typesupport_cpp */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76BE1A3C72FF4D319BF4726C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = E8E29881556E4A32A5045207 /* Build configuration list for PBXProject "shape_msgs" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				01D5362D6FA24D24B0960145 /* Debug */,
+				934EA8A9EA234B27B9BAA83B /* Release */,
+				31BE8EB44C144B9F8C0232BB /* MinSizeRel */,
+				0D3E997AB0DC41A685D50951 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C2A1AE4AA31F47A5B2312DC6;
+			projectDirPath = /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/shape_msgs;
+			projectRoot = "";
+			targets = (
+				E361CB4CA8A346D991106CFE /* ALL_BUILD */,
+				76FD8489BF5D479390F7B98D /* ROS_shape_msgs__rosidl_typesupport_introspection_c */,
+				0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */,
+				457E154300DA440DB41C5A8C /* install */,
+				9FBD64F50CEB44AF90A69312 /* shape_msgs */,
+				9D89A5057E0A4AD786136ED9 /* shape_msgs__cpp */,
+				749E225AD32548A59A191D0A /* shape_msgs__objc */,
+				674D67565D114B888527D0AF /* shape_msgs__rosidl_generator_c */,
+				596F155C9DFD4AC08D39E237 /* shape_msgs__rosidl_typesupport_c */,
+				AA555AC8D0E9484C9758A93C /* shape_msgs__rosidl_typesupport_cpp */,
+				044B88685DA745D59131BF15 /* shape_msgs__rosidl_typesupport_introspection_c */,
+				1DD297E106C94A55B19C407F /* shape_msgs__rosidl_typesupport_introspection_cpp */,
+				7E4D836597B14D1195C33B4D /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23374DAA12A14385A7BA3550 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		277891A9F594402795A463BF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		343EC347A9044EBB831B19BD /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/shape_msgs_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3A2C315235394F60925370C2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4FACAED853B04F5980479F4A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		65E92D9B5923485DAD62A72D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/shape_msgs__cpp_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		766993AC1EEC463AABF06BF5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/shape_msgs__objc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		779A7981B174489691AA2700 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/shape_msgs__rosidl_typesupport_introspection_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		794B2193E84840B5A1A1E23E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/shape_msgs__rosidl_typesupport_cpp_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		83E5A10CD0874DA590550046 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		844C2DD6299E4FCDAB203432 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8AA180BA60F147EA9A9A8EB4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9A3F9350B17B4E3EAFCFF9C2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9CADB1375A1548D282675A32 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/shape_msgs__rosidl_generator_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A5C06D43008D4156BCA60396 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/shape_msgs__rosidl_typesupport_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AE316DBCC3F04F33B9218592 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AE5B4AEE396F486CA43320EF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B53A8D0F9C1F405CBE414F6D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/shape_msgs__rosidl_typesupport_introspection_cpp_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DB903028AF9D4126B127C0C9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DC41B826791549DE90820A2C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/shape_msgs -f /Users/lbajo/ros2_mod_ws/build/shape_msgs/CMakeScripts/ROS_shape_msgs__rosidl_typesupport_introspection_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16551C1E2FE7464A874EFA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F44631ED8947E2A3EE748D /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/MeshTriangle_s.ep.rosidl_typesupport_introspection_c.m */,
+				BD884A95491E4DEF85F9663B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Mesh_s.ep.rosidl_typesupport_introspection_c.m */,
+				DA15D2DF100945E2B1126879 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/Plane_s.ep.rosidl_typesupport_introspection_c.m */,
+				7E09ED9BBE2E4F7E808326DC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc/ROS_shape_msgs/msg/SolidPrimitive_s.ep.rosidl_typesupport_introspection_c.m */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D5C7592B8A46E7BF35361F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA24E0D4B1E41AB9A98F80E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp */,
+				01C4E794C8B047A082BF9672 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp */,
+				7293679666954B838246C7BE /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp */,
+				EBA3FAB9EBB948BF8E5E6605 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5739E9E7B73C401D85D878D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1363EE246DCE4C71A31B080B /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh__type_support.cpp */,
+				B331FECBBFF74DE89E1BB5CC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp */,
+				12783B5D3E8B4FA89EFC2B5A /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/plane__type_support.cpp */,
+				2C42FBF35F214DF7ABCB62BD /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp/shape_msgs/msg/solid_primitive__type_support.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98ECBDCAE0274CAF9FDA6D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA00C3CCB29426AB0D7C1D2 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh__functions.c */,
+				08A6BA95B88248038491389F /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/mesh_triangle__functions.c */,
+				244EA56B702D4715B167A068 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/plane__functions.c */,
+				E00BC72C945E4F63A914FAA9 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c/shape_msgs/msg/solid_primitive__functions.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A00F43A95F4D3CA9E0BC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747E88B822144E3B53EB8EC /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp */,
+				D6276C1DDAAD47319B823B33 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp */,
+				5AAA41C94D3043CA837BB813 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp */,
+				C4003A102DDB45A1B8E9F194 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412345D36394FA29E67930D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD5E6936B9341D19363DFA6 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh__type_support.c */,
+				1392CBC1295F44E4B0EB186E /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/mesh_triangle__type_support.c */,
+				946A29716AF1463D84AD18B9 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/plane__type_support.c */,
+				7D9CB2BD335E4541932ECF36 /* /Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/solid_primitive__type_support.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0544C133A7CA42518ED8DF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = FEA3755F4B1B4572BE9FE8D3 /* PBXContainerItemProxy */;
+		};
+		060FAD9AE91D4016A430ADA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 596F155C9DFD4AC08D39E237 /* shape_msgs__rosidl_typesupport_c */;
+			targetProxy = E6A8C504EF894E1C8B1CBF56 /* PBXContainerItemProxy */;
+		};
+		0A8180C1B6594558A82C5333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B88685DA745D59131BF15 /* shape_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = F1AFD08A217546D89A045A54 /* PBXContainerItemProxy */;
+		};
+		0F7B511B6DF34C65A7DDE924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674D67565D114B888527D0AF /* shape_msgs__rosidl_generator_c */;
+			targetProxy = DBE563FE81D642A6BC0E5962 /* PBXContainerItemProxy */;
+		};
+		161B688ABF7D4D6DAC390C62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA555AC8D0E9484C9758A93C /* shape_msgs__rosidl_typesupport_cpp */;
+			targetProxy = 05B02C8530D84883B23AE538 /* PBXContainerItemProxy */;
+		};
+		192266D2FB294F5CB7F837AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FBD64F50CEB44AF90A69312 /* shape_msgs */;
+			targetProxy = 3A2E621A729543F9B14205D5 /* PBXContainerItemProxy */;
+		};
+		23A0265C7D3B4BC69E967EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = 216C4C0A70444A23BDEFFFF0 /* PBXContainerItemProxy */;
+		};
+		290F93904F11489481796018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = 24BAE14E5FB04C77B0E8C922 /* PBXContainerItemProxy */;
+		};
+		2D1204882D3447BCA7C1E93C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674D67565D114B888527D0AF /* shape_msgs__rosidl_generator_c */;
+			targetProxy = E89EC333DB6C417D9597D6B1 /* PBXContainerItemProxy */;
+		};
+		2E712A728B7144CDB0CB7403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D89A5057E0A4AD786136ED9 /* shape_msgs__cpp */;
+			targetProxy = 5CE4E7EB4DF840B2B218C9A2 /* PBXContainerItemProxy */;
+		};
+		38A2B4BB7826484D968E3E79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E361CB4CA8A346D991106CFE /* ALL_BUILD */;
+			targetProxy = C2D35B3B37504D109D6377D4 /* PBXContainerItemProxy */;
+		};
+		3D25220B1AF44BFD8F604385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B88685DA745D59131BF15 /* shape_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = 1E2308CE53D24C8FACDE745D /* PBXContainerItemProxy */;
+		};
+		557F593C39FF495DACC1AE03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D89A5057E0A4AD786136ED9 /* shape_msgs__cpp */;
+			targetProxy = AA35BC562C7244C6B50BE2FB /* PBXContainerItemProxy */;
+		};
+		5F7D1DBC028A4B3A8F94C9EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FBD64F50CEB44AF90A69312 /* shape_msgs */;
+			targetProxy = D57D794BDB5D46D59AC5E62F /* PBXContainerItemProxy */;
+		};
+		65F3154F6AEE48AB82E8351B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA555AC8D0E9484C9758A93C /* shape_msgs__rosidl_typesupport_cpp */;
+			targetProxy = 0C60F29EC69C432DA02547DF /* PBXContainerItemProxy */;
+		};
+		668687DAF1CA4904B0EF4288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D89A5057E0A4AD786136ED9 /* shape_msgs__cpp */;
+			targetProxy = 4682D7EDC17548E89670E5C2 /* PBXContainerItemProxy */;
+		};
+		68994148067F43DEBDF75019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = FE7C9CA816F845C28FDE3905 /* PBXContainerItemProxy */;
+		};
+		71E5199B849B45C0A726BB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B88685DA745D59131BF15 /* shape_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = B20D8F3CA43940FAB9060404 /* PBXContainerItemProxy */;
+		};
+		721EE38289E848EE92426A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = A226021C4D734C42A55BFEEB /* PBXContainerItemProxy */;
+		};
+		79F006696BC14890ADC3BBD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = BBA7C5C8A2E54C76B2C77C0D /* PBXContainerItemProxy */;
+		};
+		7BA0F4FE7D3240ADB214217D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674D67565D114B888527D0AF /* shape_msgs__rosidl_generator_c */;
+			targetProxy = 8E3C55BECB544BD2B0739ED0 /* PBXContainerItemProxy */;
+		};
+		808190F2372644808C661CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD297E106C94A55B19C407F /* shape_msgs__rosidl_typesupport_introspection_cpp */;
+			targetProxy = F1BF17DAA0A6462FAE4A2CCD /* PBXContainerItemProxy */;
+		};
+		808B67F068564133A4BE8DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD297E106C94A55B19C407F /* shape_msgs__rosidl_typesupport_introspection_cpp */;
+			targetProxy = 890E75EA3B594D3496059AE4 /* PBXContainerItemProxy */;
+		};
+		9300BA18F10C4A2684D398DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76FD8489BF5D479390F7B98D /* ROS_shape_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = 77466981A3424992A28CBFAD /* PBXContainerItemProxy */;
+		};
+		A35F6B40D48B49CF953D0E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749E225AD32548A59A191D0A /* shape_msgs__objc */;
+			targetProxy = C906559D358549E693BB80A3 /* PBXContainerItemProxy */;
+		};
+		ACDB164137524F1DA71CDAD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = C08BDFD422F04E15BBEB6E82 /* PBXContainerItemProxy */;
+		};
+		AD1C42D089634CF7B5B0B6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = F43147F2DFE240B49CD1EA70 /* PBXContainerItemProxy */;
+		};
+		BB2B822C2A3A4E4196FE69D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749E225AD32548A59A191D0A /* shape_msgs__objc */;
+			targetProxy = 7C90B9FDC3404ACAAAF22965 /* PBXContainerItemProxy */;
+		};
+		BE79B002FABD4270979410CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674D67565D114B888527D0AF /* shape_msgs__rosidl_generator_c */;
+			targetProxy = 37AA41D99123485B9710C178 /* PBXContainerItemProxy */;
+		};
+		C33AD406478441088C40A2D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = 26839A70C30142209FB800A5 /* PBXContainerItemProxy */;
+		};
+		C9A6D1EA715C48FAB5EBF180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD297E106C94A55B19C407F /* shape_msgs__rosidl_typesupport_introspection_cpp */;
+			targetProxy = 94A7CA1191584B81BFF4B875 /* PBXContainerItemProxy */;
+		};
+		D419665C5A29458490E37138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = 547DDAC849F54AEFB172CB9F /* PBXContainerItemProxy */;
+		};
+		D63B52A96A9648D185804135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 596F155C9DFD4AC08D39E237 /* shape_msgs__rosidl_typesupport_c */;
+			targetProxy = C1F220D089A140E0B7F1D4AF /* PBXContainerItemProxy */;
+		};
+		E61846A3A47043739420824B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B88685DA745D59131BF15 /* shape_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = 69348F17C95D431EAF075583 /* PBXContainerItemProxy */;
+		};
+		E8198E1CA08A4162876F01B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674D67565D114B888527D0AF /* shape_msgs__rosidl_generator_c */;
+			targetProxy = 73DBF55DE42D4700952156C9 /* PBXContainerItemProxy */;
+		};
+		EB0DF707477A4C22AFDEF087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 596F155C9DFD4AC08D39E237 /* shape_msgs__rosidl_typesupport_c */;
+			targetProxy = 6B520A3DACC648C18AA8A837 /* PBXContainerItemProxy */;
+		};
+		FA35FD04451045B58CC967B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CED4D0AF3334DCC9C09981F /* ZERO_CHECK */;
+			targetProxy = 847A9384DA51443BB7D97B76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		030A502D970848C0858F4C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		0901071085A64A1C8BE9C47D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_introspection_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0929B2F38EC44E279E6D3283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Release;
+		};
+		0A76020041664E09920619C5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic        -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_introspection_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0CA498F92A85469E9967252C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0DE90C58FEFE4D49A5300B54 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1A2C1A637A48402F88E10A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic    -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3F82E1A9BC3E41D9937376AA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		49E925037C204B2CB5D1EE49 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4DE9D2AFC49D434F8CD608D7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic        -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4E30FBC095194EE4911DE9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		54FD2559E5984269BB448985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		61299153FE0A406FA508FDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		614F1716624940DDBB4CFF8B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		62F1D27875B4457EB09FB6AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		68C939F41E0F441F9D66E381 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6F4F969398224B2BB5E0332E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7077990774754DF998F8CA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		70BBC4C099034A6992ADC24F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_shape_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		798DA0B3B4324869869A0B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_introspection_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7DFA3EBE497A4DA2A64A624A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7F0A1D4944064B0BBF645AE5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8242C570198242BF81836980 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		83BFEC4AC42C4A069C5E1A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_shape_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		83FA0A8453964C7DB42BE988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8460CB7257DC4C4588E43E27 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_generator_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8496FD0A66C0475098896013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic    -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_introspection_cppd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		866A8E517BBD4648B58871BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		87B7C0876F1B4C5A9837766D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		88765D4E8A95449BBC2A9606 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = MinSizeRel;
+		};
+		9363E4F3491342808633B2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_generator_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9F2F4A86BF9541B9819A8A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Debug;
+		};
+		A1045C499E974A5C9ECD6B9D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A32A613EC3B94C0F8377C46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A4C2AC67252641A0B39287CF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A5D2F4CE980341B7AAAA64A0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = RelWithDebInfo;
+		};
+		A81B344372F04F6EA9F8224E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AC9DC479818A45D583E03629 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AEDC25CFCB214B44BF9B8E75 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AF137751F37F462EA6E1D0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_shape_msgs__rosidl_typesupport_introspection_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B154F7E7BD4F49D49FFF631E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B1F5B6CBA68B4C10B5D5A4EA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_shape_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B899FDD25FB84843869A3D2D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B94215D94B9B43C79FECC6CB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BE01E222C9E64C33AC27B8F1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C0338DEEDF3D45FF88898FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_introspection_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C201B6E396494D60B5F748B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C33C0A316FF24F98B54DDDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C4BBBEC2017746EC884EBAF5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CA68F1564E2541F386AF110F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_generator_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CBA1508BD332446B81DA3E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D9761C80012E43F19C9C53DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		ED82F3E1EEEF46F7B6080FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_generator_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F50B6E19DED846F0B2372E49 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FB75924F14D542BFBF5B74E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic        -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FFD18D840A4244A3BFA39C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/shape_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic    -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = shape_msgs__rosidl_typesupport_cppd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/shape_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01574A5A317E450DBA8F80E5 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7077990774754DF998F8CA22 /* Debug */,
+				83FA0A8453964C7DB42BE988 /* Release */,
+				B94215D94B9B43C79FECC6CB /* MinSizeRel */,
+				C4BBBEC2017746EC884EBAF5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0A93B9FA17A94C309ABC5398 /* Build configuration list for PBXNativeTarget "shape_msgs__rosidl_typesupport_cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD18D840A4244A3BFA39C69 /* Debug */,
+				4E30FBC095194EE4911DE9AD /* Release */,
+				7F0A1D4944064B0BBF645AE5 /* MinSizeRel */,
+				4DE9D2AFC49D434F8CD608D7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		40C398BC295C479096A16758 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B7C0876F1B4C5A9837766D /* Debug */,
+				62F1D27875B4457EB09FB6AD /* Release */,
+				A1045C499E974A5C9ECD6B9D /* MinSizeRel */,
+				BE01E222C9E64C33AC27B8F1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		590EC4A90694422AB8CAAF80 /* Build configuration list for PBXAggregateTarget "shape_msgs__cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B154F7E7BD4F49D49FFF631E /* Debug */,
+				6F4F969398224B2BB5E0332E /* Release */,
+				0DE90C58FEFE4D49A5300B54 /* MinSizeRel */,
+				49E925037C204B2CB5D1EE49 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64994C2EA0B849AF801BD570 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA1508BD332446B81DA3E0B /* Debug */,
+				54FD2559E5984269BB448985 /* Release */,
+				B899FDD25FB84843869A3D2D /* MinSizeRel */,
+				A81B344372F04F6EA9F8224E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F359E64548B4396BBF4B6D2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32A613EC3B94C0F8377C46D /* Debug */,
+				61299153FE0A406FA508FDC2 /* Release */,
+				68C939F41E0F441F9D66E381 /* MinSizeRel */,
+				AEDC25CFCB214B44BF9B8E75 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		864B898F803B48468D8CFD60 /* Build configuration list for PBXNativeTarget "shape_msgs__rosidl_typesupport_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2C1A637A48402F88E10A54 /* Debug */,
+				C33C0A316FF24F98B54DDDE7 /* Release */,
+				AC9DC479818A45D583E03629 /* MinSizeRel */,
+				FB75924F14D542BFBF5B74E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		89C51C69158C4743A2DC2FF7 /* Build configuration list for PBXAggregateTarget "shape_msgs__objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030A502D970848C0858F4C80 /* Debug */,
+				0CA498F92A85469E9967252C /* Release */,
+				8242C570198242BF81836980 /* MinSizeRel */,
+				7DFA3EBE497A4DA2A64A624A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91C19FCDD2AC41AFB3F40A8D /* Build configuration list for PBXNativeTarget "shape_msgs__rosidl_typesupport_introspection_cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8496FD0A66C0475098896013 /* Debug */,
+				798DA0B3B4324869869A0B52 /* Release */,
+				0901071085A64A1C8BE9C47D /* MinSizeRel */,
+				0A76020041664E09920619C5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAC0F30C58D9486B84F75C4C /* Build configuration list for PBXAggregateTarget "shape_msgs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9761C80012E43F19C9C53DE /* Debug */,
+				C201B6E396494D60B5F748B6 /* Release */,
+				614F1716624940DDBB4CFF8B /* MinSizeRel */,
+				3F82E1A9BC3E41D9937376AA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C3D59110642B4C5997FCC2D5 /* Build configuration list for PBXNativeTarget "shape_msgs__rosidl_typesupport_introspection_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0338DEEDF3D45FF88898FF5 /* Debug */,
+				866A8E517BBD4648B58871BE /* Release */,
+				A4C2AC67252641A0B39287CF /* MinSizeRel */,
+				F50B6E19DED846F0B2372E49 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C588493C48B7492998FFF72B /* Build configuration list for PBXNativeTarget "shape_msgs__rosidl_generator_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9363E4F3491342808633B2D8 /* Debug */,
+				ED82F3E1EEEF46F7B6080FE9 /* Release */,
+				CA68F1564E2541F386AF110F /* MinSizeRel */,
+				8460CB7257DC4C4588E43E27 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E8E29881556E4A32A5045207 /* Build configuration list for PBXProject "shape_msgs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2F4A86BF9541B9819A8A89 /* Debug */,
+				0929B2F38EC44E279E6D3283 /* Release */,
+				88765D4E8A95449BBC2A9606 /* MinSizeRel */,
+				A5D2F4CE980341B7AAAA64A0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F6590A7471CA47F691D01FA5 /* Build configuration list for PBXNativeTarget "ROS_shape_msgs__rosidl_typesupport_introspection_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF137751F37F462EA6E1D0DF /* Debug */,
+				83BFEC4AC42C4A069C5E1A26 /* Release */,
+				B1F5B6CBA68B4C10B5D5A4EA /* MinSizeRel */,
+				70BBC4C099034A6992ADC24F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76BE1A3C72FF4D319BF4726C /* Project object */;
+}

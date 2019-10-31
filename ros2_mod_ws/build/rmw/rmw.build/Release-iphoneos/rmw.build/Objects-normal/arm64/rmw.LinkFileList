@@ -1,0 +1,10 @@
+/Users/lbajo/ros2_mod_ws/build/rmw/rmw.build/Release-iphoneos/rmw.build/Objects-normal/arm64/allocators.o
+/Users/lbajo/ros2_mod_ws/build/rmw/rmw.build/Release-iphoneos/rmw.build/Objects-normal/arm64/convert_rcutils_ret_to_rmw_ret.o
+/Users/lbajo/ros2_mod_ws/build/rmw/rmw.build/Release-iphoneos/rmw.build/Objects-normal/arm64/error_handling.o
+/Users/lbajo/ros2_mod_ws/build/rmw/rmw.build/Release-iphoneos/rmw.build/Objects-normal/arm64/names_and_types.o
+/Users/lbajo/ros2_mod_ws/build/rmw/rmw.build/Release-iphoneos/rmw.build/Objects-normal/arm64/node_security_options.o
+/Users/lbajo/ros2_mod_ws/build/rmw/rmw.build/Release-iphoneos/rmw.build/Objects-normal/arm64/sanity_checks.o
+/Users/lbajo/ros2_mod_ws/build/rmw/rmw.build/Release-iphoneos/rmw.build/Objects-normal/arm64/serialized_message.o
+/Users/lbajo/ros2_mod_ws/build/rmw/rmw.build/Release-iphoneos/rmw.build/Objects-normal/arm64/validate_full_topic_name.o
+/Users/lbajo/ros2_mod_ws/build/rmw/rmw.build/Release-iphoneos/rmw.build/Objects-normal/arm64/validate_namespace.o
+/Users/lbajo/ros2_mod_ws/build/rmw/rmw.build/Release-iphoneos/rmw.build/Objects-normal/arm64/validate_node_name.o

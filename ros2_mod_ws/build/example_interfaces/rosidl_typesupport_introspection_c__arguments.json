@@ -1,0 +1,21 @@
+{
+  "package_name": "example_interfaces",
+  "output_dir": "/Users/lbajo/ros2_mod_ws/build/example_interfaces/rosidl_typesupport_introspection_c/example_interfaces",
+  "template_dir": "/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_introspection_c/resource",
+  "ros_interface_files": [
+    "/Users/lbajo/ros2_mod_ws/src/ros2/example_interfaces/srv/AddTwoInts.srv",
+    "/Users/lbajo/ros2_mod_ws/build/example_interfaces/srv/AddTwoInts_Request.msg",
+    "/Users/lbajo/ros2_mod_ws/build/example_interfaces/srv/AddTwoInts_Response.msg"
+  ],
+  "target_dependencies": [
+    "/Users/lbajo/ros2_mod_ws/install/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/Users/lbajo/ros2_mod_ws/install/lib/python3.7/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/Users/lbajo/ros2_mod_ws/src/ros2/example_interfaces/srv/AddTwoInts.srv",
+    "/Users/lbajo/ros2_mod_ws/build/example_interfaces/srv/AddTwoInts_Request.msg",
+    "/Users/lbajo/ros2_mod_ws/build/example_interfaces/srv/AddTwoInts_Response.msg"
+  ]
+}

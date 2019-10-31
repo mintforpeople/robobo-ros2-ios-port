@@ -1,0 +1,3003 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2ED141E752484125885EA1CD /* trajectory_msgs */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 43CCFF68C1904359BF3546A0 /* Build configuration list for PBXAggregateTarget "trajectory_msgs" */;
+			buildPhases = (
+				A295D85A8EC74DBCA160DD28 /* CMake Rules */,
+			);
+			dependencies = (
+				5487AC726FA14FAA8BA0CBD0 /* PBXTargetDependency */,
+				E5B20561C7694AEF8662C7AE /* PBXTargetDependency */,
+				11125FB3838642CCBAD8273F /* PBXTargetDependency */,
+				26C4FC0C1C1D46A1B064EC1A /* PBXTargetDependency */,
+				D25C8B863A5F4340B7F3303A /* PBXTargetDependency */,
+				2D48B5FEEB294C4CA405B20B /* PBXTargetDependency */,
+				4FDC2A0CED3640DB9AE5218B /* PBXTargetDependency */,
+				6AA7C6DE12C44338A20E5A92 /* PBXTargetDependency */,
+			);
+			name = trajectory_msgs;
+			productName = trajectory_msgs;
+		};
+		888D0275CAD44830BC0246C9 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F9A13941B6654E1180EE710E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				50444A0CE0C44466A004F62E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				54103AAEB8884B33B1244421 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		8A22E8928F1D446292604F7C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B33A1D01029847EBB1501522 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1FA0094E36744F6CBFBAD381 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		8DA1C1E0288C44389463785C /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 95ADBA0C7C284F7CA2A4794E /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				FEB80078665A461A898732E4 /* CMake Rules */,
+			);
+			dependencies = (
+				EB80AFCA9CA94DC59698B200 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		A13517A3D7894828B57D9622 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F6B284EB902348848E19932E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5D036A64B7DE40ECBF467EDB /* CMake Rules */,
+			);
+			dependencies = (
+				8E9BA86F6C384CF2BDED8F88 /* PBXTargetDependency */,
+				E38317C556A54D46BB9AC890 /* PBXTargetDependency */,
+				D60E60EFF5B2426C93A4764A /* PBXTargetDependency */,
+				C46FD2D585964CA68699EE89 /* PBXTargetDependency */,
+				C6605A60547E4FDF9E246121 /* PBXTargetDependency */,
+				6C9F1ACCDE884114AA0FFD77 /* PBXTargetDependency */,
+				79E043169CF2486A9DF50690 /* PBXTargetDependency */,
+				891A9ACA8BFD48EFB74309D8 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		CAE62119D01B4EFCB567185F /* trajectory_msgs__cpp */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CBA993283778464B94628183 /* Build configuration list for PBXAggregateTarget "trajectory_msgs__cpp" */;
+			buildPhases = (
+				4D62910BC90141AC8360F0DF /* CMake Rules */,
+			);
+			dependencies = (
+				6B001924EC0A450882980650 /* PBXTargetDependency */,
+			);
+			name = trajectory_msgs__cpp;
+			productName = trajectory_msgs__cpp;
+		};
+		E218012982974D03A69A7268 /* trajectory_msgs__objc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 06BF5C225AFA4D69AAE4E952 /* Build configuration list for PBXAggregateTarget "trajectory_msgs__objc" */;
+			buildPhases = (
+				4AFFF5BB9C4F4FB88371819A /* CMake Rules */,
+			);
+			dependencies = (
+				94614651322949E48FD0158A /* PBXTargetDependency */,
+			);
+			name = trajectory_msgs__objc;
+			productName = trajectory_msgs__objc;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03894A05B2A44807AAFE9D1A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXBuildFile; fileRef = A10710B8A0A1473F85C060DE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m */; };
+		115953FBBECD482F8E773C97 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1E3A8F083BD94E17A0151021 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */; };
+		167D570A3A3F49C7B29AA412 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp.rule */ = {isa = PBXBuildFile; fileRef = 11481C1312304638A7D84528 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp.rule */; };
+		2090A412219941E688B70232 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.c */ = {isa = PBXBuildFile; fileRef = D51B69E5D4FD463993E9A8A5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.c */; };
+		29405CEE4E1446F9B0C859FA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.c */ = {isa = PBXBuildFile; fileRef = BC79CADD1D144F28BCD5DA7B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.c */; };
+		2B70C4661C8D4D5AB915F5A3 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory.h.rule */ = {isa = PBXBuildFile; fileRef = 651BB60AFB3D41899CF7B916 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory.h.rule */; };
+		2C32EDAE4E294CA5A24C010F /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 025A82F8B2424F3D9A929D92 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/Info.plist */; };
+		2FD2563EA42B421DACE65595 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h */ = {isa = PBXBuildFile; fileRef = 76594685865E438D9AA7D35C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h */; };
+		3374147D39D641E09602F562 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__struct.h */ = {isa = PBXBuildFile; fileRef = 4E1AE241528F47689C60547B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__struct.h */; };
+		338AEC7284C24B3CA6002A2A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 86265C48DB094EE4B541CC86 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */; };
+		34B2C0F44D334E18AA1258BF /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.c */ = {isa = PBXBuildFile; fileRef = D84756FC67464FE6AAB8B4C9 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.c */; };
+		35B452E249654568A2F96BCC /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */ = {isa = PBXBuildFile; fileRef = B8912BFF51B0488E8D3A4CF8 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */; };
+		432A61B441E94CDBAA48AF60 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = A0E6403FAB464FB79FA47F26 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/Info.plist */; };
+		462724DEC3F149FEBBF2E342 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.h */ = {isa = PBXBuildFile; fileRef = E56AEFA02564446E9F22B505 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.h */; };
+		4F7C921F0F074FC583638165 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectory_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXBuildFile; fileRef = 85DE2B11DC91433E886DD84C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectory_s.ep.rosidl_typesupport_introspection_c.m */; };
+		51C59815D4204D19A0116011 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 7BEDB5100520458AB28BC04C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp */; };
+		545B1857D5F74B58A364BD42 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__struct.h */ = {isa = PBXBuildFile; fileRef = 7A93E5CB949A4AB9B1964E64 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__struct.h */; };
+		560CE65641D74B9697CB2219 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.c */ = {isa = PBXBuildFile; fileRef = F2E3CB782667437CAA8D390C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.c */; };
+		569E35DF87204AF683F370F1 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory.h */ = {isa = PBXBuildFile; fileRef = B35B4C1760FE4437A4643210 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory.h */; };
+		58A5FFC9CBA24C8990F0CE18 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory.h.rule */ = {isa = PBXBuildFile; fileRef = 63D20E54B3344653BD5B5F27 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory.h.rule */; };
+		5A27AE6315CC4EC093C7AF78 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXBuildFile; fileRef = 30D9D48189F9459E8BC3544A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp */; };
+		5A3D4F126AF244F2A7306317 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 24C500302D584B1E9951D6D6 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */; };
+		5DCAA053AA7A49DDBF02A555 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B673AC12CBE243769DA86822 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */; };
+		62DADCAB0FD347E0A5EB2611 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/ROS_trajectory_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = CF053E27F7AC4988B62CB366 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/ROS_trajectory_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */; };
+		65482C268E16456DA963EF03 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__type_support.c */ = {isa = PBXBuildFile; fileRef = 2C8B10761AF24F31B6498A94 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__type_support.c */; };
+		7094F7D806B3455F8703697E /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.h */ = {isa = PBXBuildFile; fileRef = 9E5FAE54B4A243B391FFFD21 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.h */; };
+		748BF78886C74D708AB8E2C6 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h */ = {isa = PBXBuildFile; fileRef = 8CA4019555AF4246BD527F36 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h */; };
+		7831E59D0FA349C682C2ED29 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXBuildFile; fileRef = 3EEA8DF715424CCA81F9ADD7 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m */; };
+		7CD498B4B5A24FBC90B21359 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 278E708BF83045AAA8CED4FA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */; };
+		7F02BF293D164060892AA148 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 3E91FEE41A1249208E7CECDF /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */; };
+		81AAE8025DE3479C825E59B5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */ = {isa = PBXBuildFile; fileRef = B2381B2039654428A0E686C4 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */; };
+		8556A77D9AEF46D296CCB256 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */ = {isa = PBXBuildFile; fileRef = 1220A1096C9946179CB335CA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */; };
+		8B459A4EADEA4FEB91AE09AE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */ = {isa = PBXBuildFile; fileRef = B9CAFCAB1F564D05A94DBCA7 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */; };
+		8DFEAD4CACED45ED81DEBD98 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 7304361520784680A781C9D0 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp */; };
+		8FEDCB4CD0BA4087BB18E8B6 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXBuildFile; fileRef = 03F495ABD0074DB3A9799376 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp */; };
+		92B925F40052431B887AC992 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3FA7C8C5736745F1932FB178 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */; };
+		945E4186F04B46B98C1C04DC /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.h */ = {isa = PBXBuildFile; fileRef = 753BE0342C9541BBAF4E3F2B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.h */; };
+		946592C595D74342A0DAE2EF /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point.h */ = {isa = PBXBuildFile; fileRef = D58DD561346C45008E54ED3A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point.h */; };
+		97066FC3D9914DADBED52103 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.h */ = {isa = PBXBuildFile; fileRef = 98E5CACF294C490DA6477542 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.h */; };
+		99F6B90F136249A2B4ADA08D /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 595660652E4C443EA48DE312 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/Info.plist */; };
+		A68560D516E847AAB5D9F7ED /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F6950961BF374E5097419ED8 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */; };
+		AA47D82F894841A7BDD3ECA2 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__type_support.h */ = {isa = PBXBuildFile; fileRef = 2D76AB19FEEB49068B572B35 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__type_support.h */; };
+		AD280A90AC3C4537BAA0FED5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.h */ = {isa = PBXBuildFile; fileRef = 25122E1325E54F10A1C61F6E /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.h */; };
+		B36C1134204748279964263E /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8FB2978288034EA5B7CB89D3 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */; };
+		B55D2F54A4304621AE3E9258 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_c.h */ = {isa = PBXBuildFile; fileRef = 57449ED32B4D42FE87EE9A1B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_c.h */; };
+		B69813CDB1B04F81B6E029D8 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 68690621D28242EBA4519805 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */; };
+		BB8788C944324EEE85D185E7 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__type_support.h */ = {isa = PBXBuildFile; fileRef = A3F292C26F814DD78D37240A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__type_support.h */; };
+		BE1303A398974E28996A4826 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__struct.h */ = {isa = PBXBuildFile; fileRef = BD2CA2AA45BD49E0ADA0FB04 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__struct.h */; };
+		BF318F67406948B890FA3C08 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__rosidl_typesupport_introspection_c.h */ = {isa = PBXBuildFile; fileRef = 557EF5FC6FB940CC88890AF5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__rosidl_typesupport_introspection_c.h */; };
+		C2C1108DF9DD4FE98499461B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__struct.h */ = {isa = PBXBuildFile; fileRef = 8DA1C9D5350147609718C9E7 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__struct.h */; };
+		C31164F747184E01B387A51E /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.c */ = {isa = PBXBuildFile; fileRef = 4E7D6CA281204ABC8F21D2BE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.c */; };
+		CBB80B7AA26747768C68C932 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 7311FF57067347129CF3DFFA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */; };
+		CDB519B43538467D90D30941 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_c.h.rule */ = {isa = PBXBuildFile; fileRef = BC0EC2EFFA2C4139800A0DDB /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_c.h.rule */; };
+		CEB4FDD8AE95448C90FDC93B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp */ = {isa = PBXBuildFile; fileRef = E87F92F294834784A2CBE781 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp */; };
+		D4076DF9B2B447D98D20D6B2 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h */ = {isa = PBXBuildFile; fileRef = E454FD51CA9A416FB203A9AE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h */; };
+		D8A99981EB2849168D715A55 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXBuildFile; fileRef = C149EC866F9145518D454163 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp */; };
+		DAD62261144043C3A5671466 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.rule */ = {isa = PBXBuildFile; fileRef = 8643841593234C8CB50BC2AA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.rule */; };
+		DE9865A9C4A04E20979F59D2 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h */ = {isa = PBXBuildFile; fileRef = 3A0D399D4422491EBCDD5D0C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h */; };
+		E1024D58BB34409784EFAE39 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 48AD5F8153BF4598B6F4C211 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */; };
+		E1323F8B6AC84DE78753553B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.rule */ = {isa = PBXBuildFile; fileRef = C3B3DA596062489CBC6B04A9 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.rule */; };
+		E44F3969A7964E5DAC0C265C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 2C128DCF21A046A39A473CFB /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */; };
+		E59A133DB33D4718B44B1426 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.c */ = {isa = PBXBuildFile; fileRef = 65F25029420F4D2FAFF13024 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.c */; };
+		E5BC62290BE64F709032E570 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.h */ = {isa = PBXBuildFile; fileRef = D915310F2B534976ACB8F24A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.h */; };
+		E6516CFBFBA847FAAB52DA97 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 3FD5F23F2435443583D65DF5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */; };
+		EAE77BF4FBE743E0B5094592 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXBuildFile; fileRef = 90EE7069952440B8BFD6A98E /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp */; };
+		F2CC60E35A1C452EAE06E91F /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXBuildFile; fileRef = 26624807E798432BBEE05F79 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory_s.ep.rosidl_typesupport_introspection_c.m */; };
+		F2E13BF00413472EBC9E4DF8 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory.h */ = {isa = PBXBuildFile; fileRef = 0204EE12BC65488A8EA6C669 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory.h */; };
+		F589F35D5BBD416A9CC3C568 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__type_support.c */ = {isa = PBXBuildFile; fileRef = 6E354C2DED114E899AB794A9 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__type_support.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		40D67F678D3443A1BC17BEF6 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		8EECA83D2D5B42C69576DF2F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		B20FF1F7097D4B7B9EF7386C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C55E3DA8C34D473397FA1ACA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0DDF91C27F814864B946FD9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B104C81A576A4B02996CC692;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_introspection_c;
+		};
+		0FB32F34D9924F93BDFD24E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B104C81A576A4B02996CC692;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_introspection_c;
+		};
+		209D8A98352042D199810FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1549C3A55D5543F1A943DF0F;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_introspection_cpp;
+		};
+		36353645B27E47DAB0C1ED02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E218012982974D03A69A7268;
+			remoteInfo = trajectory_msgs__objc;
+		};
+		3897422A311C4A598C16059D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53850B16D8D44A168B5B3EE8;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_cpp;
+		};
+		3CBFFEC117FB4091B5360591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2B5F47ED414BE38327BAEA;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_c;
+		};
+		42F2F2A9D9B3461D887A5BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1549C3A55D5543F1A943DF0F;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_introspection_cpp;
+		};
+		54625FFC4DFB481284E08694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0567B2D579E2479F947F8092;
+			remoteInfo = trajectory_msgs__rosidl_generator_c;
+		};
+		546E96DBDE764AB3ADAF01DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		559CC0F0B71447B3A59EB570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E218012982974D03A69A7268;
+			remoteInfo = trajectory_msgs__objc;
+		};
+		56905B384E664030A075E22B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		5C2C078AA1C74AB8AD3B1116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2B5F47ED414BE38327BAEA;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_c;
+		};
+		671A16DF97E541D583455ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		68325C2D02A14F61B1CDB44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED141E752484125885EA1CD;
+			remoteInfo = trajectory_msgs;
+		};
+		73921809C46E476E9B446D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		77CD7409C83242E69E25D8E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		7E1041C916AB483381D6E25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1549C3A55D5543F1A943DF0F;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_introspection_cpp;
+		};
+		83B47463823D4D83B6675799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B104C81A576A4B02996CC692;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_introspection_c;
+		};
+		8A3600ED250C4B4286D6261C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13517A3D7894828B57D9622;
+			remoteInfo = ALL_BUILD;
+		};
+		8D5ED142A7174B7690F86FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE62119D01B4EFCB567185F;
+			remoteInfo = trajectory_msgs__cpp;
+		};
+		902B0FAFA7064088ABE19A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0567B2D579E2479F947F8092;
+			remoteInfo = trajectory_msgs__rosidl_generator_c;
+		};
+		908F6DDB0AAB4E76AD21945A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53850B16D8D44A168B5B3EE8;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_cpp;
+		};
+		9640BC0D4A8D4DC6BF8A04CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE62119D01B4EFCB567185F;
+			remoteInfo = trajectory_msgs__cpp;
+		};
+		9C6D8077447645D291E28572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2B5F47ED414BE38327BAEA;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_c;
+		};
+		B1A325E1B34D43108B9DD46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B104C81A576A4B02996CC692;
+			remoteInfo = trajectory_msgs__rosidl_typesupport_introspection_c;
+		};
+		B62BCE43706C4167A64EFBEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		B9A33ECB4D2F427DA4E0F765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0567B2D579E2479F947F8092;
+			remoteInfo = trajectory_msgs__rosidl_generator_c;
+		};
+		C845FC643FA64A4DA4D7C8F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED141E752484125885EA1CD;
+			remoteInfo = trajectory_msgs;
+		};
+		CB03C5687FFE4843BEC88792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		D99FF2E923A5401FBF273686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0567B2D579E2479F947F8092;
+			remoteInfo = trajectory_msgs__rosidl_generator_c;
+		};
+		DAFF58A717384FC59A668BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0567B2D579E2479F947F8092;
+			remoteInfo = trajectory_msgs__rosidl_generator_c;
+		};
+		E236D67FB9DE4607A6E0ED99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		E53CC3AF60DE47DB953A08B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		EFBD59036DB544C7A165E508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		F57838F0FDB2413BB898FBC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE62119D01B4EFCB567185F;
+			remoteInfo = trajectory_msgs__cpp;
+		};
+		FA00AE22DA1948DCACF509CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A22E8928F1D446292604F7C;
+			remoteInfo = ZERO_CHECK;
+		};
+		FE64485A6C244A949B46DA3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34606E9E5DBB413DBD9267D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B05B81B5552493CB21DCE16;
+			remoteInfo = ROS_trajectory_msgs__rosidl_typesupport_introspection_c;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0204EE12BC65488A8EA6C669 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint_trajectory.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory.h; sourceTree = SOURCE_ROOT; };
+		025A82F8B2424F3D9A929D92 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		03F495ABD0074DB3A9799376 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp; sourceTree = SOURCE_ROOT; };
+		11481C1312304638A7D84528 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = joint_trajectory__rosidl_typesupport_introspection_cpp.hpp.rule; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp.rule; sourceTree = SOURCE_ROOT; };
+		1220A1096C9946179CB335CA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rosidl_typesupport_introspection_c__visibility_control.h; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h; sourceTree = SOURCE_ROOT; };
+		1E3A8F083BD94E17A0151021 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		24C500302D584B1E9951D6D6 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = joint_trajectory_point__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		25122E1325E54F10A1C61F6E /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multi_dof_joint_trajectory__functions.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.h; sourceTree = SOURCE_ROOT; };
+		26624807E798432BBEE05F79 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = JointTrajectory_s.ep.rosidl_typesupport_introspection_c.m; path = ../../../../build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory_s.ep.rosidl_typesupport_introspection_c.m; sourceTree = SOURCE_ROOT; };
+		278E708BF83045AAA8CED4FA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = multi_dof_joint_trajectory_point__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		2866DCFA451E4037BCAE7557 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2C128DCF21A046A39A473CFB /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = joint_trajectory_point__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		2C8B10761AF24F31B6498A94 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__type_support.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joint_trajectory_point__type_support.c; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__type_support.c; sourceTree = SOURCE_ROOT; };
+		2D76AB19FEEB49068B572B35 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__type_support.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint_trajectory_point__type_support.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__type_support.h; sourceTree = SOURCE_ROOT; };
+		30D9D48189F9459E8BC3544A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp; sourceTree = SOURCE_ROOT; };
+		3A0D399D4422491EBCDD5D0C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multi_dof_joint_trajectory_point.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h; sourceTree = SOURCE_ROOT; };
+		3AE263C2CE424A85B198E087 /* trajectory_msgs__rosidl_typesupport_cpp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtrajectory_msgs__rosidl_typesupport_cppd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E91FEE41A1249208E7CECDF /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = multi_dof_joint_trajectory__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		3EEA8DF715424CCA81F9ADD7 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = JointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m; path = ../../../../build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m; sourceTree = SOURCE_ROOT; };
+		3FA7C8C5736745F1932FB178 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3FD5F23F2435443583D65DF5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		48AD5F8153BF4598B6F4C211 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		48E1DBE1868748F4953597CC /* trajectory_msgs__rosidl_generator_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtrajectory_msgs__rosidl_generator_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1AE241528F47689C60547B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__struct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multi_dof_joint_trajectory__struct.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__struct.h; sourceTree = SOURCE_ROOT; };
+		4E7D6CA281204ABC8F21D2BE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = multi_dof_joint_trajectory_point__functions.c; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.c; sourceTree = SOURCE_ROOT; };
+		557EF5FC6FB940CC88890AF5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__rosidl_typesupport_introspection_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint_trajectory_point__rosidl_typesupport_introspection_c.h; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__rosidl_typesupport_introspection_c.h; sourceTree = SOURCE_ROOT; };
+		57449ED32B4D42FE87EE9A1B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint_trajectory__rosidl_typesupport_introspection_c.h; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_c.h; sourceTree = SOURCE_ROOT; };
+		595660652E4C443EA48DE312 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		63D20E54B3344653BD5B5F27 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = joint_trajectory.h.rule; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory.h.rule; sourceTree = SOURCE_ROOT; };
+		651BB60AFB3D41899CF7B916 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = JointTrajectory.h.rule; path = ../../../../build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory.h.rule; sourceTree = SOURCE_ROOT; };
+		65F25029420F4D2FAFF13024 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joint_trajectory__functions.c; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.c; sourceTree = SOURCE_ROOT; };
+		6600347E7C8F4F5884193EF3 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/msg/JointTrajectory.msg */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = JointTrajectory.msg; path = msg/JointTrajectory.msg; sourceTree = SOURCE_ROOT; };
+		68690621D28242EBA4519805 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		6960E634792F491A918A028C /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/msg/JointTrajectoryPoint.msg */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = JointTrajectoryPoint.msg; path = msg/JointTrajectoryPoint.msg; sourceTree = SOURCE_ROOT; };
+		6CDC5D9C01BD4919BD23E188 /* trajectory_msgs__rosidl_typesupport_introspection_cpp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtrajectory_msgs__rosidl_typesupport_introspection_cppd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E354C2DED114E899AB794A9 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__type_support.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joint_trajectory__type_support.c; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__type_support.c; sourceTree = SOURCE_ROOT; };
+		7304361520784680A781C9D0 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = joint_trajectory__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		7311FF57067347129CF3DFFA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = multi_dof_joint_trajectory__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		753BE0342C9541BBAF4E3F2B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multi_dof_joint_trajectory_point__functions.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.h; sourceTree = SOURCE_ROOT; };
+		76594685865E438D9AA7D35C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rosidl_generator_c__visibility_control.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h; sourceTree = SOURCE_ROOT; };
+		7A93E5CB949A4AB9B1964E64 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__struct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint_trajectory_point__struct.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__struct.h; sourceTree = SOURCE_ROOT; };
+		7BEDB5100520458AB28BC04C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = joint_trajectory__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		84232F86AFF640BAB2467D83 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		85DE2B11DC91433E886DD84C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectory_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = MultiDOFJointTrajectory_s.ep.rosidl_typesupport_introspection_c.m; path = ../../../../build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectory_s.ep.rosidl_typesupport_introspection_c.m; sourceTree = SOURCE_ROOT; };
+		86265C48DB094EE4B541CC86 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = multi_dof_joint_trajectory_point__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		8643841593234C8CB50BC2AA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = joint_trajectory__type_support.cpp.rule; path = ../../../../build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.rule; sourceTree = SOURCE_ROOT; };
+		8CA4019555AF4246BD527F36 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h; sourceTree = SOURCE_ROOT; };
+		8DA1C9D5350147609718C9E7 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__struct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multi_dof_joint_trajectory_point__struct.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__struct.h; sourceTree = SOURCE_ROOT; };
+		8FB2978288034EA5B7CB89D3 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		90EE7069952440B8BFD6A98E /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = joint_trajectory__rosidl_typesupport_introspection_cpp.hpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp; sourceTree = SOURCE_ROOT; };
+		98E5CACF294C490DA6477542 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint_trajectory__functions.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.h; sourceTree = SOURCE_ROOT; };
+		9BAAE23C15A34E1B89BDB958 /* ROS_trajectory_msgs__rosidl_typesupport_introspection_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libROS_trajectory_msgs__rosidl_typesupport_introspection_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF398B6133C4A85978245E8 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = MultiDOFJointTrajectoryPoint.msg; path = msg/MultiDOFJointTrajectoryPoint.msg; sourceTree = SOURCE_ROOT; };
+		9E5FAE54B4A243B391FFFD21 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint_trajectory_point__functions.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.h; sourceTree = SOURCE_ROOT; };
+		A0E6403FAB464FB79FA47F26 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		A10710B8A0A1473F85C060DE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = MultiDOFJointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m; path = ../../../../build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m; sourceTree = SOURCE_ROOT; };
+		A3F292C26F814DD78D37240A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__type_support.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint_trajectory__type_support.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__type_support.h; sourceTree = SOURCE_ROOT; };
+		B2381B2039654428A0E686C4 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = multi_dof_joint_trajectory__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		B35B4C1760FE4437A4643210 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multi_dof_joint_trajectory.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory.h; sourceTree = SOURCE_ROOT; };
+		B56BBD3D4EEA4925951996DC /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/msg/MultiDOFJointTrajectory.msg */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = MultiDOFJointTrajectory.msg; path = msg/MultiDOFJointTrajectory.msg; sourceTree = SOURCE_ROOT; };
+		B673AC12CBE243769DA86822 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B8912BFF51B0488E8D3A4CF8 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = joint_trajectory_point__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		B9CAFCAB1F564D05A94DBCA7 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = multi_dof_joint_trajectory_point__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		BBE6D4B1FFEE4CEDB0829912 /* trajectory_msgs__rosidl_typesupport_introspection_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtrajectory_msgs__rosidl_typesupport_introspection_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0EC2EFFA2C4139800A0DDB /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_c.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = joint_trajectory__rosidl_typesupport_introspection_c.h.rule; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_c.h.rule; sourceTree = SOURCE_ROOT; };
+		BC79CADD1D144F28BCD5DA7B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joint_trajectory_point__functions.c; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.c; sourceTree = SOURCE_ROOT; };
+		BD2CA2AA45BD49E0ADA0FB04 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__struct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint_trajectory__struct.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__struct.h; sourceTree = SOURCE_ROOT; };
+		C149EC866F9145518D454163 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp; sourceTree = SOURCE_ROOT; };
+		C3B3DA596062489CBC6B04A9 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = joint_trajectory__type_support.cpp.rule; path = ../../../../build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.rule; sourceTree = SOURCE_ROOT; };
+		CF053E27F7AC4988B62CB366 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/ROS_trajectory_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/trajectory_msgs/CMakeFiles/ROS_trajectory_msgs__rosidl_typesupport_introspection_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		D51B69E5D4FD463993E9A8A5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = multi_dof_joint_trajectory__functions.c; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.c; sourceTree = SOURCE_ROOT; };
+		D58DD561346C45008E54ED3A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint_trajectory_point.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point.h; sourceTree = SOURCE_ROOT; };
+		D84756FC67464FE6AAB8B4C9 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = multi_dof_joint_trajectory_point__type_support.c; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.c; sourceTree = SOURCE_ROOT; };
+		D915310F2B534976ACB8F24A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multi_dof_joint_trajectory__type_support.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.h; sourceTree = SOURCE_ROOT; };
+		E2AF1C450C2341DFAA003513 /* trajectory_msgs__rosidl_typesupport_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtrajectory_msgs__rosidl_typesupport_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4469870E943481290E9D01A /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E454FD51CA9A416FB203A9AE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h; sourceTree = SOURCE_ROOT; };
+		E56AEFA02564446E9F22B505 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multi_dof_joint_trajectory_point__type_support.h; path = ../../../../build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.h; sourceTree = SOURCE_ROOT; };
+		E87F92F294834784A2CBE781 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = joint_trajectory__type_support.cpp; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		F1E0FB286F564811BD9CA6B9 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F2E3CB782667437CAA8D390C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = multi_dof_joint_trajectory__type_support.c; path = ../../../../build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.c; sourceTree = SOURCE_ROOT; };
+		F397C5CF97D442AB8F2DBADE /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F6950961BF374E5097419ED8 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		05F583AD12564DB49B6E5847 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				90EE7069952440B8BFD6A98E /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp */,
+				C149EC866F9145518D454163 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp */,
+				03F495ABD0074DB3A9799376 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp */,
+				30D9D48189F9459E8BC3544A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		095ECA9E8BF34D35B3E34FD0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0A116001744845C5A9B090B7 /* trajectory_msgs__rosidl_typesupport_c */ = {
+			isa = PBXGroup;
+			children = (
+				7CC710C56FC04331B394203B /* Source Files */,
+				27C2A0928A4449CA853CA09C /* CMake Rules */,
+				5518AF28A3194902A95882E3 /* Resources */,
+				F6950961BF374E5097419ED8 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = trajectory_msgs__rosidl_typesupport_c;
+			sourceTree = "<group>";
+		};
+		0CA57C294B6445AFB70CA283 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				BC0EC2EFFA2C4139800A0DDB /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_c.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		108A4693322441968F5FF1E8 /* ROS_trajectory_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXGroup;
+			children = (
+				99151FBCF90E4FB4919AC8D9 /* Source Files */,
+				D64DB75D6E1840DD933E08DB /* CMake Rules */,
+				AB5D1FBC5B644AEDB7977E61 /* Resources */,
+				8FB2978288034EA5B7CB89D3 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = ROS_trajectory_msgs__rosidl_typesupport_introspection_c;
+			sourceTree = "<group>";
+		};
+		11B05DB87DBF48A1B7795C1C /* trajectory_msgs__objc */ = {
+			isa = PBXGroup;
+			children = (
+				66C5BEE1BD1D47AFA8C133E9 /* CMake Rules */,
+				2866DCFA451E4037BCAE7557 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = trajectory_msgs__objc;
+			sourceTree = "<group>";
+		};
+		218523D524714F88B3460096 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				B9471058C34141A2B8743A94 /* CMake Rules */,
+				F397C5CF97D442AB8F2DBADE /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		21AD8CD7C3C7453F8AF87C80 /* trajectory_msgs__cpp */ = {
+			isa = PBXGroup;
+			children = (
+				095ECA9E8BF34D35B3E34FD0 /* CMake Rules */,
+				F1E0FB286F564811BD9CA6B9 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = trajectory_msgs__cpp;
+			sourceTree = "<group>";
+		};
+		22F4C5C37B7C4B888248A4C8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0204EE12BC65488A8EA6C669 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory.h */,
+				98E5CACF294C490DA6477542 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.h */,
+				BD2CA2AA45BD49E0ADA0FB04 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__struct.h */,
+				A3F292C26F814DD78D37240A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__type_support.h */,
+				D58DD561346C45008E54ED3A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point.h */,
+				9E5FAE54B4A243B391FFFD21 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.h */,
+				7A93E5CB949A4AB9B1964E64 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__struct.h */,
+				2D76AB19FEEB49068B572B35 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__type_support.h */,
+				B35B4C1760FE4437A4643210 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory.h */,
+				25122E1325E54F10A1C61F6E /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.h */,
+				4E1AE241528F47689C60547B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__struct.h */,
+				D915310F2B534976ACB8F24A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.h */,
+				3A0D399D4422491EBCDD5D0C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h */,
+				753BE0342C9541BBAF4E3F2B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.h */,
+				8DA1C9D5350147609718C9E7 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__struct.h */,
+				E56AEFA02564446E9F22B505 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.h */,
+				76594685865E438D9AA7D35C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		27C2A0928A4449CA853CA09C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				C3B3DA596062489CBC6B04A9 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2AA8934F5FE14DF8BBBCAB99 /* trajectory_msgs__rosidl_generator_c */ = {
+			isa = PBXGroup;
+			children = (
+				22F4C5C37B7C4B888248A4C8 /* Header Files */,
+				F8B7FB930E404330A2758627 /* Source Files */,
+				927992142E5A4C38962365E2 /* CMake Rules */,
+				BF39A5109BE34040965C9BDB /* Resources */,
+				B673AC12CBE243769DA86822 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = trajectory_msgs__rosidl_generator_c;
+			sourceTree = "<group>";
+		};
+		34CF3F79536D4A69A3866621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BAAE23C15A34E1B89BDB958 /* ROS_trajectory_msgs__rosidl_typesupport_introspection_c */,
+				48E1DBE1868748F4953597CC /* trajectory_msgs__rosidl_generator_c */,
+				E2AF1C450C2341DFAA003513 /* trajectory_msgs__rosidl_typesupport_c */,
+				3AE263C2CE424A85B198E087 /* trajectory_msgs__rosidl_typesupport_cpp */,
+				BBE6D4B1FFEE4CEDB0829912 /* trajectory_msgs__rosidl_typesupport_introspection_c */,
+				6CDC5D9C01BD4919BD23E188 /* trajectory_msgs__rosidl_typesupport_introspection_cpp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372134B5B68B496D8B541D8F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		39128D6BA6284219A9D3E600 /* trajectory_msgs__rosidl_typesupport_cpp */ = {
+			isa = PBXGroup;
+			children = (
+				E04CFA349AC54EF9917D6088 /* Source Files */,
+				F8D6B8AB4B614C68804CA562 /* CMake Rules */,
+				591AE9B8B6934B9893D31037 /* Resources */,
+				3FA7C8C5736745F1932FB178 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = trajectory_msgs__rosidl_typesupport_cpp;
+			sourceTree = "<group>";
+		};
+		3B338C2A474248D8BF14ED88 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3B806CA2513C4AF6BE535FAC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E87F92F294834784A2CBE781 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp */,
+				2C128DCF21A046A39A473CFB /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */,
+				3E91FEE41A1249208E7CECDF /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */,
+				B9CAFCAB1F564D05A94DBCA7 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4763C1EABFE141A4AD90FAB3 /* trajectory_msgs */ = {
+			isa = PBXGroup;
+			children = (
+				372134B5B68B496D8B541D8F /* CMake Rules */,
+				6600347E7C8F4F5884193EF3 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/msg/JointTrajectory.msg */,
+				6960E634792F491A918A028C /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/msg/JointTrajectoryPoint.msg */,
+				B56BBD3D4EEA4925951996DC /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/msg/MultiDOFJointTrajectory.msg */,
+				9CF398B6133C4A85978245E8 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg */,
+				E4469870E943481290E9D01A /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = trajectory_msgs;
+			sourceTree = "<group>";
+		};
+		5518AF28A3194902A95882E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				595660652E4C443EA48DE312 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		591AE9B8B6934B9893D31037 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0E6403FAB464FB79FA47F26 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		652A24762480407A9FA9C085 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E354C2DED114E899AB794A9 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__type_support.c */,
+				2C8B10761AF24F31B6498A94 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__type_support.c */,
+				F2E3CB782667437CAA8D390C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.c */,
+				D84756FC67464FE6AAB8B4C9 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		66C5BEE1BD1D47AFA8C133E9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7CC710C56FC04331B394203B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7304361520784680A781C9D0 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp */,
+				24C500302D584B1E9951D6D6 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */,
+				7311FF57067347129CF3DFFA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */,
+				86265C48DB094EE4B541CC86 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		816354C9853B4F48A84C504E /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				57449ED32B4D42FE87EE9A1B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_c.h */,
+				557EF5FC6FB940CC88890AF5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__rosidl_typesupport_introspection_c.h */,
+				8CA4019555AF4246BD527F36 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h */,
+				E454FD51CA9A416FB203A9AE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h */,
+				1220A1096C9946179CB335CA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		927992142E5A4C38962365E2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				63D20E54B3344653BD5B5F27 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		97F33D60B5384AA29CDEE533 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				11481C1312304638A7D84528 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		99151FBCF90E4FB4919AC8D9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EEA8DF715424CCA81F9ADD7 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m */,
+				26624807E798432BBEE05F79 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory_s.ep.rosidl_typesupport_introspection_c.m */,
+				A10710B8A0A1473F85C060DE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m */,
+				85DE2B11DC91433E886DD84C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectory_s.ep.rosidl_typesupport_introspection_c.m */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9A302073B7B04B8C9BCFBC7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FD5F23F2435443583D65DF5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA6A183CB5AD48C8A3A54323 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3B338C2A474248D8BF14ED88 /* CMake Rules */,
+				84232F86AFF640BAB2467D83 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AB5D1FBC5B644AEDB7977E61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF053E27F7AC4988B62CB366 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/ROS_trajectory_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B09434590183476B8545538B = {
+			isa = PBXGroup;
+			children = (
+				108A4693322441968F5FF1E8 /* ROS_trajectory_msgs__rosidl_typesupport_introspection_c */,
+				D3BE2F5C08B24DB28E2636FE /* trajectory_msgs__rosidl_typesupport_introspection_cpp */,
+				B520417B073E4DD48696EA33 /* trajectory_msgs__rosidl_typesupport_introspection_c */,
+				0A116001744845C5A9B090B7 /* trajectory_msgs__rosidl_typesupport_c */,
+				4763C1EABFE141A4AD90FAB3 /* trajectory_msgs */,
+				11B05DB87DBF48A1B7795C1C /* trajectory_msgs__objc */,
+				2AA8934F5FE14DF8BBBCAB99 /* trajectory_msgs__rosidl_generator_c */,
+				21AD8CD7C3C7453F8AF87C80 /* trajectory_msgs__cpp */,
+				39128D6BA6284219A9D3E600 /* trajectory_msgs__rosidl_typesupport_cpp */,
+				218523D524714F88B3460096 /* uninstall */,
+				AA6A183CB5AD48C8A3A54323 /* ALL_BUILD */,
+				34CF3F79536D4A69A3866621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B520417B073E4DD48696EA33 /* trajectory_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXGroup;
+			children = (
+				816354C9853B4F48A84C504E /* Header Files */,
+				652A24762480407A9FA9C085 /* Source Files */,
+				0CA57C294B6445AFB70CA283 /* CMake Rules */,
+				9A302073B7B04B8C9BCFBC7C /* Resources */,
+				1E3A8F083BD94E17A0151021 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = trajectory_msgs__rosidl_typesupport_introspection_c;
+			sourceTree = "<group>";
+		};
+		B9471058C34141A2B8743A94 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BF39A5109BE34040965C9BDB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				025A82F8B2424F3D9A929D92 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D3BE2F5C08B24DB28E2636FE /* trajectory_msgs__rosidl_typesupport_introspection_cpp */ = {
+			isa = PBXGroup;
+			children = (
+				05F583AD12564DB49B6E5847 /* Header Files */,
+				3B806CA2513C4AF6BE535FAC /* Source Files */,
+				97F33D60B5384AA29CDEE533 /* CMake Rules */,
+				ECDF41FC16FA432DB5114641 /* Resources */,
+				48AD5F8153BF4598B6F4C211 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs/CMakeLists.txt */,
+			);
+			name = trajectory_msgs__rosidl_typesupport_introspection_cpp;
+			sourceTree = "<group>";
+		};
+		D64DB75D6E1840DD933E08DB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				651BB60AFB3D41899CF7B916 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E04CFA349AC54EF9917D6088 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BEDB5100520458AB28BC04C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp */,
+				B8912BFF51B0488E8D3A4CF8 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */,
+				B2381B2039654428A0E686C4 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */,
+				278E708BF83045AAA8CED4FA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ECDF41FC16FA432DB5114641 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68690621D28242EBA4519805 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F8B7FB930E404330A2758627 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F25029420F4D2FAFF13024 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.c */,
+				BC79CADD1D144F28BCD5DA7B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.c */,
+				D51B69E5D4FD463993E9A8A5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.c */,
+				4E7D6CA281204ABC8F21D2BE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F8D6B8AB4B614C68804CA562 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				8643841593234C8CB50BC2AA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0567B2D579E2479F947F8092 /* trajectory_msgs__rosidl_generator_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD9344AD79F4842925292DA /* Build configuration list for PBXNativeTarget "trajectory_msgs__rosidl_generator_c" */;
+			buildPhases = (
+				64B6CE54C3904304BFD5B8EC /* CMake Rules */,
+				059D76C3E5A044EDB04FD9D1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CCF4042E934D7DBC5BC725 /* PBXTargetDependency */,
+			);
+			name = trajectory_msgs__rosidl_generator_c;
+			productName = trajectory_msgs__rosidl_generator_c;
+			productReference = 48E1DBE1868748F4953597CC /* trajectory_msgs__rosidl_generator_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1549C3A55D5543F1A943DF0F /* trajectory_msgs__rosidl_typesupport_introspection_cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB10D75D032A4B95871BB8B2 /* Build configuration list for PBXNativeTarget "trajectory_msgs__rosidl_typesupport_introspection_cpp" */;
+			buildPhases = (
+				E302FEFC53154CA2A80EF7C4 /* CMake Rules */,
+				EA6EE96CA6FF410B81DDFC17 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D2288386614EF58AD7EC3E /* PBXTargetDependency */,
+				4419B3BF52764CA8A4F79ED0 /* PBXTargetDependency */,
+			);
+			name = trajectory_msgs__rosidl_typesupport_introspection_cpp;
+			productName = trajectory_msgs__rosidl_typesupport_introspection_cpp;
+			productReference = 6CDC5D9C01BD4919BD23E188 /* trajectory_msgs__rosidl_typesupport_introspection_cpp */;
+			productType = "com.apple.product-type.library.static";
+		};
+		53850B16D8D44A168B5B3EE8 /* trajectory_msgs__rosidl_typesupport_cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB428C8B8B114B2BA41094A3 /* Build configuration list for PBXNativeTarget "trajectory_msgs__rosidl_typesupport_cpp" */;
+			buildPhases = (
+				B8176EADF93A459087CE4A3F /* CMake Rules */,
+				083D2A8764054629A4C73482 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B25112066F84C8EB7E904E8 /* PBXTargetDependency */,
+				523BE2EA07CC41308B9C4911 /* PBXTargetDependency */,
+				10EF496742D34C768A95A3BC /* PBXTargetDependency */,
+			);
+			name = trajectory_msgs__rosidl_typesupport_cpp;
+			productName = trajectory_msgs__rosidl_typesupport_cpp;
+			productReference = 3AE263C2CE424A85B198E087 /* trajectory_msgs__rosidl_typesupport_cpp */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7B05B81B5552493CB21DCE16 /* ROS_trajectory_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E82CC059ADF34BDA8AB53AEF /* Build configuration list for PBXNativeTarget "ROS_trajectory_msgs__rosidl_typesupport_introspection_c" */;
+			buildPhases = (
+				8B6A2C9A5DC94C91BF3A816E /* CMake Rules */,
+				316F68750D6E47FEBDCCD007 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B41BD1167A45A1BA9ECA6D /* PBXTargetDependency */,
+				71F1037F2A7340E682A7EDA4 /* PBXTargetDependency */,
+				BD9B553B45394F4C843C5AEF /* PBXTargetDependency */,
+				B0CA4E8B364942B88699C9F6 /* PBXTargetDependency */,
+				2729CB13CCAB4C76A214CCF3 /* PBXTargetDependency */,
+				09EFA01843A34D95B2123B73 /* PBXTargetDependency */,
+			);
+			name = ROS_trajectory_msgs__rosidl_typesupport_introspection_c;
+			productName = ROS_trajectory_msgs__rosidl_typesupport_introspection_c;
+			productReference = 9BAAE23C15A34E1B89BDB958 /* ROS_trajectory_msgs__rosidl_typesupport_introspection_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B104C81A576A4B02996CC692 /* trajectory_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C53C4EC9EE4A15B3B0B5C6 /* Build configuration list for PBXNativeTarget "trajectory_msgs__rosidl_typesupport_introspection_c" */;
+			buildPhases = (
+				916F457E047043DB8389DF48 /* CMake Rules */,
+				483E5D6330344E1AA75920BB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1474B5D978BF4D4994E2D3DB /* PBXTargetDependency */,
+				9B2471AC939B4B578FD12976 /* PBXTargetDependency */,
+			);
+			name = trajectory_msgs__rosidl_typesupport_introspection_c;
+			productName = trajectory_msgs__rosidl_typesupport_introspection_c;
+			productReference = BBE6D4B1FFEE4CEDB0829912 /* trajectory_msgs__rosidl_typesupport_introspection_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC2B5F47ED414BE38327BAEA /* trajectory_msgs__rosidl_typesupport_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E60D2F7FBAE4B89A7F22D04 /* Build configuration list for PBXNativeTarget "trajectory_msgs__rosidl_typesupport_c" */;
+			buildPhases = (
+				527C2F4665DB425A973960D9 /* CMake Rules */,
+				960D0293FC534D5F8086AA1A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E45FBB8B104103BC8BBA3F /* PBXTargetDependency */,
+				DB7A9ED1746A47C0A5093324 /* PBXTargetDependency */,
+				5D61BA9FF29A4AEAB650A1B2 /* PBXTargetDependency */,
+			);
+			name = trajectory_msgs__rosidl_typesupport_c;
+			productName = trajectory_msgs__rosidl_typesupport_c;
+			productReference = E2AF1C450C2341DFAA003513 /* trajectory_msgs__rosidl_typesupport_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34606E9E5DBB413DBD9267D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 1873FC875176427191108526 /* Build configuration list for PBXProject "trajectory_msgs" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C55E3DA8C34D473397FA1ACA /* Debug */,
+				40D67F678D3443A1BC17BEF6 /* Release */,
+				8EECA83D2D5B42C69576DF2F /* MinSizeRel */,
+				B20FF1F7097D4B7B9EF7386C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B09434590183476B8545538B;
+			projectDirPath = /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/trajectory_msgs;
+			projectRoot = "";
+			targets = (
+				A13517A3D7894828B57D9622 /* ALL_BUILD */,
+				7B05B81B5552493CB21DCE16 /* ROS_trajectory_msgs__rosidl_typesupport_introspection_c */,
+				8A22E8928F1D446292604F7C /* ZERO_CHECK */,
+				888D0275CAD44830BC0246C9 /* install */,
+				2ED141E752484125885EA1CD /* trajectory_msgs */,
+				CAE62119D01B4EFCB567185F /* trajectory_msgs__cpp */,
+				E218012982974D03A69A7268 /* trajectory_msgs__objc */,
+				0567B2D579E2479F947F8092 /* trajectory_msgs__rosidl_generator_c */,
+				FC2B5F47ED414BE38327BAEA /* trajectory_msgs__rosidl_typesupport_c */,
+				53850B16D8D44A168B5B3EE8 /* trajectory_msgs__rosidl_typesupport_cpp */,
+				B104C81A576A4B02996CC692 /* trajectory_msgs__rosidl_typesupport_introspection_c */,
+				1549C3A55D5543F1A943DF0F /* trajectory_msgs__rosidl_typesupport_introspection_cpp */,
+				8DA1C1E0288C44389463785C /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FE4325CE277453485FAC20E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1FA0094E36744F6CBFBAD381 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2C7A61F181314C818C50CEF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3E996338BA784280AE4065A2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4AFFF5BB9C4F4FB88371819A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/trajectory_msgs__objc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4D62910BC90141AC8360F0DF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/trajectory_msgs__cpp_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		50444A0CE0C44466A004F62E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		527C2F4665DB425A973960D9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/trajectory_msgs__rosidl_typesupport_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5D036A64B7DE40ECBF467EDB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		64B6CE54C3904304BFD5B8EC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/trajectory_msgs__rosidl_generator_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8A50A7506F074975A7CC23E3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8B6A2C9A5DC94C91BF3A816E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/ROS_trajectory_msgs__rosidl_typesupport_introspection_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		916F457E047043DB8389DF48 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/trajectory_msgs__rosidl_typesupport_introspection_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A295D85A8EC74DBCA160DD28 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/trajectory_msgs_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B8176EADF93A459087CE4A3F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/trajectory_msgs__rosidl_typesupport_cpp_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CD65F1D0604F4BD8840A7B0B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D84EBE212CF44F84A9A24F1E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DCF059CA70A2425D96476A19 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E302FEFC53154CA2A80EF7C4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/trajectory_msgs__rosidl_typesupport_introspection_cpp_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		FEB80078665A461A898732E4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/trajectory_msgs -f /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		059D76C3E5A044EDB04FD9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59A133DB33D4718B44B1426 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory__functions.c */,
+				29405CEE4E1446F9B0C859FA /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/joint_trajectory_point__functions.c */,
+				2090A412219941E688B70232 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory__functions.c */,
+				C31164F747184E01B387A51E /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__functions.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083D2A8764054629A4C73482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C59815D4204D19A0116011 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp */,
+				35B452E249654568A2F96BCC /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */,
+				81AAE8025DE3479C825E59B5 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */,
+				7CD498B4B5A24FBC90B21359 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316F68750D6E47FEBDCCD007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7831E59D0FA349C682C2ED29 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m */,
+				F2CC60E35A1C452EAE06E91F /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/JointTrajectory_s.ep.rosidl_typesupport_introspection_c.m */,
+				03894A05B2A44807AAFE9D1A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectoryPoint_s.ep.rosidl_typesupport_introspection_c.m */,
+				4F7C921F0F074FC583638165 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc/ROS_trajectory_msgs/msg/MultiDOFJointTrajectory_s.ep.rosidl_typesupport_introspection_c.m */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483E5D6330344E1AA75920BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F589F35D5BBD416A9CC3C568 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory__type_support.c */,
+				65482C268E16456DA963EF03 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/joint_trajectory_point__type_support.c */,
+				560CE65641D74B9697CB2219 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.c */,
+				34B2C0F44D334E18AA1258BF /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D0293FC534D5F8086AA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFEAD4CACED45ED81DEBD98 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp */,
+				5A3D4F126AF244F2A7306317 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */,
+				CBB80B7AA26747768C68C932 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */,
+				338AEC7284C24B3CA6002A2A /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6EE96CA6FF410B81DDFC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB4FDD8AE95448C90FDC93B /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp */,
+				E44F3969A7964E5DAC0C265C /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp */,
+				7F02BF293D164060892AA148 /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp */,
+				8B459A4EADEA4FEB91AE09AE /* /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09EFA01843A34D95B2123B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = FA00AE22DA1948DCACF509CC /* PBXContainerItemProxy */;
+		};
+		10EF496742D34C768A95A3BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = E236D67FB9DE4607A6E0ED99 /* PBXContainerItemProxy */;
+		};
+		11125FB3838642CCBAD8273F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2B5F47ED414BE38327BAEA /* trajectory_msgs__rosidl_typesupport_c */;
+			targetProxy = 3CBFFEC117FB4091B5360591 /* PBXContainerItemProxy */;
+		};
+		1474B5D978BF4D4994E2D3DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0567B2D579E2479F947F8092 /* trajectory_msgs__rosidl_generator_c */;
+			targetProxy = 54625FFC4DFB481284E08694 /* PBXContainerItemProxy */;
+		};
+		26C4FC0C1C1D46A1B064EC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E218012982974D03A69A7268 /* trajectory_msgs__objc */;
+			targetProxy = 36353645B27E47DAB0C1ED02 /* PBXContainerItemProxy */;
+		};
+		2729CB13CCAB4C76A214CCF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0567B2D579E2479F947F8092 /* trajectory_msgs__rosidl_generator_c */;
+			targetProxy = D99FF2E923A5401FBF273686 /* PBXContainerItemProxy */;
+		};
+		2D48B5FEEB294C4CA405B20B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53850B16D8D44A168B5B3EE8 /* trajectory_msgs__rosidl_typesupport_cpp */;
+			targetProxy = 3897422A311C4A598C16059D /* PBXContainerItemProxy */;
+		};
+		4419B3BF52764CA8A4F79ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = 77CD7409C83242E69E25D8E5 /* PBXContainerItemProxy */;
+		};
+		46B41BD1167A45A1BA9ECA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B104C81A576A4B02996CC692 /* trajectory_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = 83B47463823D4D83B6675799 /* PBXContainerItemProxy */;
+		};
+		4FDC2A0CED3640DB9AE5218B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE62119D01B4EFCB567185F /* trajectory_msgs__cpp */;
+			targetProxy = 8D5ED142A7174B7690F86FB8 /* PBXContainerItemProxy */;
+		};
+		523BE2EA07CC41308B9C4911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE62119D01B4EFCB567185F /* trajectory_msgs__cpp */;
+			targetProxy = F57838F0FDB2413BB898FBC7 /* PBXContainerItemProxy */;
+		};
+		54103AAEB8884B33B1244421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13517A3D7894828B57D9622 /* ALL_BUILD */;
+			targetProxy = 8A3600ED250C4B4286D6261C /* PBXContainerItemProxy */;
+		};
+		5487AC726FA14FAA8BA0CBD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B104C81A576A4B02996CC692 /* trajectory_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = 0FB32F34D9924F93BDFD24E7 /* PBXContainerItemProxy */;
+		};
+		5D61BA9FF29A4AEAB650A1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = 73921809C46E476E9B446D62 /* PBXContainerItemProxy */;
+		};
+		6AA7C6DE12C44338A20E5A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = CB03C5687FFE4843BEC88792 /* PBXContainerItemProxy */;
+		};
+		6B001924EC0A450882980650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = E53CC3AF60DE47DB953A08B0 /* PBXContainerItemProxy */;
+		};
+		6C9F1ACCDE884114AA0FFD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53850B16D8D44A168B5B3EE8 /* trajectory_msgs__rosidl_typesupport_cpp */;
+			targetProxy = 908F6DDB0AAB4E76AD21945A /* PBXContainerItemProxy */;
+		};
+		71F1037F2A7340E682A7EDA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2B5F47ED414BE38327BAEA /* trajectory_msgs__rosidl_typesupport_c */;
+			targetProxy = 5C2C078AA1C74AB8AD3B1116 /* PBXContainerItemProxy */;
+		};
+		79E043169CF2486A9DF50690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B05B81B5552493CB21DCE16 /* ROS_trajectory_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = FE64485A6C244A949B46DA3C /* PBXContainerItemProxy */;
+		};
+		7B25112066F84C8EB7E904E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1549C3A55D5543F1A943DF0F /* trajectory_msgs__rosidl_typesupport_introspection_cpp */;
+			targetProxy = 209D8A98352042D199810FB1 /* PBXContainerItemProxy */;
+		};
+		891A9ACA8BFD48EFB74309D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = B62BCE43706C4167A64EFBEF /* PBXContainerItemProxy */;
+		};
+		8E9BA86F6C384CF2BDED8F88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B104C81A576A4B02996CC692 /* trajectory_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = 0DDF91C27F814864B946FD9C /* PBXContainerItemProxy */;
+		};
+		90E45FBB8B104103BC8BBA3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B104C81A576A4B02996CC692 /* trajectory_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = B1A325E1B34D43108B9DD46A /* PBXContainerItemProxy */;
+		};
+		94614651322949E48FD0158A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = 546E96DBDE764AB3ADAF01DD /* PBXContainerItemProxy */;
+		};
+		9B2471AC939B4B578FD12976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = 56905B384E664030A075E22B /* PBXContainerItemProxy */;
+		};
+		A2CCF4042E934D7DBC5BC725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = 671A16DF97E541D583455ADE /* PBXContainerItemProxy */;
+		};
+		B0CA4E8B364942B88699C9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E218012982974D03A69A7268 /* trajectory_msgs__objc */;
+			targetProxy = 559CC0F0B71447B3A59EB570 /* PBXContainerItemProxy */;
+		};
+		BD9B553B45394F4C843C5AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ED141E752484125885EA1CD /* trajectory_msgs */;
+			targetProxy = C845FC643FA64A4DA4D7C8F5 /* PBXContainerItemProxy */;
+		};
+		C46FD2D585964CA68699EE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ED141E752484125885EA1CD /* trajectory_msgs */;
+			targetProxy = 68325C2D02A14F61B1CDB44E /* PBXContainerItemProxy */;
+		};
+		C6605A60547E4FDF9E246121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0567B2D579E2479F947F8092 /* trajectory_msgs__rosidl_generator_c */;
+			targetProxy = B9A33ECB4D2F427DA4E0F765 /* PBXContainerItemProxy */;
+		};
+		D25C8B863A5F4340B7F3303A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0567B2D579E2479F947F8092 /* trajectory_msgs__rosidl_generator_c */;
+			targetProxy = 902B0FAFA7064088ABE19A14 /* PBXContainerItemProxy */;
+		};
+		D2D2288386614EF58AD7EC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE62119D01B4EFCB567185F /* trajectory_msgs__cpp */;
+			targetProxy = 9640BC0D4A8D4DC6BF8A04CA /* PBXContainerItemProxy */;
+		};
+		D60E60EFF5B2426C93A4764A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2B5F47ED414BE38327BAEA /* trajectory_msgs__rosidl_typesupport_c */;
+			targetProxy = 9C6D8077447645D291E28572 /* PBXContainerItemProxy */;
+		};
+		DB7A9ED1746A47C0A5093324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0567B2D579E2479F947F8092 /* trajectory_msgs__rosidl_generator_c */;
+			targetProxy = DAFF58A717384FC59A668BFB /* PBXContainerItemProxy */;
+		};
+		E38317C556A54D46BB9AC890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1549C3A55D5543F1A943DF0F /* trajectory_msgs__rosidl_typesupport_introspection_cpp */;
+			targetProxy = 42F2F2A9D9B3461D887A5BD8 /* PBXContainerItemProxy */;
+		};
+		E5B20561C7694AEF8662C7AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1549C3A55D5543F1A943DF0F /* trajectory_msgs__rosidl_typesupport_introspection_cpp */;
+			targetProxy = 7E1041C916AB483381D6E25C /* PBXContainerItemProxy */;
+		};
+		EB80AFCA9CA94DC59698B200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A22E8928F1D446292604F7C /* ZERO_CHECK */;
+			targetProxy = EFBD59036DB544C7A165E508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13FD92131D1E45739AC9DEA6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_trajectory_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		19C8A39986114DE4B4EB16DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1C3729AA2D8D417BA6C0A314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_introspection_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1D6CDE1304114EEEBFBBB2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_introspection_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		20BE5768C9C04D77AE2DA42A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		24210325AD3C4600A06251DC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2AF2AA9BCFC347C68CA75A08 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_introspection_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2C45AC21E973447E80D745C3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2CF3137416D0406AB7FE876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2EB310AFA7D744E7A0204F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		34054BB5435E49C584213160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic    -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_cppd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		35B564335E584933B350685F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3876B749BAA5411088CE338C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		47F9E7650EC549C998D02453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4AEC5222207F406BB1299822 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_trajectory_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4B40CC58DF804A1AB695FF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4CE94415AC984986B6189E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_generator_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4DC90DFA1AF24904BB6AECA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4E1E22F218FC426AAC2FBF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		50C3547252FA4E06B02B4025 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		53DDFF52A9EA4B3D981BAB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Debug;
+		};
+		58146CDFD261415FB891BDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic    -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_introspection_cppd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		63596F57819943EE9DB6937C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = MinSizeRel;
+		};
+		6AD55ABDC870468F94FAAA7E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		71C4E6B16C2E45B2A71B0850 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		72F54FDCDD124A1C8488785D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7358672A80264856B8EE286F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_trajectory_msgs__rosidl_typesupport_introspection_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7641F1707D444A828536E272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_generator_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7866F7F0BAF7425582F1821B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7E0211D6AB374D168B075204 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		83419FE6EA2B4D18B7570C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		83CE4B3B56504FE1952A963E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		89C063FA276D40FDA45E9BEA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic        -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		99BFD5789F274F1887B438AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9C2055A1C5C34E74A9E867C6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_generator_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A10687ED637D4A539C575E13 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A3BCC4C17A7B4C9E8B06B309 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = RelWithDebInfo;
+		};
+		A4C0033C556D4BBDB5919FFC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_generator_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A502481A06664187B534EF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Release;
+		};
+		A8790062BFB2421689B78C3D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic        -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_introspection_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AC23B748D5B94366A830E8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_trajectory_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AD88292CD26541D39B496968 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AEACA1996BEC43E699DC2416 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic        -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B33678168F17452A8DF18DB4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B72B7B3BCFC04FD882D50B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B7A35E07B93648969EF80F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BBBDB214179A42B6A466861C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BDCA29CD6D3E430E80234D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C3A9E67D58B1454E9B2E3A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CE50A008D0A34D01900F7A9F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CFAD2AC0760F497EA3250E45 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D0E2DF19536C446F89A69D8E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D7744E5CA86448AEB18C9D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/trajectory_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic    -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = trajectory_msgs__rosidl_typesupport_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E436EAA3169C48148687FE01 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FEA13EFD1DD24E56B142423E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FEDA90D87C264F918DA4A9FA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/trajectory_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C53C4EC9EE4A15B3B0B5C6 /* Build configuration list for PBXNativeTarget "trajectory_msgs__rosidl_typesupport_introspection_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6CDE1304114EEEBFBBB2E7 /* Debug */,
+				4E1E22F218FC426AAC2FBF00 /* Release */,
+				6AD55ABDC870468F94FAAA7E /* MinSizeRel */,
+				2C45AC21E973447E80D745C3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		06BF5C225AFA4D69AAE4E952 /* Build configuration list for PBXAggregateTarget "trajectory_msgs__objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72B7B3BCFC04FD882D50B3B /* Debug */,
+				C3A9E67D58B1454E9B2E3A8E /* Release */,
+				CFAD2AC0760F497EA3250E45 /* MinSizeRel */,
+				AD88292CD26541D39B496968 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1873FC875176427191108526 /* Build configuration list for PBXProject "trajectory_msgs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DDFF52A9EA4B3D981BAB87 /* Debug */,
+				A502481A06664187B534EF19 /* Release */,
+				63596F57819943EE9DB6937C /* MinSizeRel */,
+				A3BCC4C17A7B4C9E8B06B309 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		43CCFF68C1904359BF3546A0 /* Build configuration list for PBXAggregateTarget "trajectory_msgs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB310AFA7D744E7A0204F02 /* Debug */,
+				19C8A39986114DE4B4EB16DB /* Release */,
+				7866F7F0BAF7425582F1821B /* MinSizeRel */,
+				B33678168F17452A8DF18DB4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E60D2F7FBAE4B89A7F22D04 /* Build configuration list for PBXNativeTarget "trajectory_msgs__rosidl_typesupport_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7744E5CA86448AEB18C9D6D /* Debug */,
+				99BFD5789F274F1887B438AC /* Release */,
+				D0E2DF19536C446F89A69D8E /* MinSizeRel */,
+				AEACA1996BEC43E699DC2416 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FD9344AD79F4842925292DA /* Build configuration list for PBXNativeTarget "trajectory_msgs__rosidl_generator_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7641F1707D444A828536E272 /* Debug */,
+				4CE94415AC984986B6189E2D /* Release */,
+				A4C0033C556D4BBDB5919FFC /* MinSizeRel */,
+				9C2055A1C5C34E74A9E867C6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		95ADBA0C7C284F7CA2A4794E /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F54FDCDD124A1C8488785D /* Debug */,
+				83419FE6EA2B4D18B7570C76 /* Release */,
+				71C4E6B16C2E45B2A71B0850 /* MinSizeRel */,
+				24210325AD3C4600A06251DC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B33A1D01029847EBB1501522 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B40CC58DF804A1AB695FF03 /* Debug */,
+				4DC90DFA1AF24904BB6AECA2 /* Release */,
+				A10687ED637D4A539C575E13 /* MinSizeRel */,
+				35B564335E584933B350685F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB10D75D032A4B95871BB8B2 /* Build configuration list for PBXNativeTarget "trajectory_msgs__rosidl_typesupport_introspection_cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58146CDFD261415FB891BDF3 /* Debug */,
+				1C3729AA2D8D417BA6C0A314 /* Release */,
+				2AF2AA9BCFC347C68CA75A08 /* MinSizeRel */,
+				A8790062BFB2421689B78C3D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CBA993283778464B94628183 /* Build configuration list for PBXAggregateTarget "trajectory_msgs__cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBDB214179A42B6A466861C /* Debug */,
+				47F9E7650EC549C998D02453 /* Release */,
+				CE50A008D0A34D01900F7A9F /* MinSizeRel */,
+				50C3547252FA4E06B02B4025 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E82CC059ADF34BDA8AB53AEF /* Build configuration list for PBXNativeTarget "ROS_trajectory_msgs__rosidl_typesupport_introspection_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7358672A80264856B8EE286F /* Debug */,
+				AC23B748D5B94366A830E8DA /* Release */,
+				4AEC5222207F406BB1299822 /* MinSizeRel */,
+				13FD92131D1E45739AC9DEA6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F6B284EB902348848E19932E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CE4B3B56504FE1952A963E /* Debug */,
+				B7A35E07B93648969EF80F78 /* Release */,
+				FEDA90D87C264F918DA4A9FA /* MinSizeRel */,
+				20BE5768C9C04D77AE2DA42A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9A13941B6654E1180EE710E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA13EFD1DD24E56B142423E /* Debug */,
+				BDCA29CD6D3E430E80234D23 /* Release */,
+				E436EAA3169C48148687FE01 /* MinSizeRel */,
+				3876B749BAA5411088CE338C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB428C8B8B114B2BA41094A3 /* Build configuration list for PBXNativeTarget "trajectory_msgs__rosidl_typesupport_cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34054BB5435E49C584213160 /* Debug */,
+				2CF3137416D0406AB7FE876F /* Release */,
+				7E0211D6AB374D168B075204 /* MinSizeRel */,
+				89C063FA276D40FDA45E9BEA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34606E9E5DBB413DBD9267D2 /* Project object */;
+}

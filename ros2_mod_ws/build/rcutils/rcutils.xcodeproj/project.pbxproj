@@ -1,0 +1,1070 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		16D31BD44FAF4B79A12A96EE /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3EACA28CB34142B6BE3E35F5 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				90182038BFEB4AF0BC1B18C2 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				628EC91AB42D4348991988EE /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		7B55893C5838487FA65CF0A5 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0EA11D5320C048218A3602E4 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				C767E56FC99041968ED749E2 /* CMake Rules */,
+			);
+			dependencies = (
+				6D7132A23662429CB6EBAC45 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		DEA7B570E1D14FB785624854 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B9CBF6AD94D448CB9189511 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				DBC6433E523743E59F280988 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F5B7FEB7BAE84B4EB1A0FA88 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51169197445F4D82B14AD90B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3A903B5817E74CB7BAB25868 /* CMake Rules */,
+			);
+			dependencies = (
+				CA46A5F84D23453BBECC7F81 /* PBXTargetDependency */,
+				FA800FD4EB2443F2AC43B6DE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A4B752A849A4A9AADAD531A /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/cmdline_parser.c */ = {isa = PBXBuildFile; fileRef = A122688240F442F8A3F01132 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/cmdline_parser.c */; };
+		34735E1B4F564F97BEC6FBC0 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/string_map.c */ = {isa = PBXBuildFile; fileRef = D543E8347DB14A258D8C4FB5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/string_map.c */; };
+		3A0D8F3709474DD7A8A372E1 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/error_handling.c */ = {isa = PBXBuildFile; fileRef = C86D30DF4FA742DC957C6276 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/error_handling.c */; };
+		402CF878B8F345388F9332F2 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/split.c */ = {isa = PBXBuildFile; fileRef = C55E5FD80B704FB48D4A5DBB /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/split.c */; };
+		4FFE5F92B3B14FE0AC9BE868 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/time_unix.c */ = {isa = PBXBuildFile; fileRef = E2B0EB91EFBD4EB9A54079E9 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/time_unix.c */; };
+		603EB8A97BC44B6B8085255F /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/repl_str.c */ = {isa = PBXBuildFile; fileRef = EA4B33E461474D75974716A3 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/repl_str.c */; };
+		61996371199A485084A67029 /* /Users/lbajo/ros2_mod_ws/build/rcutils/include/rcutils/logging_macros.h.rule */ = {isa = PBXBuildFile; fileRef = 834EDECF409C4819897F0719 /* /Users/lbajo/ros2_mod_ws/build/rcutils/include/rcutils/logging_macros.h.rule */; };
+		753DB3C14FBC4E0EB825F372 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/get_env.c */ = {isa = PBXBuildFile; fileRef = 6843ED060BB546A3A0E423A5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/get_env.c */; };
+		78AF2C5A06DB4FBCB4BFF757 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/find.c */ = {isa = PBXBuildFile; fileRef = 6797B8A2631A410AB684F1CF /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/find.c */; };
+		7F3574B80796493999657463 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/format_string.c */ = {isa = PBXBuildFile; fileRef = 400576138ADE4768AA3F0B47 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/format_string.c */; };
+		9259001E64F84D94AB592CA9 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/strdup.c */ = {isa = PBXBuildFile; fileRef = 2167C26144BA432A9816F832 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/strdup.c */; };
+		94AAF28372B64946B21BAA94 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/logging.c */ = {isa = PBXBuildFile; fileRef = 8B8FA467D1B8445FA7E62259 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/logging.c */; };
+		A0D5883BE1374AAB8260D59F /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/time.c */ = {isa = PBXBuildFile; fileRef = 8FBAA6B9CF0A4404A3219957 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/time.c */; };
+		A2A10F96103643DCA2A76DBA /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5E4097ECCEC540ADBA43F9F0 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/CMakeLists.txt */; };
+		BC7462CA889141D7A2E18BB7 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/string_array.c */ = {isa = PBXBuildFile; fileRef = 4CC6B9925FE34F7BA5216E1D /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/string_array.c */; };
+		C56AD7C1292A4BCDA0F2E298 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/snprintf.c */ = {isa = PBXBuildFile; fileRef = E8F6BDF789CD41ABB5FF4310 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/snprintf.c */; };
+		CE15C9FE7A1A4F039AB187E5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/allocator.c */ = {isa = PBXBuildFile; fileRef = 9E0E5316DF394247A4059776 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/allocator.c */; };
+		D0EEF81972C746F7B99CD9C5 /* /Users/lbajo/ros2_mod_ws/build/rcutils/include/rcutils/logging_macros.h */ = {isa = PBXBuildFile; fileRef = AC2C8063CD9D4C8C800017A4 /* /Users/lbajo/ros2_mod_ws/build/rcutils/include/rcutils/logging_macros.h */; };
+		D1BA1EEFB6BF4F2B82AE2589 /* /Users/lbajo/ros2_mod_ws/build/rcutils/CMakeFiles/rcutils.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 0E344A1E049E4730BCF5694B /* /Users/lbajo/ros2_mod_ws/build/rcutils/CMakeFiles/rcutils.dir/Info.plist */; };
+		D284E7169DC64BB490479DC8 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/filesystem.c */ = {isa = PBXBuildFile; fileRef = A025D1925BCC4D68BB7DB45C /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/filesystem.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		10EE9E7C2B4C473D86A85A7E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		612409F2D7E34ADEBB417BBD /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CD507A64C5A24330953D712B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F230F42143A64C9AAD8022DD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5BDCDFB76A43A8A7A344D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59876912EF5C4C6FB478ADF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B7FEB7BAE84B4EB1A0FA88;
+			remoteInfo = ALL_BUILD;
+		};
+		47F1FF49F72D4B6F98A523FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59876912EF5C4C6FB478ADF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DE8FB0A4064753A981D4E0;
+			remoteInfo = rcutils;
+		};
+		591F97DB7C7F45758F91B4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59876912EF5C4C6FB478ADF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA7B570E1D14FB785624854;
+			remoteInfo = ZERO_CHECK;
+		};
+		7433401FF8CD4C98A922EF01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59876912EF5C4C6FB478ADF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA7B570E1D14FB785624854;
+			remoteInfo = ZERO_CHECK;
+		};
+		DC338597BD6B4E009F6B3491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59876912EF5C4C6FB478ADF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA7B570E1D14FB785624854;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E344A1E049E4730BCF5694B /* /Users/lbajo/ros2_mod_ws/build/rcutils/CMakeFiles/rcutils.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../build/rcutils/CMakeFiles/rcutils.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		2167C26144BA432A9816F832 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/strdup.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = strdup.c; path = src/strdup.c; sourceTree = SOURCE_ROOT; };
+		33CEC8E1122840908A71DAB3 /* rcutils */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = librcutilsd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		400576138ADE4768AA3F0B47 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/format_string.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = format_string.c; path = src/format_string.c; sourceTree = SOURCE_ROOT; };
+		4CC6B9925FE34F7BA5216E1D /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/string_array.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = string_array.c; path = src/string_array.c; sourceTree = SOURCE_ROOT; };
+		5E4097ECCEC540ADBA43F9F0 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6797B8A2631A410AB684F1CF /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/find.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = find.c; path = src/find.c; sourceTree = SOURCE_ROOT; };
+		6843ED060BB546A3A0E423A5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/get_env.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = get_env.c; path = src/get_env.c; sourceTree = SOURCE_ROOT; };
+		834EDECF409C4819897F0719 /* /Users/lbajo/ros2_mod_ws/build/rcutils/include/rcutils/logging_macros.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = logging_macros.h.rule; path = ../../../build/rcutils/include/rcutils/logging_macros.h.rule; sourceTree = SOURCE_ROOT; };
+		8B8FA467D1B8445FA7E62259 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/logging.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = logging.c; path = src/logging.c; sourceTree = SOURCE_ROOT; };
+		8FBAA6B9CF0A4404A3219957 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = time.c; path = src/time.c; sourceTree = SOURCE_ROOT; };
+		9E0E5316DF394247A4059776 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/allocator.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = allocator.c; path = src/allocator.c; sourceTree = SOURCE_ROOT; };
+		A025D1925BCC4D68BB7DB45C /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/filesystem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filesystem.c; path = src/filesystem.c; sourceTree = SOURCE_ROOT; };
+		A122688240F442F8A3F01132 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/cmdline_parser.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cmdline_parser.c; path = src/cmdline_parser.c; sourceTree = SOURCE_ROOT; };
+		AC2C8063CD9D4C8C800017A4 /* /Users/lbajo/ros2_mod_ws/build/rcutils/include/rcutils/logging_macros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logging_macros.h; path = ../../../build/rcutils/include/rcutils/logging_macros.h; sourceTree = SOURCE_ROOT; };
+		C55E5FD80B704FB48D4A5DBB /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/split.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = split.c; path = src/split.c; sourceTree = SOURCE_ROOT; };
+		C86D30DF4FA742DC957C6276 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/error_handling.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = error_handling.c; path = src/error_handling.c; sourceTree = SOURCE_ROOT; };
+		D010A9163BFF44C8B68C6011 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D543E8347DB14A258D8C4FB5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/string_map.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = string_map.c; path = src/string_map.c; sourceTree = SOURCE_ROOT; };
+		E2B0EB91EFBD4EB9A54079E9 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/time_unix.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = time_unix.c; path = src/time_unix.c; sourceTree = SOURCE_ROOT; };
+		E8F6BDF789CD41ABB5FF4310 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/snprintf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = snprintf.c; path = src/snprintf.c; sourceTree = SOURCE_ROOT; };
+		EA4B33E461474D75974716A3 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/repl_str.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = repl_str.c; path = src/repl_str.c; sourceTree = SOURCE_ROOT; };
+		F0AF75D69A9F4BBD96B5B251 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0371CA9FF2A04BD898B99235 /* rcutils */ = {
+			isa = PBXGroup;
+			children = (
+				362A3E4869A44F6C9313520D /* Source Files */,
+				7408EB033D8249D182934D2F /* Header Files */,
+				75B0453106D84D399462004D /* CMake Rules */,
+				27275CBC53A546A1897D0B33 /* Resources */,
+				5E4097ECCEC540ADBA43F9F0 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/CMakeLists.txt */,
+			);
+			name = rcutils;
+			sourceTree = "<group>";
+		};
+		27275CBC53A546A1897D0B33 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E344A1E049E4730BCF5694B /* /Users/lbajo/ros2_mod_ws/build/rcutils/CMakeFiles/rcutils.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		34EBF9EFC2724AF694C64BF8 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5AFD19FDC3F145CCB4601577 /* CMake Rules */,
+				D010A9163BFF44C8B68C6011 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		362A3E4869A44F6C9313520D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E0E5316DF394247A4059776 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/allocator.c */,
+				A122688240F442F8A3F01132 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/cmdline_parser.c */,
+				C86D30DF4FA742DC957C6276 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/error_handling.c */,
+				A025D1925BCC4D68BB7DB45C /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/filesystem.c */,
+				6797B8A2631A410AB684F1CF /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/find.c */,
+				400576138ADE4768AA3F0B47 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/format_string.c */,
+				6843ED060BB546A3A0E423A5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/get_env.c */,
+				8B8FA467D1B8445FA7E62259 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/logging.c */,
+				EA4B33E461474D75974716A3 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/repl_str.c */,
+				E8F6BDF789CD41ABB5FF4310 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/snprintf.c */,
+				C55E5FD80B704FB48D4A5DBB /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/split.c */,
+				2167C26144BA432A9816F832 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/strdup.c */,
+				4CC6B9925FE34F7BA5216E1D /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/string_array.c */,
+				D543E8347DB14A258D8C4FB5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/string_map.c */,
+				8FBAA6B9CF0A4404A3219957 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/time.c */,
+				E2B0EB91EFBD4EB9A54079E9 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/time_unix.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4F22DB139C8D47EE8FB38D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CEC8E1122840908A71DAB3 /* rcutils */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B3C4D1D42A496DA895B52F /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				8D215CD9C68F4D14899AD89D /* CMake Rules */,
+				F0AF75D69A9F4BBD96B5B251 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		5AFD19FDC3F145CCB4601577 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7408EB033D8249D182934D2F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C8063CD9D4C8C800017A4 /* /Users/lbajo/ros2_mod_ws/build/rcutils/include/rcutils/logging_macros.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		75B0453106D84D399462004D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				834EDECF409C4819897F0719 /* /Users/lbajo/ros2_mod_ws/build/rcutils/include/rcutils/logging_macros.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8D215CD9C68F4D14899AD89D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9B291DA4C1924E85A98E960F = {
+			isa = PBXGroup;
+			children = (
+				0371CA9FF2A04BD898B99235 /* rcutils */,
+				52B3C4D1D42A496DA895B52F /* uninstall */,
+				34EBF9EFC2724AF694C64BF8 /* ALL_BUILD */,
+				4F22DB139C8D47EE8FB38D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DE8FB0A4064753A981D4E0 /* rcutils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7527A22C534D24AD7AC74A /* Build configuration list for PBXNativeTarget "rcutils" */;
+			buildPhases = (
+				590A04A550FE47B3A969FE84 /* CMake Rules */,
+				2E437E7BC8DC479480ADE948 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89994D8C65F547208F73BDDE /* PBXTargetDependency */,
+			);
+			name = rcutils;
+			productName = rcutils;
+			productReference = 33CEC8E1122840908A71DAB3 /* rcutils */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59876912EF5C4C6FB478ADF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = BEE30A7301E1483C970FF668 /* Build configuration list for PBXProject "rcutils" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				612409F2D7E34ADEBB417BBD /* Debug */,
+				F230F42143A64C9AAD8022DD /* Release */,
+				CD507A64C5A24330953D712B /* MinSizeRel */,
+				10EE9E7C2B4C473D86A85A7E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9B291DA4C1924E85A98E960F;
+			projectDirPath = /Users/lbajo/ros2_mod_ws/src/ros2/rcutils;
+			projectRoot = "";
+			targets = (
+				F5B7FEB7BAE84B4EB1A0FA88 /* ALL_BUILD */,
+				DEA7B570E1D14FB785624854 /* ZERO_CHECK */,
+				16D31BD44FAF4B79A12A96EE /* install */,
+				A2DE8FB0A4064753A981D4E0 /* rcutils */,
+				7B55893C5838487FA65CF0A5 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08104B4A8BE54AFB9534897C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		10CF239261604934B9A2CB7D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		288A5679264042F2BD4D683F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3A903B5817E74CB7BAB25868 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/rcutils -f /Users/lbajo/ros2_mod_ws/build/rcutils/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		590A04A550FE47B3A969FE84 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/rcutils -f /Users/lbajo/ros2_mod_ws/build/rcutils/CMakeScripts/rcutils_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		90182038BFEB4AF0BC1B18C2 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/rcutils -f /Users/lbajo/ros2_mod_ws/build/rcutils/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A640A78344D941B8B94A1E11 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C767E56FC99041968ED749E2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/rcutils -f /Users/lbajo/ros2_mod_ws/build/rcutils/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DBC6433E523743E59F280988 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/rcutils -f /Users/lbajo/ros2_mod_ws/build/rcutils/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E437E7BC8DC479480ADE948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE15C9FE7A1A4F039AB187E5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/allocator.c */,
+				0A4B752A849A4A9AADAD531A /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/cmdline_parser.c */,
+				3A0D8F3709474DD7A8A372E1 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/error_handling.c */,
+				D284E7169DC64BB490479DC8 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/filesystem.c */,
+				78AF2C5A06DB4FBCB4BFF757 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/find.c */,
+				7F3574B80796493999657463 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/format_string.c */,
+				753DB3C14FBC4E0EB825F372 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/get_env.c */,
+				94AAF28372B64946B21BAA94 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/logging.c */,
+				603EB8A97BC44B6B8085255F /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/repl_str.c */,
+				C56AD7C1292A4BCDA0F2E298 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/snprintf.c */,
+				402CF878B8F345388F9332F2 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/split.c */,
+				9259001E64F84D94AB592CA9 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/strdup.c */,
+				BC7462CA889141D7A2E18BB7 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/string_array.c */,
+				34735E1B4F564F97BEC6FBC0 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/string_map.c */,
+				A0D5883BE1374AAB8260D59F /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/time.c */,
+				4FFE5F92B3B14FE0AC9BE868 /* /Users/lbajo/ros2_mod_ws/src/ros2/rcutils/src/time_unix.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		628EC91AB42D4348991988EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B7FEB7BAE84B4EB1A0FA88 /* ALL_BUILD */;
+			targetProxy = 2B5BDCDFB76A43A8A7A344D1 /* PBXContainerItemProxy */;
+		};
+		6D7132A23662429CB6EBAC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA7B570E1D14FB785624854 /* ZERO_CHECK */;
+			targetProxy = 7433401FF8CD4C98A922EF01 /* PBXContainerItemProxy */;
+		};
+		89994D8C65F547208F73BDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA7B570E1D14FB785624854 /* ZERO_CHECK */;
+			targetProxy = DC338597BD6B4E009F6B3491 /* PBXContainerItemProxy */;
+		};
+		CA46A5F84D23453BBECC7F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DE8FB0A4064753A981D4E0 /* rcutils */;
+			targetProxy = 47F1FF49F72D4B6F98A523FA /* PBXContainerItemProxy */;
+		};
+		FA800FD4EB2443F2AC43B6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA7B570E1D14FB785624854 /* ZERO_CHECK */;
+			targetProxy = 591F97DB7C7F45758F91B4CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0015BCD01BFF4ECEABCE4B1F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0C959972EE8F4CA8AE3BA0E6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		16CDAD31D3B54996BA931C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2B36A33CED854FEC91ACFB6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2DEF2438C4814F05AC8CC3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		42679EC74BD0427182A1C2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4A1873643E4A43EFACC92D52 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4D4DC40EFC0B42959B3FBEA5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = RelWithDebInfo;
+		};
+		53F76B45596A4FC4A846F52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6A10BBC877824B988DE517E3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RCUTILS_BUILDING_DLL,"'ROS_PACKAGE_NAME=\"rcutils\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/src/ros2/rcutils/include,/Users/lbajo/ros2_mod_ws/build/rcutils/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wpedantic     -DNDEBUG '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rcutils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6B8C15BC4EC14DFD910456B0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RCUTILS_BUILDING_DLL,"'ROS_PACKAGE_NAME=\"rcutils\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/src/ros2/rcutils/include,/Users/lbajo/ros2_mod_ws/build/rcutils/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wpedantic        -DNDEBUG '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rcutils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		758759EEEB4B4BEEA6755D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RCUTILS_BUILDING_DLL,"'ROS_PACKAGE_NAME=\"rcutils\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/src/ros2/rcutils/include,/Users/lbajo/ros2_mod_ws/build/rcutils/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wpedantic    '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rcutilsd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7F2C05F719AA46FEBC44BA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		838B95A1042449D69326AA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		927F8D02719E46028E072938 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		98A1DF39390641E797796884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Debug;
+		};
+		99CD3F389D954EE7B56D295F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9F091CBDCBB946358BFFE075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Release;
+		};
+		B7F6DE869B834A55A3EF64E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BF58944A38D64404B322822D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C1FB4A3FA13C48D0955E9F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RCUTILS_BUILDING_DLL,"'ROS_PACKAGE_NAME=\"rcutils\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/src/ros2/rcutils/include,/Users/lbajo/ros2_mod_ws/build/rcutils/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Wextra -Wpedantic     -DNDEBUG '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rcutils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C8A991FB38E94092809FEB2F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EE73695482614FD6ADBF255B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FA8985A08D864B098D65EEFB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rcutils/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA11D5320C048218A3602E4 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42679EC74BD0427182A1C2B5 /* Debug */,
+				2B36A33CED854FEC91ACFB6C /* Release */,
+				0C959972EE8F4CA8AE3BA0E6 /* MinSizeRel */,
+				BF58944A38D64404B322822D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3EACA28CB34142B6BE3E35F5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2C05F719AA46FEBC44BA8E /* Debug */,
+				2DEF2438C4814F05AC8CC3AE /* Release */,
+				99CD3F389D954EE7B56D295F /* MinSizeRel */,
+				927F8D02719E46028E072938 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		51169197445F4D82B14AD90B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CDAD31D3B54996BA931C77 /* Debug */,
+				838B95A1042449D69326AA58 /* Release */,
+				0015BCD01BFF4ECEABCE4B1F /* MinSizeRel */,
+				B7F6DE869B834A55A3EF64E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B9CBF6AD94D448CB9189511 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F76B45596A4FC4A846F52D /* Debug */,
+				EE73695482614FD6ADBF255B /* Release */,
+				4A1873643E4A43EFACC92D52 /* MinSizeRel */,
+				C8A991FB38E94092809FEB2F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D7527A22C534D24AD7AC74A /* Build configuration list for PBXNativeTarget "rcutils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758759EEEB4B4BEEA6755D14 /* Debug */,
+				C1FB4A3FA13C48D0955E9F86 /* Release */,
+				6A10BBC877824B988DE517E3 /* MinSizeRel */,
+				6B8C15BC4EC14DFD910456B0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BEE30A7301E1483C970FF668 /* Build configuration list for PBXProject "rcutils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A1DF39390641E797796884 /* Debug */,
+				9F091CBDCBB946358BFFE075 /* Release */,
+				FA8985A08D864B098D65EEFB /* MinSizeRel */,
+				4D4DC40EFC0B42959B3FBEA5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59876912EF5C4C6FB478ADF8 /* Project object */;
+}

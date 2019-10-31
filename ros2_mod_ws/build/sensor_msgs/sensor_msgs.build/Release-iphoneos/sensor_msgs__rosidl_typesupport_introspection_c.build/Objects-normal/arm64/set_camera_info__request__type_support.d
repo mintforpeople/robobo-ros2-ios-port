@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_typesupport_introspection_c/sensor_msgs/srv/set_camera_info__request__type_support.c \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_typesupport_introspection_c/sensor_msgs/srv/set_camera_info__request__rosidl_typesupport_introspection_c.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/message_type_support_struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_interface/macros.h \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_typesupport_introspection_c/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_c/field_types.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_c/identifier.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_c/visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_c/message_introspection.h \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_generator_c/sensor_msgs/srv/set_camera_info__request__struct.h \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_generator_c/sensor_msgs/msg/camera_info__struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/std_msgs/msg/header__struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/time__struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/string.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/primitives_array.h \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_generator_c/sensor_msgs/msg/region_of_interest__struct.h \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_generator_c/sensor_msgs/msg/camera_info.h \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_generator_c/sensor_msgs/msg/camera_info__functions.h \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_generator_c/sensor_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_generator_c/sensor_msgs/msg/camera_info__type_support.h \
+  /Users/lbajo/ros2_mod_ws/build/sensor_msgs/rosidl_typesupport_introspection_c/sensor_msgs/msg/camera_info__rosidl_typesupport_introspection_c.h

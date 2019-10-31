@@ -1,0 +1,2871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		355E07D01612426197524BAE /* stereo_msgs__objc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DE54EC7C76214D16B868FA7C /* Build configuration list for PBXAggregateTarget "stereo_msgs__objc" */;
+			buildPhases = (
+				B33B8CE1A2CD4EFCA5E7A39F /* CMake Rules */,
+			);
+			dependencies = (
+				2EC74739703C4A3681606CD1 /* PBXTargetDependency */,
+			);
+			name = stereo_msgs__objc;
+			productName = stereo_msgs__objc;
+		};
+		45925F225FFF4A4A93FBE805 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1CE1CB9EA4D043B3A851D6F7 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				9516F1FD2380424C98B8FC6D /* CMake Rules */,
+			);
+			dependencies = (
+				75CE73D21B7C48E79CDCF872 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		968472DDABC84187986C2321 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6184D79DFE114D3F916DC0AE /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				F1CB009E8D2743DF8EDB6587 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				901A11D26C1143A1B41A9AE2 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		B409D5CFD71542B9844BEF89 /* stereo_msgs__cpp */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D6DBE09D157F41E1A2BC520F /* Build configuration list for PBXAggregateTarget "stereo_msgs__cpp" */;
+			buildPhases = (
+				3157C851DE3B4864965D2520 /* CMake Rules */,
+			);
+			dependencies = (
+				32E0C178C8FB4B66B53464E4 /* PBXTargetDependency */,
+			);
+			name = stereo_msgs__cpp;
+			productName = stereo_msgs__cpp;
+		};
+		CB549E3294A7426FB5CEDA8A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4727B3BEA840425981F6D852 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4B8D467101304609B989B694 /* CMake Rules */,
+			);
+			dependencies = (
+				BB0A85D6B0C54ABEA523EEAD /* PBXTargetDependency */,
+				5BFF7016E042428B86CF58C4 /* PBXTargetDependency */,
+				A66EB4D0B54543F8BFD72929 /* PBXTargetDependency */,
+				256DEE4E4DE54C7CA830FC4B /* PBXTargetDependency */,
+				869138C100D54959A21426F2 /* PBXTargetDependency */,
+				74AFDD56D9DE40D6B7E404D8 /* PBXTargetDependency */,
+				76D95FD184194DEFBADB4F8F /* PBXTargetDependency */,
+				6E5ACF6C4AB0456FB2C97A6B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D2EF959B46404E62915795EC /* stereo_msgs */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6FD0254CF34D412A9C705F34 /* Build configuration list for PBXAggregateTarget "stereo_msgs" */;
+			buildPhases = (
+				47BCED22351E4EB9A77EC215 /* CMake Rules */,
+			);
+			dependencies = (
+				937545610C63425CB5F6F4E6 /* PBXTargetDependency */,
+				82F229D2653942DF9ECF44AE /* PBXTargetDependency */,
+				057D07BAE9BB4261B372D42D /* PBXTargetDependency */,
+				B6A178EA87B8434CAF083D9C /* PBXTargetDependency */,
+				12C3C441F2D54FD5B1EFC96D /* PBXTargetDependency */,
+				D6C0E0BFCF05403A8A2AA62C /* PBXTargetDependency */,
+				7EF7F94FBFBD4463BBE8D087 /* PBXTargetDependency */,
+				F6ED28E6FE86435CAFFD373C /* PBXTargetDependency */,
+			);
+			name = stereo_msgs;
+			productName = stereo_msgs;
+		};
+		DCD368F03040426F91C8E222 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DD6B4DA93C474AD59508BDCC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F25F1656D0574CAFB11BA8DA /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		046857DCB1C743B0A0249E23 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_c.h.rule */ = {isa = PBXBuildFile; fileRef = 39C50C1F3DA34E019CD18987 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_c.h.rule */; };
+		04DFCF3E6B5046559D1DC19E /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXBuildFile; fileRef = AA21583835274BED9096F9B6 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_cpp.hpp */; };
+		08FF47D2BE1E4CB4B8403D24 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_c.h */ = {isa = PBXBuildFile; fileRef = F00785FB1EBF42F4BD5123E2 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_c.h */; };
+		0E469A0A6AD0479B85CCCE72 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 37DA6982314E4F32BFEBC3F4 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */; };
+		19354FC2686D441285F4418E /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 92606C9467E046E08DEAAC9C /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/Info.plist */; };
+		1A2B0FDCE7AA4D4A9D7C51B5 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/ROS_stereo_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 3E7E504CF3DD48D2BCF5A8CC /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/ROS_stereo_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */; };
+		2E9DE494A96B4F7BBBBBBCE4 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.rule */ = {isa = PBXBuildFile; fileRef = CCF32496D21446C2A645EF1B /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.rule */; };
+		349BECFEC66348A59B66A325 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXBuildFile; fileRef = 41EF5B1F587B4EB1AE4C1766 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage_s.ep.rosidl_typesupport_introspection_c.m */; };
+		449940742ACC485288F0586D /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image.h */ = {isa = PBXBuildFile; fileRef = 0D44062F4D8943BCB64C1BA9 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image.h */; };
+		4DFD75258BA14FCC9CF745D6 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_generator_c.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 6E45DB79A15644C7B5D10833 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_generator_c.dir/Info.plist */; };
+		55473B1E63E04E7E8F0FF2CA /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__type_support.h */ = {isa = PBXBuildFile; fileRef = EFC4AD07F3384C92833D5FDF /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__type_support.h */; };
+		6A1B6039A56342089EE533B3 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 377A3A59194B4C5885F39AFB /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp */; };
+		6B237733D7EC4F83BCC2C02A /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_cpp.hpp.rule */ = {isa = PBXBuildFile; fileRef = F29ABF22C37042A3B211542C /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_cpp.hpp.rule */; };
+		6EC31D8DEB1F41EB993DC71F /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__type_support.c */ = {isa = PBXBuildFile; fileRef = B3E4E4F726D84E69BB8EA34E /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__type_support.c */; };
+		76E00CD3C307495BA50A9D1D /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */ = {isa = PBXBuildFile; fileRef = 617B6FC196C146909EF16C54 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */; };
+		790CFC0D1C7C4D3EBFD3B4DA /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CC9972F9B4054C8F833B69E9 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */; };
+		845F106A5DCA4DFA88A2675D /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.h */ = {isa = PBXBuildFile; fileRef = 533A9C05C42E4045846A5FF0 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.h */; };
+		89580652EBFA40ECA167246E /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.c */ = {isa = PBXBuildFile; fileRef = 4D05C019D8DF48DBA2FC52B5 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.c */; };
+		A09151CDE6B74CFDB3FD1D3D /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 5B91555FC2824CB2BF5D2D7B /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp */; };
+		A4042D81177F4B2DBC40E62C /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = FF7DDB2BDC3C4A3CAC0068C0 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */; };
+		A9993FF89E264EB79A0496EA /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B152D831EED2411CB8DB154A /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */; };
+		AB93B27C7C98460D88E545C7 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.rule */ = {isa = PBXBuildFile; fileRef = 728038371A3540AB8EEAFD3F /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.rule */; };
+		B5BE79620CE548319D40858E /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 21880F5D0A5E4D22B67C9368 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */; };
+		B851A03CA159413AB8B3127C /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage.h.rule */ = {isa = PBXBuildFile; fileRef = 748A8DFC66EE40DF97EA61AE /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage.h.rule */; };
+		B984D1169AD5433DB2107962 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image.h.rule */ = {isa = PBXBuildFile; fileRef = 35BB579C9CCC41A5BF070A72 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image.h.rule */; };
+		C2C6BEA4BEEE46D69CB280F0 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__type_support.cpp */ = {isa = PBXBuildFile; fileRef = 9A6CC76B8282401384E8086E /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__type_support.cpp */; };
+		CFBFED9D970C4EB6B123B242 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 240C283DAAC9466BABCB73C9 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */; };
+		DD2B73B871B4436DAFB91793 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__struct.h */ = {isa = PBXBuildFile; fileRef = 2CA877E74E9D4925B7B82421 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__struct.h */; };
+		DE19016DBC9748828CBA5BDD /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CE1E26A9BEDB4151A5785826 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */; };
+		E43BE34635AE4B28B115ADFB /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/rosidl_generator_c__visibility_control.h */ = {isa = PBXBuildFile; fileRef = 030E0A818A8E4471A9C645D8 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/rosidl_generator_c__visibility_control.h */; };
+		F04D4901751341B8A17A38E1 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E77DB8167DEA4480B09CFF97 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */; };
+		FF501D1C444545F1AC8B9BDE /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 21AE8A019A664F9DB3AE7BFB /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0D96C2E2C5FC4E058F1E9A8C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		2FF0025BC7574DA7A8B4DF59 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		7665039CD3994379A5F495E7 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CBF4B4BA1C644502B67E93DD /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		01414AEC6E3344D992350059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6315A15AC5834A54AD9C1836;
+			remoteInfo = stereo_msgs__rosidl_generator_c;
+		};
+		016AE18B7D50497EA8C0E37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		0D28F83F10C74D69BAC281AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		0E3AC8A63D874BBAA007C388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		0EC5FD6EA8574ABA9671396F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		18580C081C864DD6B73C9FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355E07D01612426197524BAE;
+			remoteInfo = stereo_msgs__objc;
+		};
+		1EC8300A592D4C2EB8807432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E600E8F63BDD414F9F90F2EF;
+			remoteInfo = stereo_msgs__rosidl_typesupport_c;
+		};
+		2142A906C3B945E3B032A522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363AC3E2367F4511AC0D19DB;
+			remoteInfo = stereo_msgs__rosidl_typesupport_introspection_cpp;
+		};
+		26722774C9A44B5D82591EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		2DF5025F7690498BB8C8AF42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB08A16BC5DB4CD08547831A;
+			remoteInfo = stereo_msgs__rosidl_typesupport_introspection_c;
+		};
+		315F35555A7341E19731F5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6315A15AC5834A54AD9C1836;
+			remoteInfo = stereo_msgs__rosidl_generator_c;
+		};
+		3D932FC9FFCA41A8A6825BBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB08A16BC5DB4CD08547831A;
+			remoteInfo = stereo_msgs__rosidl_typesupport_introspection_c;
+		};
+		41010FEB8604486C820EC294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		4565E854EFF548ACBE19AA2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2EF959B46404E62915795EC;
+			remoteInfo = stereo_msgs;
+		};
+		45AC4DEE985B4394940FEA1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B409D5CFD71542B9844BEF89;
+			remoteInfo = stereo_msgs__cpp;
+		};
+		4872A24096D44CC99597B50E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B409D5CFD71542B9844BEF89;
+			remoteInfo = stereo_msgs__cpp;
+		};
+		4B589E66E1804F068E0942E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B409D5CFD71542B9844BEF89;
+			remoteInfo = stereo_msgs__cpp;
+		};
+		51C3DC856E7D45DC88D670B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		533E274C29D744FA83827CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D3541DABE84E43A80A3450;
+			remoteInfo = stereo_msgs__rosidl_typesupport_cpp;
+		};
+		5EB00A9FA61C4C14A1150775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363AC3E2367F4511AC0D19DB;
+			remoteInfo = stereo_msgs__rosidl_typesupport_introspection_cpp;
+		};
+		6376E83872654059B7226EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6315A15AC5834A54AD9C1836;
+			remoteInfo = stereo_msgs__rosidl_generator_c;
+		};
+		67132A2D1EB94A3C9AC3B58A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355E07D01612426197524BAE;
+			remoteInfo = stereo_msgs__objc;
+		};
+		6C241055DC5041889751E34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D3541DABE84E43A80A3450;
+			remoteInfo = stereo_msgs__rosidl_typesupport_cpp;
+		};
+		76530FFD565846D78A3ED85E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6315A15AC5834A54AD9C1836;
+			remoteInfo = stereo_msgs__rosidl_generator_c;
+		};
+		8513CFAAF78242B6A7BDF185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363AC3E2367F4511AC0D19DB;
+			remoteInfo = stereo_msgs__rosidl_typesupport_introspection_cpp;
+		};
+		9084105AC4694E83A5B74D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E600E8F63BDD414F9F90F2EF;
+			remoteInfo = stereo_msgs__rosidl_typesupport_c;
+		};
+		921875FF8A74456AA3398984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		9367EE31890A43E294C25ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5599F264B04AAC98BE2976;
+			remoteInfo = ROS_stereo_msgs__rosidl_typesupport_introspection_c;
+		};
+		97E2A49CFF754CA49521E9B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		B1CC41D1531241A38382A280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2EF959B46404E62915795EC;
+			remoteInfo = stereo_msgs;
+		};
+		CF6EDB6DE3BF49AC97746694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		CFD047145D2F4BE2A8FDCFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6315A15AC5834A54AD9C1836;
+			remoteInfo = stereo_msgs__rosidl_generator_c;
+		};
+		D37635736135412DA135289C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB08A16BC5DB4CD08547831A;
+			remoteInfo = stereo_msgs__rosidl_typesupport_introspection_c;
+		};
+		DE6589A4CCB24DBEBC346F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB08A16BC5DB4CD08547831A;
+			remoteInfo = stereo_msgs__rosidl_typesupport_introspection_c;
+		};
+		E938507CD52B4DECA3D6517E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD368F03040426F91C8E222;
+			remoteInfo = ZERO_CHECK;
+		};
+		F91F19F20D3647E489DE62EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB549E3294A7426FB5CEDA8A;
+			remoteInfo = ALL_BUILD;
+		};
+		F9A08BB948E04E74940499EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A5A060A31D49EB9392F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E600E8F63BDD414F9F90F2EF;
+			remoteInfo = stereo_msgs__rosidl_typesupport_c;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030E0A818A8E4471A9C645D8 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/rosidl_generator_c__visibility_control.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rosidl_generator_c__visibility_control.h; path = ../../../../build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/rosidl_generator_c__visibility_control.h; sourceTree = SOURCE_ROOT; };
+		0D44062F4D8943BCB64C1BA9 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = disparity_image.h; path = ../../../../build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image.h; sourceTree = SOURCE_ROOT; };
+		21880F5D0A5E4D22B67C9368 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		21AE8A019A664F9DB3AE7BFB /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		240C283DAAC9466BABCB73C9 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2CA877E74E9D4925B7B82421 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__struct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = disparity_image__struct.h; path = ../../../../build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__struct.h; sourceTree = SOURCE_ROOT; };
+		35BB579C9CCC41A5BF070A72 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = disparity_image.h.rule; path = ../../../../build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image.h.rule; sourceTree = SOURCE_ROOT; };
+		377A3A59194B4C5885F39AFB /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = disparity_image__type_support.cpp; path = ../../../../build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		37DA6982314E4F32BFEBC3F4 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		39C50C1F3DA34E019CD18987 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_c.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = disparity_image__rosidl_typesupport_introspection_c.h.rule; path = ../../../../build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_c.h.rule; sourceTree = SOURCE_ROOT; };
+		3E7E504CF3DD48D2BCF5A8CC /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/ROS_stereo_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/stereo_msgs/CMakeFiles/ROS_stereo_msgs__rosidl_typesupport_introspection_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		41EF5B1F587B4EB1AE4C1766 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage_s.ep.rosidl_typesupport_introspection_c.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = DisparityImage_s.ep.rosidl_typesupport_introspection_c.m; path = ../../../../build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage_s.ep.rosidl_typesupport_introspection_c.m; sourceTree = SOURCE_ROOT; };
+		425C8A20F2474CFD949AC499 /* stereo_msgs__rosidl_typesupport_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libstereo_msgs__rosidl_typesupport_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D05C019D8DF48DBA2FC52B5 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = disparity_image__functions.c; path = ../../../../build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.c; sourceTree = SOURCE_ROOT; };
+		533A9C05C42E4045846A5FF0 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = disparity_image__functions.h; path = ../../../../build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.h; sourceTree = SOURCE_ROOT; };
+		596742D9F3DB4D84B87F1505 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5B91555FC2824CB2BF5D2D7B /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = disparity_image__type_support.cpp; path = ../../../../build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		5CC8BFF5E3C1414588BB5A3B /* stereo_msgs__rosidl_typesupport_cpp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libstereo_msgs__rosidl_typesupport_cppd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3E7524D64D42D99107A3CD /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		617B6FC196C146909EF16C54 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rosidl_typesupport_introspection_c__visibility_control.h; path = ../../../../build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h; sourceTree = SOURCE_ROOT; };
+		6E45DB79A15644C7B5D10833 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_generator_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_generator_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		728038371A3540AB8EEAFD3F /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = disparity_image__type_support.cpp.rule; path = ../../../../build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.rule; sourceTree = SOURCE_ROOT; };
+		748A8DFC66EE40DF97EA61AE /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DisparityImage.h.rule; path = ../../../../build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage.h.rule; sourceTree = SOURCE_ROOT; };
+		756D5DC45B3B418C8B963B29 /* stereo_msgs__rosidl_generator_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libstereo_msgs__rosidl_generator_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		92606C9467E046E08DEAAC9C /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		99A4D5852F4A4CB5A9419FDF /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9A6CC76B8282401384E8086E /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__type_support.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = disparity_image__type_support.cpp; path = ../../../../build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__type_support.cpp; sourceTree = SOURCE_ROOT; };
+		A60C452A71F44673B9EF4A22 /* ROS_stereo_msgs__rosidl_typesupport_introspection_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libROS_stereo_msgs__rosidl_typesupport_introspection_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA21583835274BED9096F9B6 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_cpp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = disparity_image__rosidl_typesupport_introspection_cpp.hpp; path = ../../../../build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_cpp.hpp; sourceTree = SOURCE_ROOT; };
+		AED950FBB1C140DE9A7A7C8E /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B152D831EED2411CB8DB154A /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B3E4E4F726D84E69BB8EA34E /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__type_support.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = disparity_image__type_support.c; path = ../../../../build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__type_support.c; sourceTree = SOURCE_ROOT; };
+		B4DDAB08C35945A281CCC885 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CC9972F9B4054C8F833B69E9 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CCF32496D21446C2A645EF1B /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = disparity_image__type_support.cpp.rule; path = ../../../../build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.rule; sourceTree = SOURCE_ROOT; };
+		CE1E26A9BEDB4151A5785826 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D8E7C6AA9DAC44C48E1395BA /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/msg/DisparityImage.msg */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = DisparityImage.msg; path = msg/DisparityImage.msg; sourceTree = SOURCE_ROOT; };
+		E4E2A98EBED74C6294C3AE68 /* stereo_msgs__rosidl_typesupport_introspection_cpp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libstereo_msgs__rosidl_typesupport_introspection_cppd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60F0AA8D9934092A11DECA7 /* stereo_msgs__rosidl_typesupport_introspection_c */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libstereo_msgs__rosidl_typesupport_introspection_cd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77DB8167DEA4480B09CFF97 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EFC4AD07F3384C92833D5FDF /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__type_support.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = disparity_image__type_support.h; path = ../../../../build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__type_support.h; sourceTree = SOURCE_ROOT; };
+		F00785FB1EBF42F4BD5123E2 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = disparity_image__rosidl_typesupport_introspection_c.h; path = ../../../../build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_c.h; sourceTree = SOURCE_ROOT; };
+		F29ABF22C37042A3B211542C /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_cpp.hpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = disparity_image__rosidl_typesupport_introspection_cpp.hpp.rule; path = ../../../../build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_cpp.hpp.rule; sourceTree = SOURCE_ROOT; };
+		FF7DDB2BDC3C4A3CAC0068C0 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		002E9726A3BF4D639DAE52D8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A6CC76B8282401384E8086E /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__type_support.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0C9ABFB4CD774CB4A49CEB37 /* stereo_msgs__rosidl_generator_c */ = {
+			isa = PBXGroup;
+			children = (
+				4D8174F3017E4933BCD5E4C0 /* Header Files */,
+				9A6299A4E00E4FBFB0EFCDB8 /* Source Files */,
+				466D4E3D923A4AD48A58513E /* CMake Rules */,
+				37DDAAAC402946F7A1B651DB /* Resources */,
+				E77DB8167DEA4480B09CFF97 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = stereo_msgs__rosidl_generator_c;
+			sourceTree = "<group>";
+		};
+		208CA7E461464DC2AE00AD51 /* stereo_msgs__rosidl_typesupport_introspection_cpp */ = {
+			isa = PBXGroup;
+			children = (
+				63C573EB029544AF80AFAA5C /* Header Files */,
+				002E9726A3BF4D639DAE52D8 /* Source Files */,
+				FEB3A29B867D4EFD8E562445 /* CMake Rules */,
+				8B3B5BDB96364BA292E80DF0 /* Resources */,
+				21880F5D0A5E4D22B67C9368 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = stereo_msgs__rosidl_typesupport_introspection_cpp;
+			sourceTree = "<group>";
+		};
+		232509A050FF46DA96321BBF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				41EF5B1F587B4EB1AE4C1766 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage_s.ep.rosidl_typesupport_introspection_c.m */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		37DDAAAC402946F7A1B651DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E45DB79A15644C7B5D10833 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_generator_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4005DC9D75844B098978D4E9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				CCF32496D21446C2A645EF1B /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		466D4E3D923A4AD48A58513E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				35BB579C9CCC41A5BF070A72 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4D8174F3017E4933BCD5E4C0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D44062F4D8943BCB64C1BA9 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image.h */,
+				533A9C05C42E4045846A5FF0 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.h */,
+				2CA877E74E9D4925B7B82421 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__struct.h */,
+				EFC4AD07F3384C92833D5FDF /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__type_support.h */,
+				030E0A818A8E4471A9C645D8 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/rosidl_generator_c__visibility_control.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		63C573EB029544AF80AFAA5C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA21583835274BED9096F9B6 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_cpp.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		670795CCAE434C56886B8077 /* stereo_msgs__objc */ = {
+			isa = PBXGroup;
+			children = (
+				DCF79B510E374662A33A6683 /* CMake Rules */,
+				AED950FBB1C140DE9A7A7C8E /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = stereo_msgs__objc;
+			sourceTree = "<group>";
+		};
+		67C7E00CAB9A4B099E9EA6EA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6BBD62D26F6746DAA05A609C /* stereo_msgs */ = {
+			isa = PBXGroup;
+			children = (
+				67C7E00CAB9A4B099E9EA6EA /* CMake Rules */,
+				D8E7C6AA9DAC44C48E1395BA /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/msg/DisparityImage.msg */,
+				596742D9F3DB4D84B87F1505 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = stereo_msgs;
+			sourceTree = "<group>";
+		};
+		7D0319E7A1864D20B392F6AC /* stereo_msgs__rosidl_typesupport_cpp */ = {
+			isa = PBXGroup;
+			children = (
+				C4A2F951B8934AF783491A15 /* Source Files */,
+				B5B09E6422B34062857EEAD3 /* CMake Rules */,
+				BF6E9CCC30794A7BA8694B0E /* Resources */,
+				240C283DAAC9466BABCB73C9 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = stereo_msgs__rosidl_typesupport_cpp;
+			sourceTree = "<group>";
+		};
+		7D9AA1B9722E4A82917C16D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E7E504CF3DD48D2BCF5A8CC /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/ROS_stereo_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B3B5BDB96364BA292E80DF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DDB2BDC3C4A3CAC0068C0 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_cpp.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8D32852CF4D04D949686FE71 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				377A3A59194B4C5885F39AFB /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9347F1CD60824C7697CDBDC1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB5BF87C5C423E96F870CF /* CMake Rules */,
+				5D3E7524D64D42D99107A3CD /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9667A0151A61421CA4E43A4B = {
+			isa = PBXGroup;
+			children = (
+				B71E2A9CF83F409EA3367E42 /* ROS_stereo_msgs__rosidl_typesupport_introspection_c */,
+				670795CCAE434C56886B8077 /* stereo_msgs__objc */,
+				FBBC0D87439A48F3BABA64CF /* stereo_msgs__cpp */,
+				0C9ABFB4CD774CB4A49CEB37 /* stereo_msgs__rosidl_generator_c */,
+				EFF63653F3E7442B9C9E7155 /* stereo_msgs__rosidl_typesupport_introspection_c */,
+				208CA7E461464DC2AE00AD51 /* stereo_msgs__rosidl_typesupport_introspection_cpp */,
+				7D0319E7A1864D20B392F6AC /* stereo_msgs__rosidl_typesupport_cpp */,
+				A5E748D9A88B4E12AE8F26E1 /* stereo_msgs__rosidl_typesupport_c */,
+				6BBD62D26F6746DAA05A609C /* stereo_msgs */,
+				C1513B94E84A474F92E39DA6 /* uninstall */,
+				9347F1CD60824C7697CDBDC1 /* ALL_BUILD */,
+				A204F0E8305E4CF29A720C0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A6299A4E00E4FBFB0EFCDB8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D05C019D8DF48DBA2FC52B5 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9B6705E139DD48CE98DD7C6C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3E4E4F726D84E69BB8EA34E /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__type_support.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9C89B88EB84240BC8A9C91EC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A204F0E8305E4CF29A720C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60C452A71F44673B9EF4A22 /* ROS_stereo_msgs__rosidl_typesupport_introspection_c */,
+				756D5DC45B3B418C8B963B29 /* stereo_msgs__rosidl_generator_c */,
+				425C8A20F2474CFD949AC499 /* stereo_msgs__rosidl_typesupport_c */,
+				5CC8BFF5E3C1414588BB5A3B /* stereo_msgs__rosidl_typesupport_cpp */,
+				E60F0AA8D9934092A11DECA7 /* stereo_msgs__rosidl_typesupport_introspection_c */,
+				E4E2A98EBED74C6294C3AE68 /* stereo_msgs__rosidl_typesupport_introspection_cpp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5E748D9A88B4E12AE8F26E1 /* stereo_msgs__rosidl_typesupport_c */ = {
+			isa = PBXGroup;
+			children = (
+				8D32852CF4D04D949686FE71 /* Source Files */,
+				4005DC9D75844B098978D4E9 /* CMake Rules */,
+				BC91EE0A42694230953C1DF8 /* Resources */,
+				B152D831EED2411CB8DB154A /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = stereo_msgs__rosidl_typesupport_c;
+			sourceTree = "<group>";
+		};
+		B5B09E6422B34062857EEAD3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				728038371A3540AB8EEAFD3F /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B71E2A9CF83F409EA3367E42 /* ROS_stereo_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXGroup;
+			children = (
+				232509A050FF46DA96321BBF /* Source Files */,
+				F914C8C56D9D4DF080012E63 /* CMake Rules */,
+				7D9AA1B9722E4A82917C16D4 /* Resources */,
+				CC9972F9B4054C8F833B69E9 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = ROS_stereo_msgs__rosidl_typesupport_introspection_c;
+			sourceTree = "<group>";
+		};
+		BC91EE0A42694230953C1DF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92606C9467E046E08DEAAC9C /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF6E9CCC30794A7BA8694B0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21AE8A019A664F9DB3AE7BFB /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C1513B94E84A474F92E39DA6 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				9C89B88EB84240BC8A9C91EC /* CMake Rules */,
+				99A4D5852F4A4CB5A9419FDF /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		C4A2F951B8934AF783491A15 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B91555FC2824CB2BF5D2D7B /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C6AB5BF87C5C423E96F870CF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CEA66B545FC24FFB9026D64F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				39C50C1F3DA34E019CD18987 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_c.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D21BFCA50D044A14833F8589 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DCF79B510E374662A33A6683 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E1E4BAEA51A44E24B30F74C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37DA6982314E4F32BFEBC3F4 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EFF63653F3E7442B9C9E7155 /* stereo_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXGroup;
+			children = (
+				FC8091E5DC994EAAB5293C69 /* Header Files */,
+				9B6705E139DD48CE98DD7C6C /* Source Files */,
+				CEA66B545FC24FFB9026D64F /* CMake Rules */,
+				E1E4BAEA51A44E24B30F74C8 /* Resources */,
+				CE1E26A9BEDB4151A5785826 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = stereo_msgs__rosidl_typesupport_introspection_c;
+			sourceTree = "<group>";
+		};
+		F914C8C56D9D4DF080012E63 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				748A8DFC66EE40DF97EA61AE /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FBBC0D87439A48F3BABA64CF /* stereo_msgs__cpp */ = {
+			isa = PBXGroup;
+			children = (
+				D21BFCA50D044A14833F8589 /* CMake Rules */,
+				B4DDAB08C35945A281CCC885 /* /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs/CMakeLists.txt */,
+			);
+			name = stereo_msgs__cpp;
+			sourceTree = "<group>";
+		};
+		FC8091E5DC994EAAB5293C69 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F00785FB1EBF42F4BD5123E2 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_c.h */,
+				617B6FC196C146909EF16C54 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FEB3A29B867D4EFD8E562445 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				F29ABF22C37042A3B211542C /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__rosidl_typesupport_introspection_cpp.hpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		363AC3E2367F4511AC0D19DB /* stereo_msgs__rosidl_typesupport_introspection_cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F443F5E2396D4DB895C854C8 /* Build configuration list for PBXNativeTarget "stereo_msgs__rosidl_typesupport_introspection_cpp" */;
+			buildPhases = (
+				13EBF299ACB94501B25AABE0 /* CMake Rules */,
+				BE58915589AD424BB67282E1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF07A32D2FA439BB345E5CF /* PBXTargetDependency */,
+				C72537761D87463A8F805AF9 /* PBXTargetDependency */,
+			);
+			name = stereo_msgs__rosidl_typesupport_introspection_cpp;
+			productName = stereo_msgs__rosidl_typesupport_introspection_cpp;
+			productReference = E4E2A98EBED74C6294C3AE68 /* stereo_msgs__rosidl_typesupport_introspection_cpp */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6315A15AC5834A54AD9C1836 /* stereo_msgs__rosidl_generator_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C268FD0F56C4434988D410E /* Build configuration list for PBXNativeTarget "stereo_msgs__rosidl_generator_c" */;
+			buildPhases = (
+				7ACFB93C67FA47D78B994E4D /* CMake Rules */,
+				C42C08BBAF04493BB374032A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD823076941D4AC5BA5069CD /* PBXTargetDependency */,
+			);
+			name = stereo_msgs__rosidl_generator_c;
+			productName = stereo_msgs__rosidl_generator_c;
+			productReference = 756D5DC45B3B418C8B963B29 /* stereo_msgs__rosidl_generator_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB5599F264B04AAC98BE2976 /* ROS_stereo_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1901197E42242DF836A8C4A /* Build configuration list for PBXNativeTarget "ROS_stereo_msgs__rosidl_typesupport_introspection_c" */;
+			buildPhases = (
+				7BCD36DB013C4ABE92A8DE4A /* CMake Rules */,
+				BD83D6FA01BF470EA5981428 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A4E37ABED24FB6B9BC0ACE /* PBXTargetDependency */,
+				FA85B51102394300844C7B2C /* PBXTargetDependency */,
+				1D9E2B8D1329474A964AF503 /* PBXTargetDependency */,
+				9511C6549A1F43A49E8C9502 /* PBXTargetDependency */,
+				16D2B16C80524EF49B36B32D /* PBXTargetDependency */,
+				6E2A73AC3E0F43FCBA01131E /* PBXTargetDependency */,
+			);
+			name = ROS_stereo_msgs__rosidl_typesupport_introspection_c;
+			productName = ROS_stereo_msgs__rosidl_typesupport_introspection_c;
+			productReference = A60C452A71F44673B9EF4A22 /* ROS_stereo_msgs__rosidl_typesupport_introspection_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6D3541DABE84E43A80A3450 /* stereo_msgs__rosidl_typesupport_cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644CE60BFC4B467C9C1A9251 /* Build configuration list for PBXNativeTarget "stereo_msgs__rosidl_typesupport_cpp" */;
+			buildPhases = (
+				D73651CB6AEC4135A44A6407 /* CMake Rules */,
+				0D1102E28D3F4A47AA0C1955 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE3DB1BEBA67472C9E0BB3D5 /* PBXTargetDependency */,
+				0C74707A5EC64A9D8A2912DE /* PBXTargetDependency */,
+				3B6D5C9C0BE04AAF94662F34 /* PBXTargetDependency */,
+			);
+			name = stereo_msgs__rosidl_typesupport_cpp;
+			productName = stereo_msgs__rosidl_typesupport_cpp;
+			productReference = 5CC8BFF5E3C1414588BB5A3B /* stereo_msgs__rosidl_typesupport_cpp */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E600E8F63BDD414F9F90F2EF /* stereo_msgs__rosidl_typesupport_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7E6B9053244E73A0852136 /* Build configuration list for PBXNativeTarget "stereo_msgs__rosidl_typesupport_c" */;
+			buildPhases = (
+				09C5AB71B5784609B84F3A79 /* CMake Rules */,
+				E5DD56F0103741F4BD991392 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A00F695A0934B028AE0C541 /* PBXTargetDependency */,
+				BDB0B41AD0434338BB171531 /* PBXTargetDependency */,
+				C6D433D370EA47D0B2B7EA2E /* PBXTargetDependency */,
+			);
+			name = stereo_msgs__rosidl_typesupport_c;
+			productName = stereo_msgs__rosidl_typesupport_c;
+			productReference = 425C8A20F2474CFD949AC499 /* stereo_msgs__rosidl_typesupport_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB08A16BC5DB4CD08547831A /* stereo_msgs__rosidl_typesupport_introspection_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460BFDBD499E41FD9B1441D3 /* Build configuration list for PBXNativeTarget "stereo_msgs__rosidl_typesupport_introspection_c" */;
+			buildPhases = (
+				16A1D6A7C59D4D1B9844887F /* CMake Rules */,
+				E80653D7397349CDA6577DFD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CCC2ABEE1054DDCAE68B2E5 /* PBXTargetDependency */,
+				1FF8A8590BF7464B8440D0F2 /* PBXTargetDependency */,
+			);
+			name = stereo_msgs__rosidl_typesupport_introspection_c;
+			productName = stereo_msgs__rosidl_typesupport_introspection_c;
+			productReference = E60F0AA8D9934092A11DECA7 /* stereo_msgs__rosidl_typesupport_introspection_c */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A5A060A31D49EB9392F413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 65FB8F6E9EB64071AD2FC0D7 /* Build configuration list for PBXProject "stereo_msgs" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7665039CD3994379A5F495E7 /* Debug */,
+				2FF0025BC7574DA7A8B4DF59 /* Release */,
+				CBF4B4BA1C644502B67E93DD /* MinSizeRel */,
+				0D96C2E2C5FC4E058F1E9A8C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9667A0151A61421CA4E43A4B;
+			projectDirPath = /Users/lbajo/ros2_mod_ws/src/ros2/common_interfaces/stereo_msgs;
+			projectRoot = "";
+			targets = (
+				CB549E3294A7426FB5CEDA8A /* ALL_BUILD */,
+				AB5599F264B04AAC98BE2976 /* ROS_stereo_msgs__rosidl_typesupport_introspection_c */,
+				DCD368F03040426F91C8E222 /* ZERO_CHECK */,
+				968472DDABC84187986C2321 /* install */,
+				D2EF959B46404E62915795EC /* stereo_msgs */,
+				B409D5CFD71542B9844BEF89 /* stereo_msgs__cpp */,
+				355E07D01612426197524BAE /* stereo_msgs__objc */,
+				6315A15AC5834A54AD9C1836 /* stereo_msgs__rosidl_generator_c */,
+				E600E8F63BDD414F9F90F2EF /* stereo_msgs__rosidl_typesupport_c */,
+				B6D3541DABE84E43A80A3450 /* stereo_msgs__rosidl_typesupport_cpp */,
+				FB08A16BC5DB4CD08547831A /* stereo_msgs__rosidl_typesupport_introspection_c */,
+				363AC3E2367F4511AC0D19DB /* stereo_msgs__rosidl_typesupport_introspection_cpp */,
+				45925F225FFF4A4A93FBE805 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09C5AB71B5784609B84F3A79 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/stereo_msgs__rosidl_typesupport_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		13EBF299ACB94501B25AABE0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/stereo_msgs__rosidl_typesupport_introspection_cpp_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		16A1D6A7C59D4D1B9844887F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/stereo_msgs__rosidl_typesupport_introspection_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3157C851DE3B4864965D2520 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/stereo_msgs__cpp_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		35EE7907EBC5478DAA659390 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		47BCED22351E4EB9A77EC215 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/stereo_msgs_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4B8D467101304609B989B694 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7ACFB93C67FA47D78B994E4D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/stereo_msgs__rosidl_generator_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7BCD36DB013C4ABE92A8DE4A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/ROS_stereo_msgs__rosidl_typesupport_introspection_c_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9516F1FD2380424C98B8FC6D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A908A3AEBEFC41398CC0929F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B33B8CE1A2CD4EFCA5E7A39F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/stereo_msgs__objc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D73651CB6AEC4135A44A6407 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/stereo_msgs__rosidl_typesupport_cpp_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E8D2B61EC7A14391ADC6FA87 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E908CD689DF2476CA29F737E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EB39BD1757FE4AD3ABE2C549 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EFD7F754BDAC4D37BDCB810D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F1CB009E8D2743DF8EDB6587 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F25F1656D0574CAFB11BA8DA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/stereo_msgs -f /Users/lbajo/ros2_mod_ws/build/stereo_msgs/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		FB1843063C914936B6011884 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D1102E28D3F4A47AA0C1955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09151CDE6B74CFDB3FD1D3D /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD83D6FA01BF470EA5981428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349BECFEC66348A59B66A325 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc/ROS_stereo_msgs/msg/DisparityImage_s.ep.rosidl_typesupport_introspection_c.m */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE58915589AD424BB67282E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C6BEA4BEEE46D69CB280F0 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/disparity_image__type_support.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42C08BBAF04493BB374032A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89580652EBFA40ECA167246E /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c/stereo_msgs/msg/disparity_image__functions.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5DD56F0103741F4BD991392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1B6039A56342089EE533B3 /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80653D7397349CDA6577DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC31D8DEB1F41EB993DC71F /* /Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/disparity_image__type_support.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		057D07BAE9BB4261B372D42D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6315A15AC5834A54AD9C1836 /* stereo_msgs__rosidl_generator_c */;
+			targetProxy = 6376E83872654059B7226EAF /* PBXContainerItemProxy */;
+		};
+		0C74707A5EC64A9D8A2912DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363AC3E2367F4511AC0D19DB /* stereo_msgs__rosidl_typesupport_introspection_cpp */;
+			targetProxy = 2142A906C3B945E3B032A522 /* PBXContainerItemProxy */;
+		};
+		12C3C441F2D54FD5B1EFC96D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363AC3E2367F4511AC0D19DB /* stereo_msgs__rosidl_typesupport_introspection_cpp */;
+			targetProxy = 5EB00A9FA61C4C14A1150775 /* PBXContainerItemProxy */;
+		};
+		16D2B16C80524EF49B36B32D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2EF959B46404E62915795EC /* stereo_msgs */;
+			targetProxy = B1CC41D1531241A38382A280 /* PBXContainerItemProxy */;
+		};
+		1BF07A32D2FA439BB345E5CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B409D5CFD71542B9844BEF89 /* stereo_msgs__cpp */;
+			targetProxy = 4B589E66E1804F068E0942E1 /* PBXContainerItemProxy */;
+		};
+		1D9E2B8D1329474A964AF503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB08A16BC5DB4CD08547831A /* stereo_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = DE6589A4CCB24DBEBC346F60 /* PBXContainerItemProxy */;
+		};
+		1FF8A8590BF7464B8440D0F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = 41010FEB8604486C820EC294 /* PBXContainerItemProxy */;
+		};
+		256DEE4E4DE54C7CA830FC4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363AC3E2367F4511AC0D19DB /* stereo_msgs__rosidl_typesupport_introspection_cpp */;
+			targetProxy = 8513CFAAF78242B6A7BDF185 /* PBXContainerItemProxy */;
+		};
+		2EC74739703C4A3681606CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = 016AE18B7D50497EA8C0E37C /* PBXContainerItemProxy */;
+		};
+		32E0C178C8FB4B66B53464E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = E938507CD52B4DECA3D6517E /* PBXContainerItemProxy */;
+		};
+		3B6D5C9C0BE04AAF94662F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = 51C3DC856E7D45DC88D670B5 /* PBXContainerItemProxy */;
+		};
+		3CCC2ABEE1054DDCAE68B2E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6315A15AC5834A54AD9C1836 /* stereo_msgs__rosidl_generator_c */;
+			targetProxy = 315F35555A7341E19731F5D4 /* PBXContainerItemProxy */;
+		};
+		5A00F695A0934B028AE0C541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6315A15AC5834A54AD9C1836 /* stereo_msgs__rosidl_generator_c */;
+			targetProxy = CFD047145D2F4BE2A8FDCFF6 /* PBXContainerItemProxy */;
+		};
+		5BFF7016E042428B86CF58C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6315A15AC5834A54AD9C1836 /* stereo_msgs__rosidl_generator_c */;
+			targetProxy = 76530FFD565846D78A3ED85E /* PBXContainerItemProxy */;
+		};
+		6E2A73AC3E0F43FCBA01131E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = 26722774C9A44B5D82591EFD /* PBXContainerItemProxy */;
+		};
+		6E5ACF6C4AB0456FB2C97A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = 921875FF8A74456AA3398984 /* PBXContainerItemProxy */;
+		};
+		74AFDD56D9DE40D6B7E404D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E600E8F63BDD414F9F90F2EF /* stereo_msgs__rosidl_typesupport_c */;
+			targetProxy = 1EC8300A592D4C2EB8807432 /* PBXContainerItemProxy */;
+		};
+		75CE73D21B7C48E79CDCF872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = 0EC5FD6EA8574ABA9671396F /* PBXContainerItemProxy */;
+		};
+		76D95FD184194DEFBADB4F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2EF959B46404E62915795EC /* stereo_msgs */;
+			targetProxy = 4565E854EFF548ACBE19AA2C /* PBXContainerItemProxy */;
+		};
+		7EF7F94FBFBD4463BBE8D087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E600E8F63BDD414F9F90F2EF /* stereo_msgs__rosidl_typesupport_c */;
+			targetProxy = 9084105AC4694E83A5B74D3B /* PBXContainerItemProxy */;
+		};
+		82F229D2653942DF9ECF44AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B409D5CFD71542B9844BEF89 /* stereo_msgs__cpp */;
+			targetProxy = 45AC4DEE985B4394940FEA1E /* PBXContainerItemProxy */;
+		};
+		869138C100D54959A21426F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D3541DABE84E43A80A3450 /* stereo_msgs__rosidl_typesupport_cpp */;
+			targetProxy = 533E274C29D744FA83827CC0 /* PBXContainerItemProxy */;
+		};
+		901A11D26C1143A1B41A9AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB549E3294A7426FB5CEDA8A /* ALL_BUILD */;
+			targetProxy = F91F19F20D3647E489DE62EB /* PBXContainerItemProxy */;
+		};
+		937545610C63425CB5F6F4E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355E07D01612426197524BAE /* stereo_msgs__objc */;
+			targetProxy = 18580C081C864DD6B73C9FAC /* PBXContainerItemProxy */;
+		};
+		9511C6549A1F43A49E8C9502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E600E8F63BDD414F9F90F2EF /* stereo_msgs__rosidl_typesupport_c */;
+			targetProxy = F9A08BB948E04E74940499EE /* PBXContainerItemProxy */;
+		};
+		96A4E37ABED24FB6B9BC0ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355E07D01612426197524BAE /* stereo_msgs__objc */;
+			targetProxy = 67132A2D1EB94A3C9AC3B58A /* PBXContainerItemProxy */;
+		};
+		A66EB4D0B54543F8BFD72929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB08A16BC5DB4CD08547831A /* stereo_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = D37635736135412DA135289C /* PBXContainerItemProxy */;
+		};
+		AE3DB1BEBA67472C9E0BB3D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B409D5CFD71542B9844BEF89 /* stereo_msgs__cpp */;
+			targetProxy = 4872A24096D44CC99597B50E /* PBXContainerItemProxy */;
+		};
+		B6A178EA87B8434CAF083D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB08A16BC5DB4CD08547831A /* stereo_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = 3D932FC9FFCA41A8A6825BBF /* PBXContainerItemProxy */;
+		};
+		BB0A85D6B0C54ABEA523EEAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5599F264B04AAC98BE2976 /* ROS_stereo_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = 9367EE31890A43E294C25ED7 /* PBXContainerItemProxy */;
+		};
+		BD823076941D4AC5BA5069CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = 97E2A49CFF754CA49521E9B2 /* PBXContainerItemProxy */;
+		};
+		BDB0B41AD0434338BB171531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB08A16BC5DB4CD08547831A /* stereo_msgs__rosidl_typesupport_introspection_c */;
+			targetProxy = 2DF5025F7690498BB8C8AF42 /* PBXContainerItemProxy */;
+		};
+		C6D433D370EA47D0B2B7EA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = 0E3AC8A63D874BBAA007C388 /* PBXContainerItemProxy */;
+		};
+		C72537761D87463A8F805AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = 0D28F83F10C74D69BAC281AC /* PBXContainerItemProxy */;
+		};
+		D6C0E0BFCF05403A8A2AA62C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D3541DABE84E43A80A3450 /* stereo_msgs__rosidl_typesupport_cpp */;
+			targetProxy = 6C241055DC5041889751E34B /* PBXContainerItemProxy */;
+		};
+		F6ED28E6FE86435CAFFD373C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD368F03040426F91C8E222 /* ZERO_CHECK */;
+			targetProxy = CF6EDB6DE3BF49AC97746694 /* PBXContainerItemProxy */;
+		};
+		FA85B51102394300844C7B2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6315A15AC5834A54AD9C1836 /* stereo_msgs__rosidl_generator_c */;
+			targetProxy = 01414AEC6E3344D992350059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0222E9175C7549738B7BDB24 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		057DC3E9F17C422CA9C65374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		0B942AD388C24F3A9ABAC477 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_stereo_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		18E9D6B8E9BF4F6DB664DDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_introspection_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1BD55E99DA2940C3937D84D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Debug;
+		};
+		1C8249430C4743F79B1DEA20 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1EF9E384FAC84DDFB9E2C86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1FE7F0476E794FDF912CB0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_stereo_msgs__rosidl_typesupport_introspection_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		25A3375B3B7647778003FE03 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_generator_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2BE1E3274A78426BB6193556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_generator_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2DA3168056394A1A930B91FE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		35A0D3D3121C4E38A518C565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic    -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		35BFBBABAABB4EEB9253A7E8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		39E4B907C93844C3BFB4571B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic        -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3B4CE384CBF8467B805B972C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3F192DA2F708409590BF27CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_stereo_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		43AF7DE513AC416BB6BDFE08 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		45CEA953108B4A0AAF32E40F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5882005F25954FA0B7C6DFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_introspection_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6C6C59C1A1E04D908A10DE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_generator_cd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7599340DF79E4C5EBB193FDE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_generator_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7626C81694534C118DF1B1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7B9D3864DBF649FD887EC314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7CB9B9F4C57B46E08CFE4121 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = RelWithDebInfo;
+		};
+		7CBAC9F0743B48C98235E992 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		869FFD982D804D81928AF0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8A40B106B26246668E9F1DDB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic        -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8B5225B8241E4B1EAAA50088 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		93C963807B3A4EBCBBBC70D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		95E9E9CF5157425AB188173B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9730AFF752D94285A0FB0B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__objc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9EFE89923BE849A5A5984121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A00CA24EFCF248E4AF9B5234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A1E4854263104CE6A8663316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A992F90801BE4D3F9D98892D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AC90C3E739894B6EBE76C373 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_introspection_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B9F0E9215F1345FBA8416B96 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_objc);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -Wall -Wextra   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ROS_stereo_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BDE92347646846AFA1359A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic    -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_introspection_cppd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BE7DFE292F2340E9B83FA1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic    -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_cppd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BE8317DC4CF643FBA8EF95FE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C0C66E7DF8BC4004A9C7E6D5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_cpp,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic        -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_introspection_cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C253BF0DD45A4624AEDF6A80 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C424AAF4AFBF457D83F836F3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C796F0CAB3D340F69A0217FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall '-std=gnu11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_introspection_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CBB5DEAE0F98449D8EF227B9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D18CDB634C574B0C95563169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D2173374E1D047A6B4D199C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D41FA62945154270BD3F25BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Release;
+		};
+		EDD6337D124146498FB0D0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F33F780AEC394988979EF256 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F48ABC7F1715417CB502FF5E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F503D19EEF0547ADAF91403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F6C6A283C1754BF8B1F3C48A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F98E2701C2374FC3A20EA84F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = MinSizeRel;
+		};
+		FB4DA111D2D348B3BE845B24 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_c,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_typesupport_introspection_c,/Users/lbajo/ros2_mod_ws/install/include,/Users/lbajo/ros2_mod_ws/build/stereo_msgs/rosidl_generator_c);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -Wextra -Wpedantic     -DNDEBUG -Wall '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stereo_msgs__rosidl_typesupport_c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FBF20F291451490482FDD517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/stereo_msgs;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CE1CB9EA4D043B3A851D6F7 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF9E384FAC84DDFB9E2C86D /* Debug */,
+				869FFD982D804D81928AF0B2 /* Release */,
+				7CBAC9F0743B48C98235E992 /* MinSizeRel */,
+				C424AAF4AFBF457D83F836F3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E7E6B9053244E73A0852136 /* Build configuration list for PBXNativeTarget "stereo_msgs__rosidl_typesupport_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A0D3D3121C4E38A518C565 /* Debug */,
+				F6C6A283C1754BF8B1F3C48A /* Release */,
+				FB4DA111D2D348B3BE845B24 /* MinSizeRel */,
+				39E4B907C93844C3BFB4571B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		460BFDBD499E41FD9B1441D3 /* Build configuration list for PBXNativeTarget "stereo_msgs__rosidl_typesupport_introspection_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5882005F25954FA0B7C6DFE2 /* Debug */,
+				C796F0CAB3D340F69A0217FA /* Release */,
+				C253BF0DD45A4624AEDF6A80 /* MinSizeRel */,
+				BE8317DC4CF643FBA8EF95FE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4727B3BEA840425981F6D852 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00CA24EFCF248E4AF9B5234 /* Debug */,
+				FBF20F291451490482FDD517 /* Release */,
+				3B4CE384CBF8467B805B972C /* MinSizeRel */,
+				35BFBBABAABB4EEB9253A7E8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C268FD0F56C4434988D410E /* Build configuration list for PBXNativeTarget "stereo_msgs__rosidl_generator_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6C59C1A1E04D908A10DE1E /* Debug */,
+				2BE1E3274A78426BB6193556 /* Release */,
+				25A3375B3B7647778003FE03 /* MinSizeRel */,
+				7599340DF79E4C5EBB193FDE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6184D79DFE114D3F916DC0AE /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD6337D124146498FB0D0A3 /* Debug */,
+				7B9D3864DBF649FD887EC314 /* Release */,
+				2DA3168056394A1A930B91FE /* MinSizeRel */,
+				F33F780AEC394988979EF256 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		644CE60BFC4B467C9C1A9251 /* Build configuration list for PBXNativeTarget "stereo_msgs__rosidl_typesupport_cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DFE292F2340E9B83FA1F4 /* Debug */,
+				A1E4854263104CE6A8663316 /* Release */,
+				1C8249430C4743F79B1DEA20 /* MinSizeRel */,
+				8A40B106B26246668E9F1DDB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		65FB8F6E9EB64071AD2FC0D7 /* Build configuration list for PBXProject "stereo_msgs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD55E99DA2940C3937D84D4 /* Debug */,
+				D41FA62945154270BD3F25BF /* Release */,
+				F98E2701C2374FC3A20EA84F /* MinSizeRel */,
+				7CB9B9F4C57B46E08CFE4121 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6FD0254CF34D412A9C705F34 /* Build configuration list for PBXAggregateTarget "stereo_msgs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057DC3E9F17C422CA9C65374 /* Debug */,
+				D18CDB634C574B0C95563169 /* Release */,
+				8B5225B8241E4B1EAAA50088 /* MinSizeRel */,
+				43AF7DE513AC416BB6BDFE08 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1901197E42242DF836A8C4A /* Build configuration list for PBXNativeTarget "ROS_stereo_msgs__rosidl_typesupport_introspection_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE7F0476E794FDF912CB0A6 /* Debug */,
+				3F192DA2F708409590BF27CB /* Release */,
+				0B942AD388C24F3A9ABAC477 /* MinSizeRel */,
+				B9F0E9215F1345FBA8416B96 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D6DBE09D157F41E1A2BC520F /* Build configuration list for PBXAggregateTarget "stereo_msgs__cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2173374E1D047A6B4D199C2 /* Debug */,
+				F503D19EEF0547ADAF91403A /* Release */,
+				0222E9175C7549738B7BDB24 /* MinSizeRel */,
+				A992F90801BE4D3F9D98892D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DD6B4DA93C474AD59508BDCC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFE89923BE849A5A5984121 /* Debug */,
+				93C963807B3A4EBCBBBC70D2 /* Release */,
+				CBB5DEAE0F98449D8EF227B9 /* MinSizeRel */,
+				F48ABC7F1715417CB502FF5E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE54EC7C76214D16B868FA7C /* Build configuration list for PBXAggregateTarget "stereo_msgs__objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9730AFF752D94285A0FB0B31 /* Debug */,
+				7626C81694534C118DF1B1C6 /* Release */,
+				95E9E9CF5157425AB188173B /* MinSizeRel */,
+				45CEA953108B4A0AAF32E40F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F443F5E2396D4DB895C854C8 /* Build configuration list for PBXNativeTarget "stereo_msgs__rosidl_typesupport_introspection_cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE92347646846AFA1359A27 /* Debug */,
+				18E9D6B8E9BF4F6DB664DDEB /* Release */,
+				AC90C3E739894B6EBE76C373 /* MinSizeRel */,
+				C0C66E7DF8BC4004A9C7E6D5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A5A060A31D49EB9392F413 /* Project object */;
+}

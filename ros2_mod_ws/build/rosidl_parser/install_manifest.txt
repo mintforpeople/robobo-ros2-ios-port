@@ -1,0 +1,13 @@
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_parser/environment/pythonpath.sh
+/Users/lbajo/ros2_mod_ws/install/lib/python3.7/site-packages/rosidl_parser/__init__.py
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_parser
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_parser
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_parser/environment/ament_prefix_path.sh
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_parser/environment/path.sh
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_parser/local_setup.bash
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_parser/local_setup.sh
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_parser/local_setup.zsh
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/packages/rosidl_parser
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_parser/cmake/rosidl_parserConfig.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_parser/cmake/rosidl_parserConfig-version.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_parser/package.xml

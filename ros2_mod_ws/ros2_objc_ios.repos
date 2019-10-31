@@ -1,0 +1,113 @@
+repositories:
+  ament/ament_cmake:
+    type: git
+    url: https://github.com/ament/ament_cmake.git
+    version: 0.5.1
+  ament/ament_index:
+    type: git
+    url: https://github.com/ament/ament_index.git
+    version: 0.5.1
+  ament/ament_lint:
+    type: git
+    url: https://github.com/ament/ament_lint.git
+    version: 0.5.2
+  ament/ament_package:
+    type: git
+    url: https://github.com/ament/ament_package.git
+    version: 0.5.2
+  ament/ament_tools:
+    type: git
+    url: https://github.com/esteve/ament_tools.git
+    version: xcode-configuration
+  ament/googletest:
+    type: git
+    url: https://github.com/ament/googletest.git
+    version: 4b6e624e78ba3d43c1602ffc80478ee7253e0b04
+  ament/osrf_pycommon:
+    type: git
+    url: https://github.com/osrf/osrf_pycommon.git
+    version: 0.1.5
+#  ament/uncrustify:
+#    type: git
+#    url: https://github.com/ament/uncrustify.git
+#    version: 0.66.1
+  eProsima/Fast-CDR:
+    type: git
+    url: https://github.com/eProsima/Fast-CDR.git
+    version: v1.0.7
+  eProsima/Fast-RTPS:
+    type: git
+    url: https://github.com/eProsima/Fast-RTPS.git
+    version: 7a0b0fe7ca8d2c4ea41e36744c6024c263a6505a
+  ros2/ament_cmake_ros:
+    type: git
+    url: https://github.com/ros2/ament_cmake_ros.git
+    version: 0.5.0
+  ros2/rcutils:
+    type: git
+    url: https://github.com/ros2/rcutils.git
+    version: 0.5.1
+  ros2/common_interfaces:
+    type: git
+    url: https://github.com/ros2/common_interfaces.git
+    version: 0.5.0
+  ros2/example_interfaces:
+    type: git
+    url: https://github.com/ros2/example_interfaces.git
+    version: 0.5.0
+  ros2/libyaml_vendor:
+    type: git
+    url: https://github.com/ros2/libyaml_vendor.git
+    version: 1.0.0
+  ros2/poco_vendor:
+    type: git
+    url: https://github.com/ros2/poco_vendor.git
+    version: 1.1.1
+  ros2/rcl:
+    type: git
+    url: https://github.com/ros2/rcl.git
+    version: 0.5.1
+  ros2/rcl_interfaces:
+    type: git
+    url: https://github.com/ros2/rcl_interfaces.git
+    version: db27f0e8619460848d80c1442f7fec0c56ee63e5
+  ros2/rmw:
+    type: git
+    url: https://github.com/ros2/rmw.git
+    version: 0.5.0
+  ros2/rmw_fastrtps:
+    type: git
+    url: https://github.com/ros2/rmw_fastrtps.git
+    version: 0.5.1
+  ros2/rmw_implementation:
+    type: git
+    url: https://github.com/ros2/rmw_implementation.git
+    version: 0.5.1
+  ros2/rosidl:
+    type: git
+    url: https://github.com/ros2/rosidl.git
+    version: 0.5.1
+  ros2/rosidl_dds:
+    type: git
+    url: https://github.com/ros2/rosidl_dds.git
+    version: 0.5.0
+  ros2/rosidl_defaults:
+    type: git
+    url: https://github.com/ros2/rosidl_defaults.git
+    version: 0.5.0
+  ros2/rosidl_typesupport:
+    type: git
+    url: https://github.com/ros2/rosidl_typesupport.git
+    version: 0.5.0
+  ros2_objc/ros2_ios_examples:
+    type: git
+    url: https://github.com/fmrico/ros2_objc_examples.git
+    version: callbacks_pointers
+  ros2_objc/ros2_objc:
+    type: git
+    url: https://github.com/fmrico/ros2_objc.git
+    version: callbacks_pointers
+  ruslo/polly:
+    type: git
+    url: https://github.com/ruslo/polly.git
+    version: master

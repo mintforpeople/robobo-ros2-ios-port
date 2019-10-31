@@ -1,0 +1,13 @@
+# Target labels
+ poco-1.8.0.1-release
+# Source files and their labels
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/CMakeFiles/poco-1.8.0.1-release
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/CMakeFiles/poco-1.8.0.1-release.rule
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/CMakeFiles/CMakeFiles/poco-1.8.0.1-release-complete.rule
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-stamp/CMakeFiles/poco-1.8.0.1-release-install.rule
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-stamp/CMakeFiles/poco-1.8.0.1-release-mkdir.rule
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-stamp/CMakeFiles/poco-1.8.0.1-release-download.rule
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-stamp/CMakeFiles/poco-1.8.0.1-release-update.rule
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-stamp/CMakeFiles/poco-1.8.0.1-release-patch.rule
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-stamp/CMakeFiles/poco-1.8.0.1-release-configure.rule
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-stamp/CMakeFiles/poco-1.8.0.1-release-build.rule

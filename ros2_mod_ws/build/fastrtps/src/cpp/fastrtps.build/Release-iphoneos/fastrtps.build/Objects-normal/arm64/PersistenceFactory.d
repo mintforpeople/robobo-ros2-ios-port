@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/src/cpp/rtps/persistence/PersistenceFactory.cpp \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/src/cpp/rtps/persistence/PersistenceService.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/Guid.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/../../fastrtps_dll.h \
+  /Users/lbajo/ros2_mod_ws/build/fastrtps/include/fastrtps/config.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/Types.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/CacheChange.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/WriteParams.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/SampleIdentity.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/SequenceNumber.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/SerializedPayload.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/Time_t.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/InstanceHandle.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/FragmentNumber.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/PropertyPolicy.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../common/Property.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../common/BinaryProperty.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../../fastrtps_dll.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/src/cpp/rtps/persistence/SQLite3PersistenceService.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/src/cpp/rtps/persistence/sqlite3.h

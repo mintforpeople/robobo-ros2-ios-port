@@ -1,0 +1,16 @@
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/allocator.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/cmdline_parser.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/error_handling.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/filesystem.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/find.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/format_string.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/get_env.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/logging.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/repl_str.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/snprintf.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/split.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/strdup.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/string_array.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/string_map.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/time.o
+/Users/lbajo/ros2_mod_ws/build/rcutils/rcutils.build/Release-iphoneos/rcutils.build/Objects-normal/arm64/time_unix.o

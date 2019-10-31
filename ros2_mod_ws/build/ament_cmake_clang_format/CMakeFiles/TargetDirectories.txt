@@ -1,0 +1,4 @@
+/Users/lbajo/ros2_mod_ws/build/ament_cmake_clang_format/CMakeFiles/install.dir
+/Users/lbajo/ros2_mod_ws/build/ament_cmake_clang_format/CMakeFiles/uninstall.dir
+/Users/lbajo/ros2_mod_ws/build/ament_cmake_clang_format/CMakeFiles/ALL_BUILD.dir
+/Users/lbajo/ros2_mod_ws/build/ament_cmake_clang_format/CMakeFiles/ZERO_CHECK.dir

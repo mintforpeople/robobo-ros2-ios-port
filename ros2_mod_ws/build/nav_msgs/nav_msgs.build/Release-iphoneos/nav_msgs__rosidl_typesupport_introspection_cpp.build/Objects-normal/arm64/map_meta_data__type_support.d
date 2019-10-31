@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/lbajo/ros2_mod_ws/build/nav_msgs/rosidl_typesupport_introspection_cpp/nav_msgs/msg/map_meta_data__type_support.cpp \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/message_type_support_struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_interface/macros.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_cpp/message_type_support.hpp \
+  /Users/lbajo/ros2_mod_ws/build/nav_msgs/rosidl_generator_cpp/nav_msgs/msg/map_meta_data__struct.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_cpp/bounded_vector.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_cpp/message_initialization.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/message_initialization.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/time.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/time__struct.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/time__traits.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/geometry_msgs/msg/pose.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/geometry_msgs/msg/pose__struct.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/geometry_msgs/msg/point.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/geometry_msgs/msg/point__struct.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/geometry_msgs/msg/point__traits.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/geometry_msgs/msg/quaternion.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/geometry_msgs/msg/quaternion__struct.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/geometry_msgs/msg/quaternion__traits.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/geometry_msgs/msg/pose__traits.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_cpp/field_types.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_c/field_types.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_cpp/identifier.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp

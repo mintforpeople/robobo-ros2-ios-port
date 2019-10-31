@@ -1,0 +1,16 @@
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_export_libraries
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_export_libraries
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/environment/ament_prefix_path.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/environment/path.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/local_setup.bash
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/local_setup.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/local_setup.zsh
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/packages/ament_cmake_export_libraries
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries-extras.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/cmake/ament_cmake_export_librariesConfig.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/cmake/ament_cmake_export_librariesConfig-version.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/package.xml
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries_package_hook.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/cmake/ament_export_library_names.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries-extras.cmake.in

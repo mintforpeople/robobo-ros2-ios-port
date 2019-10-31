@@ -1,0 +1,21 @@
+{
+  "package_name": "example_interfaces",
+  "output_dir": "/Users/lbajo/ros2_mod_ws/build/example_interfaces/rosidl_generator_objc/ROS_example_interfaces",
+  "template_dir": "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_objc/cmake/../resource",
+  "ros_interface_files": [
+    "/Users/lbajo/ros2_mod_ws/src/ros2/example_interfaces/srv/AddTwoInts.srv",
+    "/Users/lbajo/ros2_mod_ws/build/example_interfaces/srv/AddTwoInts_Request.msg",
+    "/Users/lbajo/ros2_mod_ws/build/example_interfaces/srv/AddTwoInts_Response.msg"
+  ],
+  "target_dependencies": [
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_objc/cmake/../../../lib/rosidl_generator_objc/rosidl_generator_objc",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_objc/cmake/../../../lib/python3.7/site-packages/rosidl_generator_objc/__init__.py",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_objc/cmake/../resource/msg.h.template",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_objc/cmake/../resource/srv.h.template",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_objc/cmake/../resource/msg.m.template",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_generator_objc/cmake/../resource/srv.m.template",
+    "/Users/lbajo/ros2_mod_ws/src/ros2/example_interfaces/srv/AddTwoInts.srv",
+    "/Users/lbajo/ros2_mod_ws/build/example_interfaces/srv/AddTwoInts_Request.msg",
+    "/Users/lbajo/ros2_mod_ws/build/example_interfaces/srv/AddTwoInts_Response.msg"
+  ]
+}

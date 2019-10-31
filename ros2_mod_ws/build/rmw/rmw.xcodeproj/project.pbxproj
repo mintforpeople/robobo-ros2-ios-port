@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6CBA057A8D2F4D819F36DE6F /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46EC239179FC4ADB8D69F04D /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				99624BF9C0D64C709F9FB50E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				1708288C96DF4DE6BACADB12 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		8920234BBDF54AFCA2336A11 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EDAA4982A005465AB052ACD2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B17224301A3D4F7FABB26D7F /* CMake Rules */,
+			);
+			dependencies = (
+				FDB18874A2054B4FB5589456 /* PBXTargetDependency */,
+				598837F85E93428595C46F37 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8E7A89033B154C44BBA85484 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1DD1019D13DE4C92ABE7CDC4 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				2390AA8AD55F43D394D770BD /* CMake Rules */,
+			);
+			dependencies = (
+				66F9A5031D394DB885F916E9 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		C9AADD3CC8164008AE95652B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 15B5C0080EE4447891D11397 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9D9CF9B49E7F49C3A8C1DBCF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04D42EE33791400096051232 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/sanity_checks.c */ = {isa = PBXBuildFile; fileRef = 1CFB8791EDC14C49AA10AFEE /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/sanity_checks.c */; };
+		0717C8675551456F91DAE583 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F959F4B2515D47F1A0C30192 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/CMakeLists.txt */; };
+		1EE9F741DB7C485DACEC6762 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_node_name.c */ = {isa = PBXBuildFile; fileRef = 164BC4DB33FA4704B4B05B37 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_node_name.c */; };
+		4AC9D25C29B542CBBEA980AC /* /Users/lbajo/ros2_mod_ws/build/rmw/CMakeFiles/rmw.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 9A59C2F50DB84CDFB6C98463 /* /Users/lbajo/ros2_mod_ws/build/rmw/CMakeFiles/rmw.dir/Info.plist */; };
+		504A5EAE77454919A02682FC /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/error_handling.c */ = {isa = PBXBuildFile; fileRef = DC16285794EC4A8CB010F17D /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/error_handling.c */; };
+		568982188CFC44B4BFDB188E /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/names_and_types.c */ = {isa = PBXBuildFile; fileRef = 1FAA283B8CA84087977DC25F /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/names_and_types.c */; };
+		78B09DB5D6EE44E9ADC6A03A /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/serialized_message.c */ = {isa = PBXBuildFile; fileRef = E17076A56692426ABDD2D170 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/serialized_message.c */; };
+		7E9786AAD7A44FCC83DE30A7 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_full_topic_name.c */ = {isa = PBXBuildFile; fileRef = 0955080F3CDB48D7A3F72ACB /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_full_topic_name.c */; };
+		A5B358395CCF4AD8BC8D2CE4 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/allocators.c */ = {isa = PBXBuildFile; fileRef = B345E71183804FB0A7D66051 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/allocators.c */; };
+		D149AFE6755B41069C0A7CBA /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_namespace.c */ = {isa = PBXBuildFile; fileRef = B7FAE5D92C5446C7A9DF896E /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_namespace.c */; };
+		EBBBEEFA95A44EA595D3BE37 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/convert_rcutils_ret_to_rmw_ret.c */ = {isa = PBXBuildFile; fileRef = 209A5AC314344D758D5FE479 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/convert_rcutils_ret_to_rmw_ret.c */; };
+		EC2E7BB6927B484CA010C774 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/node_security_options.c */ = {isa = PBXBuildFile; fileRef = 630CA3EEC54449E1BED150C5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/node_security_options.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2D8ECB4EC043403F987F2440 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		72996BD6C66A4D579A28262D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		862EF63B271440A690F897E8 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		CDAE03395C424301B1C846A6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		233EBD460E9144B881C0E1BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FC64636E4D45329F06D04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9AADD3CC8164008AE95652B;
+			remoteInfo = ZERO_CHECK;
+		};
+		5875C115378C4CDC80F74826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FC64636E4D45329F06D04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8920234BBDF54AFCA2336A11;
+			remoteInfo = ALL_BUILD;
+		};
+		6C6430849CEA46518A652D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FC64636E4D45329F06D04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9AADD3CC8164008AE95652B;
+			remoteInfo = ZERO_CHECK;
+		};
+		72CF430D5A3B4847987D9187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FC64636E4D45329F06D04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9AADD3CC8164008AE95652B;
+			remoteInfo = ZERO_CHECK;
+		};
+		FFC3973939F74B40821D6848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FC64636E4D45329F06D04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281F5D995D1A45E79190FC47;
+			remoteInfo = rmw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0955080F3CDB48D7A3F72ACB /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_full_topic_name.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = validate_full_topic_name.c; path = src/validate_full_topic_name.c; sourceTree = SOURCE_ROOT; };
+		164BC4DB33FA4704B4B05B37 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_node_name.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = validate_node_name.c; path = src/validate_node_name.c; sourceTree = SOURCE_ROOT; };
+		1CFB8791EDC14C49AA10AFEE /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/sanity_checks.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sanity_checks.c; path = src/sanity_checks.c; sourceTree = SOURCE_ROOT; };
+		1FAA283B8CA84087977DC25F /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/names_and_types.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = names_and_types.c; path = src/names_and_types.c; sourceTree = SOURCE_ROOT; };
+		209A5AC314344D758D5FE479 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/convert_rcutils_ret_to_rmw_ret.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = convert_rcutils_ret_to_rmw_ret.c; path = src/convert_rcutils_ret_to_rmw_ret.c; sourceTree = SOURCE_ROOT; };
+		5A2D0A52AA5F46E1988774F2 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		630CA3EEC54449E1BED150C5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/node_security_options.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = node_security_options.c; path = src/node_security_options.c; sourceTree = SOURCE_ROOT; };
+		9A59C2F50DB84CDFB6C98463 /* /Users/lbajo/ros2_mod_ws/build/rmw/CMakeFiles/rmw.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../../build/rmw/CMakeFiles/rmw.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		B345E71183804FB0A7D66051 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/allocators.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = allocators.c; path = src/allocators.c; sourceTree = SOURCE_ROOT; };
+		B49A7F4D798449CA9CCF6635 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B7FAE5D92C5446C7A9DF896E /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_namespace.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = validate_namespace.c; path = src/validate_namespace.c; sourceTree = SOURCE_ROOT; };
+		DC16285794EC4A8CB010F17D /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/error_handling.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = error_handling.c; path = src/error_handling.c; sourceTree = SOURCE_ROOT; };
+		E17076A56692426ABDD2D170 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/serialized_message.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = serialized_message.c; path = src/serialized_message.c; sourceTree = SOURCE_ROOT; };
+		E221ED2A28B84E6AB81D6E58 /* rmw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = librmwd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F959F4B2515D47F1A0C30192 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0FCC25007B3C492FB6EF2873 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		18333A4D89384F658E409FAF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0FCC25007B3C492FB6EF2873 /* CMake Rules */,
+				B49A7F4D798449CA9CCF6635 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1F18864EAAEE4C71AA01D893 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3DB3BD1565FA4DD5AA744AB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A59C2F50DB84CDFB6C98463 /* /Users/lbajo/ros2_mod_ws/build/rmw/CMakeFiles/rmw.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B129725B3EB4A04AE9063BB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B345E71183804FB0A7D66051 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/allocators.c */,
+				209A5AC314344D758D5FE479 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/convert_rcutils_ret_to_rmw_ret.c */,
+				DC16285794EC4A8CB010F17D /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/error_handling.c */,
+				1FAA283B8CA84087977DC25F /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/names_and_types.c */,
+				630CA3EEC54449E1BED150C5 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/node_security_options.c */,
+				1CFB8791EDC14C49AA10AFEE /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/sanity_checks.c */,
+				E17076A56692426ABDD2D170 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/serialized_message.c */,
+				0955080F3CDB48D7A3F72ACB /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_full_topic_name.c */,
+				B7FAE5D92C5446C7A9DF896E /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_namespace.c */,
+				164BC4DB33FA4704B4B05B37 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_node_name.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B5D98C7A80FE4DD9B0132B2A /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				1F18864EAAEE4C71AA01D893 /* CMake Rules */,
+				5A2D0A52AA5F46E1988774F2 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		CDD36F57A056490A89665BFD /* rmw */ = {
+			isa = PBXGroup;
+			children = (
+				8B129725B3EB4A04AE9063BB /* Source Files */,
+				3DB3BD1565FA4DD5AA744AB0 /* Resources */,
+				F959F4B2515D47F1A0C30192 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/CMakeLists.txt */,
+			);
+			name = rmw;
+			sourceTree = "<group>";
+		};
+		FA27EE2F9F304C9B88F3B2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E221ED2A28B84E6AB81D6E58 /* rmw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF45B017DF9A4BEB8A6385F0 = {
+			isa = PBXGroup;
+			children = (
+				CDD36F57A056490A89665BFD /* rmw */,
+				B5D98C7A80FE4DD9B0132B2A /* uninstall */,
+				18333A4D89384F658E409FAF /* ALL_BUILD */,
+				FA27EE2F9F304C9B88F3B2BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281F5D995D1A45E79190FC47 /* rmw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2DBA741224B462BB77637E2 /* Build configuration list for PBXNativeTarget "rmw" */;
+			buildPhases = (
+				3B34F21D791149C0AA10B270 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636A2EAEED97460F906C54BE /* PBXTargetDependency */,
+			);
+			name = rmw;
+			productName = rmw;
+			productReference = E221ED2A28B84E6AB81D6E58 /* rmw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76FC64636E4D45329F06D04A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 8C731DB829C7482794F40AA7 /* Build configuration list for PBXProject "rmw" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				72996BD6C66A4D579A28262D /* Debug */,
+				2D8ECB4EC043403F987F2440 /* Release */,
+				862EF63B271440A690F897E8 /* MinSizeRel */,
+				CDAE03395C424301B1C846A6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FF45B017DF9A4BEB8A6385F0;
+			projectDirPath = /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw;
+			projectRoot = "";
+			targets = (
+				8920234BBDF54AFCA2336A11 /* ALL_BUILD */,
+				C9AADD3CC8164008AE95652B /* ZERO_CHECK */,
+				6CBA057A8D2F4D819F36DE6F /* install */,
+				281F5D995D1A45E79190FC47 /* rmw */,
+				8E7A89033B154C44BBA85484 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2390AA8AD55F43D394D770BD /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/rmw -f /Users/lbajo/ros2_mod_ws/build/rmw/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		99624BF9C0D64C709F9FB50E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/rmw -f /Users/lbajo/ros2_mod_ws/build/rmw/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9D9CF9B49E7F49C3A8C1DBCF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/rmw -f /Users/lbajo/ros2_mod_ws/build/rmw/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B17224301A3D4F7FABB26D7F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/rmw -f /Users/lbajo/ros2_mod_ws/build/rmw/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C162FE441AB442B88729167C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D26D979572B847A2B4D1955A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DA0EE5E5B4EF457090FC4EF6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F2EEDD7154AB4360BA97BEE4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B34F21D791149C0AA10B270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B358395CCF4AD8BC8D2CE4 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/allocators.c */,
+				EBBBEEFA95A44EA595D3BE37 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/convert_rcutils_ret_to_rmw_ret.c */,
+				504A5EAE77454919A02682FC /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/error_handling.c */,
+				568982188CFC44B4BFDB188E /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/names_and_types.c */,
+				EC2E7BB6927B484CA010C774 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/node_security_options.c */,
+				04D42EE33791400096051232 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/sanity_checks.c */,
+				78B09DB5D6EE44E9ADC6A03A /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/serialized_message.c */,
+				7E9786AAD7A44FCC83DE30A7 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_full_topic_name.c */,
+				D149AFE6755B41069C0A7CBA /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_namespace.c */,
+				1EE9F741DB7C485DACEC6762 /* /Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/src/validate_node_name.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1708288C96DF4DE6BACADB12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8920234BBDF54AFCA2336A11 /* ALL_BUILD */;
+			targetProxy = 5875C115378C4CDC80F74826 /* PBXContainerItemProxy */;
+		};
+		598837F85E93428595C46F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9AADD3CC8164008AE95652B /* ZERO_CHECK */;
+			targetProxy = 6C6430849CEA46518A652D51 /* PBXContainerItemProxy */;
+		};
+		636A2EAEED97460F906C54BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9AADD3CC8164008AE95652B /* ZERO_CHECK */;
+			targetProxy = 233EBD460E9144B881C0E1BF /* PBXContainerItemProxy */;
+		};
+		66F9A5031D394DB885F916E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9AADD3CC8164008AE95652B /* ZERO_CHECK */;
+			targetProxy = 72CF430D5A3B4847987D9187 /* PBXContainerItemProxy */;
+		};
+		FDB18874A2054B4FB5589456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281F5D995D1A45E79190FC47 /* rmw */;
+			targetProxy = FFC3973939F74B40821D6848 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		023E2F20B3EB4D8F899BB524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'ROS_PACKAGE_NAME=\"rmw\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/include,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fvisibility=hidden -Wall -Wextra -Wpedantic '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rmwd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		0F946F33223942AEB702911B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		11D61CCDDAF44D5BB177EE10 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		183F59193D824FE4949299F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1A451DC8B9C04C76B6196715 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = RelWithDebInfo;
+		};
+		2A82E4E9C16C4534B6349ED0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'ROS_PACKAGE_NAME=\"rmw\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/include,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fvisibility=hidden -Wall -Wextra -Wpedantic '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rmw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3365EF0C5919422A85DCE331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		39FE5DA19AB44778AB52EDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3E582794C07042618B8A4375 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		46CC0DC19D3941E2B4352B79 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5135496CF3C149EFA91AEBEC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'ROS_PACKAGE_NAME=\"rmw\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/include,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fvisibility=hidden -Wall -Wextra -Wpedantic '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rmw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		699C3F8531C944D699FF0464 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7BDB873FE615433D9DB4A196 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9287FBC954AA46ED90AF20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		92D810019E57476BA8F43E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A67F85CE32F844149480C4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Debug;
+		};
+		AE365EC8855148DA873AE639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B7A2CA765D3541C7B183730C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BA5B810789F5449FA87994CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BD29832C3D274BDCADD86D80 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C516D4110DD346D49AA05D24 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = MinSizeRel;
+		};
+		D8B7B239254F4B429C659F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'ROS_PACKAGE_NAME=\"rmw\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/lbajo/ros2_mod_ws/src/ros2/rmw/rmw/include,/Users/lbajo/ros2_mod_ws/install/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fvisibility=hidden -Wall -Wextra -Wpedantic '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rmw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DFEECD46C87E4C0E905A5115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F019413A93144DC7A5AE2375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/rmw/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15B5C0080EE4447891D11397 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9287FBC954AA46ED90AF20CF /* Debug */,
+				183F59193D824FE4949299F0 /* Release */,
+				3E582794C07042618B8A4375 /* MinSizeRel */,
+				B7A2CA765D3541C7B183730C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1DD1019D13DE4C92ABE7CDC4 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5B810789F5449FA87994CC /* Debug */,
+				3365EF0C5919422A85DCE331 /* Release */,
+				BD29832C3D274BDCADD86D80 /* MinSizeRel */,
+				7BDB873FE615433D9DB4A196 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		46EC239179FC4ADB8D69F04D /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FE5DA19AB44778AB52EDAD /* Debug */,
+				AE365EC8855148DA873AE639 /* Release */,
+				699C3F8531C944D699FF0464 /* MinSizeRel */,
+				46CC0DC19D3941E2B4352B79 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C731DB829C7482794F40AA7 /* Build configuration list for PBXProject "rmw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67F85CE32F844149480C4D8 /* Debug */,
+				F019413A93144DC7A5AE2375 /* Release */,
+				C516D4110DD346D49AA05D24 /* MinSizeRel */,
+				1A451DC8B9C04C76B6196715 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E2DBA741224B462BB77637E2 /* Build configuration list for PBXNativeTarget "rmw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023E2F20B3EB4D8F899BB524 /* Debug */,
+				D8B7B239254F4B429C659F25 /* Release */,
+				5135496CF3C149EFA91AEBEC /* MinSizeRel */,
+				2A82E4E9C16C4534B6349ED0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDAA4982A005465AB052ACD2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D810019E57476BA8F43E0D /* Debug */,
+				DFEECD46C87E4C0E905A5115 /* Release */,
+				11D61CCDDAF44D5BB177EE10 /* MinSizeRel */,
+				0F946F33223942AEB702911B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76FC64636E4D45329F06D04A /* Project object */;
+}

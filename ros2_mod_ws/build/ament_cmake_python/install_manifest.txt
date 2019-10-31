@@ -1,0 +1,14 @@
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_python
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_python
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/environment/ament_prefix_path.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/environment/path.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/local_setup.bash
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/local_setup.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/local_setup.zsh
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/packages/ament_cmake_python
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/cmake/ament_cmake_python-extras.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/cmake/ament_cmake_pythonConfig.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/cmake/ament_cmake_pythonConfig-version.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/package.xml
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/cmake/ament_python_install_module.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_python/cmake/ament_python_install_package.cmake

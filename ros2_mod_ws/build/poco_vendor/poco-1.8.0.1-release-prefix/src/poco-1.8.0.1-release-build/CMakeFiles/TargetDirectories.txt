@@ -1,0 +1,8 @@
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-build/CMakeFiles/install.dir
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-build/CMakeFiles/package.dir
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-build/CMakeFiles/uninstall.dir
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-build/CMakeFiles/ALL_BUILD.dir
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-build/CMakeFiles/ZERO_CHECK.dir
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-build/Foundation/CMakeFiles/install.dir
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-build/Foundation/CMakeFiles/package.dir
+/Users/lbajo/ros2_mod_ws/build/poco_vendor/poco-1.8.0.1-release-prefix/src/poco-1.8.0.1-release-build/Foundation/CMakeFiles/Foundation.dir

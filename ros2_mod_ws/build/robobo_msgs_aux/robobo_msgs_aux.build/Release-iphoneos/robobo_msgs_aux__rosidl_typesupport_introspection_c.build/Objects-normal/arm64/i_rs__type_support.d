@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_typesupport_introspection_c/robobo_msgs_aux/msg/i_rs__type_support.c \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_typesupport_introspection_c/robobo_msgs_aux/msg/i_rs__rosidl_typesupport_introspection_c.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/message_type_support_struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_interface/macros.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_typesupport_introspection_c/robobo_msgs_aux/msg/rosidl_typesupport_introspection_c__visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_c/field_types.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_c/identifier.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_c/visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_introspection_c/message_introspection.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/msg/i_rs__struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/sensor_msgs/msg/range__struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/std_msgs/msg/header__struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/builtin_interfaces/msg/time__struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/string.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/primitives_array.h \
+  /Users/lbajo/ros2_mod_ws/install/include/sensor_msgs/msg/range.h \
+  /Users/lbajo/ros2_mod_ws/install/include/sensor_msgs/msg/range__functions.h \
+  /Users/lbajo/ros2_mod_ws/install/include/sensor_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/install/include/sensor_msgs/msg/range__type_support.h \
+  /Users/lbajo/ros2_mod_ws/install/include/sensor_msgs/msg/range__rosidl_typesupport_introspection_c.h \
+  /Users/lbajo/ros2_mod_ws/install/include/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

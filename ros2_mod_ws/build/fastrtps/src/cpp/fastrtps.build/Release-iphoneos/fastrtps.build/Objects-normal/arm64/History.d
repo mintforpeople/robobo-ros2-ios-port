@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/src/cpp/rtps/history/History.cpp \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/History.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../../fastrtps_dll.h \
+  /Users/lbajo/ros2_mod_ws/build/fastrtps/include/fastrtps/config.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/CacheChangePool.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../resources/ResourceManagement.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../common/SequenceNumber.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../common/../../fastrtps_dll.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../common/Types.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../common/Guid.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../attributes/HistoryAttributes.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../attributes/../resources/ResourceManagement.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../attributes/../../fastrtps_dll.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/CacheChange.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../common/WriteParams.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../common/SampleIdentity.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../common/SerializedPayload.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../common/Time_t.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../common/InstanceHandle.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/FragmentNumber.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/log/Log.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/utils/DBQueue.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/fastrtps_dll.h

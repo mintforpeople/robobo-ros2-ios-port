@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/src/cpp/rtps/history/CacheChangePool.cpp \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/CacheChangePool.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/history/../resources/ResourceManagement.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/CacheChange.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/Types.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/../../fastrtps_dll.h \
+  /Users/lbajo/ros2_mod_ws/build/fastrtps/include/fastrtps/config.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/WriteParams.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/SampleIdentity.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/Guid.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/SequenceNumber.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/SerializedPayload.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/Time_t.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/InstanceHandle.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/FragmentNumber.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/log/Log.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/utils/DBQueue.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/fastrtps_dll.h

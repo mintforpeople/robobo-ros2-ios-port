@@ -1,0 +1,14 @@
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_nose
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_nose
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/environment/ament_prefix_path.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/environment/path.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/local_setup.bash
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/local_setup.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/local_setup.zsh
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/packages/ament_cmake_nose
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/cmake/ament_cmake_nose-extras.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/cmake/ament_cmake_noseConfig.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/cmake/ament_cmake_noseConfig-version.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/package.xml
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/cmake/ament_add_nose_test.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_nose/cmake/ament_find_nosetests.cmake

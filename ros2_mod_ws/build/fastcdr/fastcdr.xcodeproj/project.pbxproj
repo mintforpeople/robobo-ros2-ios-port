@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		119D703AB8C34914BC3033B9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0DEC618D012B4A41BE63290F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				20BA16EFCD4A4FC59DA7E0E5 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		193F2278D09E455EB55410B8 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 098048BDE7A5415C877EB866 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				28FD417FC17347A9BAC6C05D /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D0714C9F10304E2A81EBDC55 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		36908B54931B4C8094C6913E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F7CC63C822F942E4A8DC6748 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3043BC05F90647D5AFA02BB5 /* CMake Rules */,
+			);
+			dependencies = (
+				F0B4CD3E0263479A99A90939 /* PBXTargetDependency */,
+				3781519A975C4347929350B2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B95E8BAFD0BF4D0CAD8A5708 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BD8B5F739AF0477AAFF19F2A /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				8430BDEC62F149908176E306 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7DFDA3918050485EA44A2C27 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2F916B8498434E93B53CAA76 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.rc */ = {isa = PBXBuildFile; fileRef = F5B829046A704F69A72DEF98 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.rc */; };
+		31622C1765634501BDA16BFC /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7EFF3D0BBB9D4098ADD2835E /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/CMakeLists.txt */; };
+		5CCD41C04AC141419D867480 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/Exception.cpp */ = {isa = PBXBuildFile; fileRef = 7FC5D2191CCB49088B1E49EA /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/Exception.cpp */; };
+		626DB655BE2244F8A889BBF3 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp */ = {isa = PBXBuildFile; fileRef = D436C67A286A4A19A96FD45F /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp */; };
+		6AEFA1CAF01940CFA104594E /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastBuffer.cpp */ = {isa = PBXBuildFile; fileRef = 3F8516E60F5B4102A7F84CB3 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastBuffer.cpp */; };
+		8B1CECAD71F048DAA42B240F /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp */ = {isa = PBXBuildFile; fileRef = 42606E2DE3524269B6F1E138 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp */; };
+		D7530F7616D54DC1ADBBCC20 /* /Users/lbajo/ros2_mod_ws/build/fastcdr/src/cpp/CMakeFiles/fastcdr.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 4C3A846C150F48E19F1102DF /* /Users/lbajo/ros2_mod_ws/build/fastcdr/src/cpp/CMakeFiles/fastcdr.dir/Info.plist */; };
+		E1B4A0361CA24676A033680D /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/NotEnoughMemoryException.cpp */ = {isa = PBXBuildFile; fileRef = 741FF6D99881474B9E514A82 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/NotEnoughMemoryException.cpp */; };
+		E7616AF5E99F40D98AE5C166 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/BadParamException.cpp */ = {isa = PBXBuildFile; fileRef = 0D0DF5E8900D40FE8A78BF24 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/BadParamException.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		206385AC0B7540E7A5ABBF9F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		670C5519C4D44B7B8EF3EA90 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		924B2CA86FEB477BBA8A1C92 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F902999C51D545F09A726106 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		126E0CC0A2A74938A43BE5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF3658AFF454C3DBA3F6391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36908B54931B4C8094C6913E;
+			remoteInfo = ALL_BUILD;
+		};
+		3E6F66A337EF49D3B1A36722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF3658AFF454C3DBA3F6391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF668DFCEEC548ACA6BB3F9E;
+			remoteInfo = fastcdr;
+		};
+		59B48E468C3847ACA6941570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF3658AFF454C3DBA3F6391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119D703AB8C34914BC3033B9;
+			remoteInfo = ZERO_CHECK;
+		};
+		802F81E1BED54710BD007DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF3658AFF454C3DBA3F6391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119D703AB8C34914BC3033B9;
+			remoteInfo = ZERO_CHECK;
+		};
+		90C84C3E3690415D803D3A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF3658AFF454C3DBA3F6391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36908B54931B4C8094C6913E;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D0DF5E8900D40FE8A78BF24 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/BadParamException.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BadParamException.cpp; path = src/cpp/exceptions/BadParamException.cpp; sourceTree = SOURCE_ROOT; };
+		3F8516E60F5B4102A7F84CB3 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FastBuffer.cpp; path = src/cpp/FastBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		42606E2DE3524269B6F1E138 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FastCdr.cpp; path = src/cpp/FastCdr.cpp; sourceTree = SOURCE_ROOT; };
+		4C3A846C150F48E19F1102DF /* /Users/lbajo/ros2_mod_ws/build/fastcdr/src/cpp/CMakeFiles/fastcdr.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../build/fastcdr/src/cpp/CMakeFiles/fastcdr.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		5556ED1287E3417EB983D6E9 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		741FF6D99881474B9E514A82 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/NotEnoughMemoryException.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NotEnoughMemoryException.cpp; path = src/cpp/exceptions/NotEnoughMemoryException.cpp; sourceTree = SOURCE_ROOT; };
+		7EFF3D0BBB9D4098ADD2835E /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/cpp/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7FC5D2191CCB49088B1E49EA /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/Exception.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Exception.cpp; path = src/cpp/exceptions/Exception.cpp; sourceTree = SOURCE_ROOT; };
+		942CBFC0BB3143579EA83879 /* fastcdr */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libfastcdrd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D436C67A286A4A19A96FD45F /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Cdr.cpp; path = src/cpp/Cdr.cpp; sourceTree = SOURCE_ROOT; };
+		F5B829046A704F69A72DEF98 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.rc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = FastCdr.rc; path = src/cpp/FastCdr.rc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0BD204A5F3D74FC1B4766E2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A846C150F48E19F1102DF /* /Users/lbajo/ros2_mod_ws/build/fastcdr/src/cpp/CMakeFiles/fastcdr.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1EBF0FA3D81F4548B0E404B6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		90045F663D27486F8C6943E4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1EBF0FA3D81F4548B0E404B6 /* CMake Rules */,
+				5556ED1287E3417EB983D6E9 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E2291399921A434B9E456B5C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D436C67A286A4A19A96FD45F /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp */,
+				3F8516E60F5B4102A7F84CB3 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastBuffer.cpp */,
+				42606E2DE3524269B6F1E138 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp */,
+				F5B829046A704F69A72DEF98 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.rc */,
+				0D0DF5E8900D40FE8A78BF24 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/BadParamException.cpp */,
+				7FC5D2191CCB49088B1E49EA /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/Exception.cpp */,
+				741FF6D99881474B9E514A82 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/NotEnoughMemoryException.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E417C1F4596B401DAA3FABF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942CBFC0BB3143579EA83879 /* fastcdr */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8B8FDD1C84947B09F998E78 /* fastcdr */ = {
+			isa = PBXGroup;
+			children = (
+				E2291399921A434B9E456B5C /* Source Files */,
+				0BD204A5F3D74FC1B4766E2C /* Resources */,
+				7EFF3D0BBB9D4098ADD2835E /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/CMakeLists.txt */,
+			);
+			name = fastcdr;
+			sourceTree = "<group>";
+		};
+		EE9C50728F3B4738AE856649 = {
+			isa = PBXGroup;
+			children = (
+				90045F663D27486F8C6943E4 /* ALL_BUILD */,
+				E8B8FDD1C84947B09F998E78 /* fastcdr */,
+				E417C1F4596B401DAA3FABF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF668DFCEEC548ACA6BB3F9E /* fastcdr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E226D85A313743738F6AE7EE /* Build configuration list for PBXNativeTarget "fastcdr" */;
+			buildPhases = (
+				017537D7B2374CB4AE070D8E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51356ED8DE6D4585B69D115A /* PBXTargetDependency */,
+			);
+			name = fastcdr;
+			productName = fastcdr;
+			productReference = 942CBFC0BB3143579EA83879 /* fastcdr */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BF3658AFF454C3DBA3F6391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 02E9E2927251441C88EE6542 /* Build configuration list for PBXProject "fastcdr" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				206385AC0B7540E7A5ABBF9F /* Debug */,
+				F902999C51D545F09A726106 /* Release */,
+				670C5519C4D44B7B8EF3EA90 /* MinSizeRel */,
+				924B2CA86FEB477BBA8A1C92 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = EE9C50728F3B4738AE856649;
+			projectDirPath = "/Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR";
+			projectRoot = "";
+			targets = (
+				36908B54931B4C8094C6913E /* ALL_BUILD */,
+				119D703AB8C34914BC3033B9 /* ZERO_CHECK */,
+				B95E8BAFD0BF4D0CAD8A5708 /* install */,
+				193F2278D09E455EB55410B8 /* package */,
+				AF668DFCEEC548ACA6BB3F9E /* fastcdr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20BA16EFCD4A4FC59DA7E0E5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/fastcdr -f /Users/lbajo/ros2_mod_ws/build/fastcdr/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		28FD417FC17347A9BAC6C05D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/fastcdr -f /Users/lbajo/ros2_mod_ws/build/fastcdr/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3043BC05F90647D5AFA02BB5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/fastcdr -f /Users/lbajo/ros2_mod_ws/build/fastcdr/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4C869E17EB82470EBACC3646 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8430BDEC62F149908176E306 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/lbajo/ros2_mod_ws/build/fastcdr -f /Users/lbajo/ros2_mod_ws/build/fastcdr/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8E7A4C1EFC6E4A4D845F4131 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A43F75AA6BD444368661AC6C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EA69D2C0D9A140B9B9F814DD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017537D7B2374CB4AE070D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626DB655BE2244F8A889BBF3 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp */,
+				6AEFA1CAF01940CFA104594E /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastBuffer.cpp */,
+				8B1CECAD71F048DAA42B240F /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp */,
+				E7616AF5E99F40D98AE5C166 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/BadParamException.cpp */,
+				5CCD41C04AC141419D867480 /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/Exception.cpp */,
+				E1B4A0361CA24676A033680D /* /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/src/cpp/exceptions/NotEnoughMemoryException.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3781519A975C4347929350B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119D703AB8C34914BC3033B9 /* ZERO_CHECK */;
+			targetProxy = 802F81E1BED54710BD007DCA /* PBXContainerItemProxy */;
+		};
+		51356ED8DE6D4585B69D115A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119D703AB8C34914BC3033B9 /* ZERO_CHECK */;
+			targetProxy = 59B48E468C3847ACA6941570 /* PBXContainerItemProxy */;
+		};
+		7DFDA3918050485EA44A2C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36908B54931B4C8094C6913E /* ALL_BUILD */;
+			targetProxy = 126E0CC0A2A74938A43BE5E0 /* PBXContainerItemProxy */;
+		};
+		D0714C9F10304E2A81EBDC55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36908B54931B4C8094C6913E /* ALL_BUILD */;
+			targetProxy = 90C84C3E3690415D803D3A3C /* PBXContainerItemProxy */;
+		};
+		F0B4CD3E0263479A99A90939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF668DFCEEC548ACA6BB3F9E /* fastcdr */;
+			targetProxy = 3E6F66A337EF49D3B1A36722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00EB7E2835574EBA8EC7ABB4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = MinSizeRel;
+		};
+		04206E24795B40EDBD4A5EB9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		266F13E8C65C480593060239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		28FC067B766F432AA527530C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2936FF55B0074B908BA77893 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2F16BA7D05334B1492E6C7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		360D887C4E3C4157A8B40104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Release;
+		};
+		4897C0854427485195F68A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		54B1B91211424B3AAC8D1DA1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FASTCDR_SOURCE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/include",/Users/lbajo/ros2_mod_ws/build/fastcdr/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -pedantic -Wextra     -DNDEBUG '-std=c++11' '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = fastcdr;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr/src/cpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5F0FC6EC6EC2462EAFE0DA98 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = RelWithDebInfo;
+		};
+		6C660F43A2AD411A90EA6D4F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		74F40EC4F1F44AF98F34839A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FASTCDR_SOURCE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/include",/Users/lbajo/ros2_mod_ws/build/fastcdr/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -pedantic -Wextra        -DNDEBUG '-std=c++11' '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = fastcdr;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr/src/cpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		98271795B2AD4A38B3569E13 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AF64C805D7D54092BDFD867B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = " arm64";
+				"ARCHS[sdk=iphonesimulator*]" = " x86_64";
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = " arm64";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = " x86_64";
+			};
+			name = Debug;
+		};
+		B739B18F8EF64C46997CDE6C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C35FC45D0FB044DEA90A891A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CF98082A02D348F48FF75395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D5F0725D861C412887118AB7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DD474DCE0A11489F947D3434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FASTCDR_SOURCE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/include",/Users/lbajo/ros2_mod_ws/build/fastcdr/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -pedantic -Wextra    '-std=c++11' '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = fastcdrd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr/src/cpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E9477407177342A4B0DDC1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EA51A9EBBD3E4649A2036B8B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F228FABDC16842B2A221E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F7503E3911524114817990F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FASTCDR_SOURCE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/lbajo/ros2_mod_ws/src/eProsima/Fast-CDR/include",/Users/lbajo/ros2_mod_ws/build/fastcdr/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++14 -Wall -pedantic -Wextra     -DNDEBUG '-std=c++11' '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = fastcdr;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr/src/cpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FB15BEA995D6488EA1DB1755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/lbajo/ros2_mod_ws/build/fastcdr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E9E2927251441C88EE6542 /* Build configuration list for PBXProject "fastcdr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF64C805D7D54092BDFD867B /* Debug */,
+				360D887C4E3C4157A8B40104 /* Release */,
+				00EB7E2835574EBA8EC7ABB4 /* MinSizeRel */,
+				5F0FC6EC6EC2462EAFE0DA98 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		098048BDE7A5415C877EB866 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F16BA7D05334B1492E6C7C0 /* Debug */,
+				266F13E8C65C480593060239 /* Release */,
+				EA51A9EBBD3E4649A2036B8B /* MinSizeRel */,
+				C35FC45D0FB044DEA90A891A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0DEC618D012B4A41BE63290F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4897C0854427485195F68A4E /* Debug */,
+				FB15BEA995D6488EA1DB1755 /* Release */,
+				2936FF55B0074B908BA77893 /* MinSizeRel */,
+				B739B18F8EF64C46997CDE6C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD8B5F739AF0477AAFF19F2A /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9477407177342A4B0DDC1F1 /* Debug */,
+				CF98082A02D348F48FF75395 /* Release */,
+				04206E24795B40EDBD4A5EB9 /* MinSizeRel */,
+				98271795B2AD4A38B3569E13 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E226D85A313743738F6AE7EE /* Build configuration list for PBXNativeTarget "fastcdr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD474DCE0A11489F947D3434 /* Debug */,
+				F7503E3911524114817990F2 /* Release */,
+				54B1B91211424B3AAC8D1DA1 /* MinSizeRel */,
+				74F40EC4F1F44AF98F34839A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7CC63C822F942E4A8DC6748 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FC067B766F432AA527530C /* Debug */,
+				F228FABDC16842B2A221E571 /* Release */,
+				D5F0725D861C412887118AB7 /* MinSizeRel */,
+				6C660F43A2AD411A90EA6D4F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BF3658AFF454C3DBA3F6391 /* Project object */;
+}

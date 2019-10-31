@@ -1,0 +1,76 @@
+@{
+message_c_name = '%s__%s__%s' % (spec.base_type.pkg_name, subfolder, spec.base_type.type)
+message_objc_name = 'ROS_{}_{}_{}'.format(spec.base_type.pkg_name, subfolder, spec.base_type.type)
+}@
+#import <Foundation/Foundation.h>
+
+#include "@(spec.base_type.pkg_name)/@(subfolder)/@(module_name).h"
+
+@[for field in spec.fields]@
+@[    if not field.type.is_array and not field.type.is_primitive_type()]@
+@{
+field_type_pkg = str(field.type).split("/")[0]
+field_msg_name = str(field.type).split("/")[1]
+import_objc_path = 'ROS_{}/msg/{}'.format(field_type_pkg, field_msg_name)
+}@
+#import "@(import_objc_path).h"
+@[    end if]@
+@[end for]@
+
+@@interface @(message_objc_name) : NSObject {
+@[for field in spec.fields]@
+@[    if field.type.is_array]@
+@[        if field.type.is_fixed_size_array()]@
+  // TODO(fmrico): Bounded Array is not supported
+@[        else]@
+// TODO(fmrico): Implemening array array_size: @(field.type.array_size) is_upper_bound: @(field.type.is_upper_bound) is_fixed_size_array: @(field.type.is_fixed_size_array())
+@[            if field.type.is_primitive_type()]@
+  NSMutableArray* @(field.name);
+@[            end if]@
+@[        end if]@
+@[    else]@
+@[        if field.type.is_primitive_type()]@
+  @(get_objc_type(field.type)) @(field.name);
+@[        else]@
+@{
+field_type_pkg = str(field.type).split("/")[0]
+field_msg_name = str(field.type).split("/")[1]
+type_name = 'ROS_{}_msg_{}'.format(field_type_pkg, field_msg_name)
+}@
+  @(type_name)* @(field.name);
+@[        end if]@
+@[    end if]@
+@[end for]@
+}
+
+@[for field in spec.fields]@
+@[    if field.type.is_array]@
+@[        if field.type.is_fixed_size_array()]@
+  // TODO(fmrico): Bounded Array is not supported
+@[        else]@
+// TODO(fmrico): Implemening array
+@[            if field.type.is_primitive_type()]@
+@@property(assign) NSMutableArray* @(field.name);
+@[            end if]@
+@[        end if]@
+@[    else]@
+@[        if field.type.is_primitive_type()]@
+@@property(assign) @(get_objc_type(field.type)) @(field.name);
+@[        else]@
+@{
+field_type_pkg = str(field.type).split("/")[0]
+field_msg_name = str(field.type).split("/")[1]
+type_name = 'ROS_{}_msg_{}'.format(field_type_pkg, field_msg_name)
+}@
+@@property(assign) @(type_name)* @(field.name);
+@[        end if]@
+@[    end if]@
+@[end for]@
+
++ (intptr_t)typesupportHandle;
++ (intptr_t)fromObjcConverterPtr;
++ (intptr_t)toObjcConverterPtr;
++ (intptr_t)destroyMsgPtr;
++ (@(message_c_name)*)fromObjc:(@(message_objc_name)*) message_objc_;
++ (@(message_objc_name)*)toObjc:(@(message_c_name)*) message_c_;
+@@end

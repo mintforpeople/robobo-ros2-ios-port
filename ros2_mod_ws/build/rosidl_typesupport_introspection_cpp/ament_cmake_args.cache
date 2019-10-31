@@ -1,0 +1,1 @@
+{"ament_cmake_args": [], "build_tests": false, "cmake_args": ["-DTHIRDPARTY=ON", "-DINSTALL_EXAMPLES=OFF", "-DBUILD_SHARED_LIBS=OFF", "-DCMAKE_TOOLCHAIN_FILE=/Users/lbajo/ros2_mod_ws/src/ruslo/polly/ios-nocodesign.cmake", "-DCMAKE_XCODE_ATTRIBUTE_ONLY_ACTIVE_ARCH=NO"], "install_space": "/Users/lbajo/ros2_mod_ws/install", "symlink_install": false}

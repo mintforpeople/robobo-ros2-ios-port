@@ -1,0 +1,13 @@
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/package_run_dependencies/rclobjc_common
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/parent_prefix_path/rclobjc_common
+/Users/lbajo/ros2_mod_ws/install/share/rclobjc_common/environment/ament_prefix_path.sh
+/Users/lbajo/ros2_mod_ws/install/share/rclobjc_common/environment/path.sh
+/Users/lbajo/ros2_mod_ws/install/share/rclobjc_common/local_setup.bash
+/Users/lbajo/ros2_mod_ws/install/share/rclobjc_common/local_setup.sh
+/Users/lbajo/ros2_mod_ws/install/share/rclobjc_common/local_setup.zsh
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/packages/rclobjc_common
+/Users/lbajo/ros2_mod_ws/install/share/rclobjc_common/cmake/rclobjc_cmake_module-extras.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rclobjc_common/cmake/rclobjc_commonConfig.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rclobjc_common/cmake/rclobjc_commonConfig-version.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rclobjc_common/package.xml
+/Users/lbajo/ros2_mod_ws/install/share/rclobjc_common/cmake/Modules/UseObjectiveC.cmake

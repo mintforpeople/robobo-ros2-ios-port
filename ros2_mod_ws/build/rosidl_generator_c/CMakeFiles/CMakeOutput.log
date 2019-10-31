@@ -1,0 +1,509 @@
+The target system is: Darwin -  - 
+The host system is: Darwin - 17.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+Build system information
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC')
+
+CreateBuildDirectory /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    builtin-create-build-directory /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+
+MkDir /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    /bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/all-product-headers.yaml (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+
+CompileC /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/include -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+
+Ld /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest/CompilerIdC normal arm64 (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -framework XCTest -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest/CompilerIdC
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+GenerateDSYMFile /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest.dSYM /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest/CompilerIdC (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest/CompilerIdC -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest.dSYM
+
+PhaseScriptExecution Run\ Script /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    /bin/sh -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+Touch /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.xctest/CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest/CompilerIdC"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_e5a24" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_e5a24 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_e5a24" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/Objects-normal/arm64/cmTC_e5a24.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_e5a24.app
+
+ProcessInfoPlistFile Debug/cmTC_e5a24.app/Info.plist CMakeFiles/cmTC_e5a24.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e5a24.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_e5a24.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_e5a24.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/Objects-normal/arm64/testCCompiler.o testCCompiler.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/Objects-normal/arm64/testCCompiler.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/Objects-normal/arm64/testCCompiler.dia -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/Objects-normal/arm64/testCCompiler.o
+
+Ld Debug/cmTC_e5a24.app/cmTC_e5a24 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/Objects-normal/arm64/cmTC_e5a24.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/Objects-normal/arm64/cmTC_e5a24_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5a24.build/Objects-normal/arm64/cmTC_e5a24_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_e5a24.app/cmTC_e5a24
+
+GenerateDSYMFile Debug/cmTC_e5a24.app.dSYM Debug/cmTC_e5a24.app/cmTC_e5a24
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_e5a24.app/cmTC_e5a24 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_e5a24.app.dSYM
+
+Touch Debug/cmTC_e5a24.app
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_e5a24.app
+
+Validate Debug/cmTC_e5a24.app
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_e5a24.app
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_26c23" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_26c23 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_26c23" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app
+
+ProcessInfoPlistFile Debug/cmTC_26c23.app/Info.plist CMakeFiles/cmTC_26c23.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_26c23.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/CMakeCCompilerABI.o
+
+Ld Debug/cmTC_26c23.app/cmTC_26c23 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/cmTC_26c23
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+Target: aarch64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/cmTC_26c23 -L/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_dependency_info.dat -L/usr/local/lib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug
+	/usr/local/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib
+Framework search paths:
+	/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/
+
+GenerateDSYMFile Debug/cmTC_26c23.app.dSYM Debug/cmTC_26c23.app/cmTC_26c23
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/cmTC_26c23 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app.dSYM
+
+Touch Debug/cmTC_26c23.app
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app
+
+Validate Debug/cmTC_26c23.app
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_26c23" "-configuration" "Debug"]
+  ignore line: [Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':]
+  ignore line: [    CODE_SIGNING_REQUIRED = NO]
+  ignore line: []
+  ignore line: [Prepare build]
+  ignore line: [note: Using legacy build system]
+  ignore line: []
+  ignore line: [=== BUILD TARGET cmTC_26c23 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: [Code Signing Warning: "cmTC_26c23" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64]
+  ignore line: [write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23.LinkFileList]
+  ignore line: []
+  ignore line: [Create product structure]
+  ignore line: [/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app]
+  ignore line: []
+  ignore line: [ProcessInfoPlistFile Debug/cmTC_26c23.app/Info.plist CMakeFiles/cmTC_26c23.dir/Info.plist]
+  ignore line: [    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"]
+  ignore line: [    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_26c23.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/Info.plist]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_26c23.app/cmTC_26c23 normal arm64]
+  ignore line: [    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp]
+  ignore line: [    export IPHONEOS_DEPLOYMENT_TARGET=12.1]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/cmTC_26c23]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
+  ignore line: [Target: aarch64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/cmTC_26c23 -L/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_dependency_info.dat -L/usr/local/lib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/cmTC_26c23 -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_dependency_info.dat -L/usr/local/lib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/cmTC_26c23 -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_dependency_info.dat -L/usr/local/lib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-dead_strip] ==> ignore
+    arg [-iphoneos_version_min] ==> ignore
+    arg [12.1.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_26c23.app/cmTC_26c23] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_26c23.build/Objects-normal/arm64/cmTC_26c23_dependency_info.dat] ==> ignore
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a]
+  Library search paths: [;/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug;/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib]
+  Framework search paths: [;/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug] ==> [/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib]
+  collapse framework dir [/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug] ==> [/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_34ef2" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_34ef2 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_34ef2" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/Objects-normal/arm64/cmTC_34ef2.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_34ef2.app
+
+ProcessInfoPlistFile Debug/cmTC_34ef2.app/Info.plist CMakeFiles/cmTC_34ef2.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_34ef2.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_34ef2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_34ef2.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/Objects-normal/arm64/feature_tests.o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/feature_tests.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -std=c11 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/Objects-normal/arm64/feature_tests.dia -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/feature_tests.c -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_34ef2.app/cmTC_34ef2 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/Objects-normal/arm64/cmTC_34ef2.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/Objects-normal/arm64/cmTC_34ef2_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_34ef2.build/Objects-normal/arm64/cmTC_34ef2_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_34ef2.app/cmTC_34ef2
+
+GenerateDSYMFile Debug/cmTC_34ef2.app.dSYM Debug/cmTC_34ef2.app/cmTC_34ef2
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_34ef2.app/cmTC_34ef2 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_34ef2.app.dSYM
+
+Touch Debug/cmTC_34ef2.app
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_34ef2.app
+
+Validate Debug/cmTC_34ef2.app
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_34ef2.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_8cb77" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_8cb77 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_8cb77" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/Objects-normal/arm64/cmTC_8cb77.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_8cb77.app
+
+ProcessInfoPlistFile Debug/cmTC_8cb77.app/Info.plist CMakeFiles/cmTC_8cb77.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8cb77.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_8cb77.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_8cb77.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/Objects-normal/arm64/feature_tests.o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/feature_tests.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -std=c99 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/Objects-normal/arm64/feature_tests.dia -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/feature_tests.c -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_8cb77.app/cmTC_8cb77 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/Objects-normal/arm64/cmTC_8cb77.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/Objects-normal/arm64/cmTC_8cb77_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_8cb77.build/Objects-normal/arm64/cmTC_8cb77_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_8cb77.app/cmTC_8cb77
+
+GenerateDSYMFile Debug/cmTC_8cb77.app.dSYM Debug/cmTC_8cb77.app/cmTC_8cb77
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_8cb77.app/cmTC_8cb77 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_8cb77.app.dSYM
+
+Touch Debug/cmTC_8cb77.app
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_8cb77.app
+
+Validate Debug/cmTC_8cb77.app
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_8cb77.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_0b832" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_0b832 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_0b832" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/Objects-normal/arm64/cmTC_0b832.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_0b832.app
+
+ProcessInfoPlistFile Debug/cmTC_0b832.app/Info.plist CMakeFiles/cmTC_0b832.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0b832.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_0b832.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_0b832.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/Objects-normal/arm64/feature_tests.o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/feature_tests.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -std=c90 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/Objects-normal/arm64/feature_tests.dia -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/feature_tests.c -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_0b832.app/cmTC_0b832 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/Objects-normal/arm64/cmTC_0b832.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/Objects-normal/arm64/cmTC_0b832_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0b832.build/Objects-normal/arm64/cmTC_0b832_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_0b832.app/cmTC_0b832
+
+GenerateDSYMFile Debug/cmTC_0b832.app.dSYM Debug/cmTC_0b832.app/cmTC_0b832
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_0b832.app/cmTC_0b832 -o /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_0b832.app.dSYM
+
+Touch Debug/cmTC_0b832.app
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_0b832.app
+
+Validate Debug/cmTC_0b832.app
+    cd /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/rosidl_generator_c/CMakeFiles/CMakeTmp/Debug/cmTC_0b832.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_objc/ROS_std_msgs/msg/UInt16MultiArray_s.ep.rosidl_typesupport_introspection_c.m \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_c/std_msgs/msg/u_int16_multi_array.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_c/std_msgs/msg/u_int16_multi_array__struct.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_c/std_msgs/msg/multi_array_layout__struct.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_c/std_msgs/msg/multi_array_dimension__struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/string.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/primitives_array.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_c/std_msgs/msg/u_int16_multi_array__functions.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_c/std_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_c/std_msgs/msg/u_int16_multi_array__type_support.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/message_type_support_struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_interface/macros.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/string_functions.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/primitives_array_functions.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_objc/ROS_std_msgs/msg/UInt16MultiArray.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_objc/ROS_std_msgs/msg/MultiArrayLayout.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_c/std_msgs/msg/multi_array_layout.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_c/std_msgs/msg/multi_array_layout__functions.h \
+  /Users/lbajo/ros2_mod_ws/build/std_msgs/rosidl_generator_c/std_msgs/msg/multi_array_layout__type_support.h

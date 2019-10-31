@@ -1,0 +1,4 @@
+std_msgs/Int8 frequency   #0 for LOW
+                          #1 for NORMAL
+                          #2 for HIGH
+                          #3 for MAX

@@ -1,0 +1,1294 @@
+The target system is: Darwin -  - 
+The host system is: Darwin - 17.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+Build system information
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC')
+
+CreateBuildDirectory /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    builtin-create-build-directory /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+
+MkDir /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    /bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/all-product-headers.yaml (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+
+CompileC /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+
+Ld /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest/CompilerIdC normal arm64 (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -framework XCTest -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest/CompilerIdC
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+GenerateDSYMFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest.dSYM /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest/CompilerIdC (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest/CompilerIdC -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest.dSYM
+
+PhaseScriptExecution Run\ Script /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    /bin/sh -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+Touch /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest (in target: CompilerIdC)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.xctest/CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdC/CompilerIdC.xctest/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: -std=c++14
+Id flags:  
+
+The output was:
+0
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+Build system information
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX')
+
+CreateBuildDirectory /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    builtin-create-build-directory /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+
+MkDir /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    /bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.hmap (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/all-product-headers.yaml (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+
+CompileC /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.1 -g -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+
+Ld /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX normal arm64 (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -framework XCTest -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+GenerateDSYMFile /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest.dSYM /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest.dSYM
+
+PhaseScriptExecution Run\ Script /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    /bin/sh -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+Touch /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest (in target: CompilerIdCXX)
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.xctest/CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/3.12.3/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_a40c7" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_a40c7 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_a40c7" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/Objects-normal/arm64/cmTC_a40c7.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_a40c7.app
+
+ProcessInfoPlistFile Debug/cmTC_a40c7.app/Info.plist CMakeFiles/cmTC_a40c7.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a40c7.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_a40c7.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_a40c7.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/Objects-normal/arm64/testCCompiler.o testCCompiler.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/Objects-normal/arm64/testCCompiler.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/Objects-normal/arm64/testCCompiler.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/Objects-normal/arm64/testCCompiler.o
+
+Ld Debug/cmTC_a40c7.app/cmTC_a40c7 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/Objects-normal/arm64/cmTC_a40c7.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/Objects-normal/arm64/cmTC_a40c7_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a40c7.build/Objects-normal/arm64/cmTC_a40c7_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_a40c7.app/cmTC_a40c7
+
+GenerateDSYMFile Debug/cmTC_a40c7.app.dSYM Debug/cmTC_a40c7.app/cmTC_a40c7
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_a40c7.app/cmTC_a40c7 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_a40c7.app.dSYM
+
+Touch Debug/cmTC_a40c7.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_a40c7.app
+
+Validate Debug/cmTC_a40c7.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_a40c7.app
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_6b185" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_6b185 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_6b185" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app
+
+ProcessInfoPlistFile Debug/cmTC_6b185.app/Info.plist CMakeFiles/cmTC_6b185.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_6b185.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/CMakeCCompilerABI.o
+
+Ld Debug/cmTC_6b185.app/cmTC_6b185 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/cmTC_6b185
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+Target: aarch64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/cmTC_6b185 -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_dependency_info.dat -L/usr/local/lib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug
+	/usr/local/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib
+Framework search paths:
+	/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/
+
+GenerateDSYMFile Debug/cmTC_6b185.app.dSYM Debug/cmTC_6b185.app/cmTC_6b185
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/cmTC_6b185 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app.dSYM
+
+Touch Debug/cmTC_6b185.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app
+
+Validate Debug/cmTC_6b185.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_6b185" "-configuration" "Debug"]
+  ignore line: [Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':]
+  ignore line: [    CODE_SIGNING_REQUIRED = NO]
+  ignore line: []
+  ignore line: [Prepare build]
+  ignore line: [note: Using legacy build system]
+  ignore line: []
+  ignore line: [=== BUILD TARGET cmTC_6b185 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: [Code Signing Warning: "cmTC_6b185" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64]
+  ignore line: [write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185.LinkFileList]
+  ignore line: []
+  ignore line: [Create product structure]
+  ignore line: [/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app]
+  ignore line: []
+  ignore line: [ProcessInfoPlistFile Debug/cmTC_6b185.app/Info.plist CMakeFiles/cmTC_6b185.dir/Info.plist]
+  ignore line: [    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"]
+  ignore line: [    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_6b185.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/Info.plist]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_6b185.app/cmTC_6b185 normal arm64]
+  ignore line: [    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp]
+  ignore line: [    export IPHONEOS_DEPLOYMENT_TARGET=12.1]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/cmTC_6b185]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
+  ignore line: [Target: aarch64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/cmTC_6b185 -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_dependency_info.dat -L/usr/local/lib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/cmTC_6b185 -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_dependency_info.dat -L/usr/local/lib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/cmTC_6b185 -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_dependency_info.dat -L/usr/local/lib -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-dead_strip] ==> ignore
+    arg [-iphoneos_version_min] ==> ignore
+    arg [12.1.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_6b185.app/cmTC_6b185] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_6b185.build/Objects-normal/arm64/cmTC_6b185_dependency_info.dat] ==> ignore
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a]
+  Library search paths: [;/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug;/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib]
+  Framework search paths: [;/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug] ==> [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib]
+  collapse framework dir [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug] ==> [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_770c9" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_770c9 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_770c9" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/Objects-normal/arm64/cmTC_770c9.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_770c9.app
+
+ProcessInfoPlistFile Debug/cmTC_770c9.app/Info.plist CMakeFiles/cmTC_770c9.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_770c9.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_770c9.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_770c9.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/Objects-normal/arm64/feature_tests.o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -std=c11 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/Objects-normal/arm64/feature_tests.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.c -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_770c9.app/cmTC_770c9 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/Objects-normal/arm64/cmTC_770c9.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/Objects-normal/arm64/cmTC_770c9_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_770c9.build/Objects-normal/arm64/cmTC_770c9_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_770c9.app/cmTC_770c9
+
+GenerateDSYMFile Debug/cmTC_770c9.app.dSYM Debug/cmTC_770c9.app/cmTC_770c9
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_770c9.app/cmTC_770c9 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_770c9.app.dSYM
+
+Touch Debug/cmTC_770c9.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_770c9.app
+
+Validate Debug/cmTC_770c9.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_770c9.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_e5e53" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_e5e53 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_e5e53" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/Objects-normal/arm64/cmTC_e5e53.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e5e53.app
+
+ProcessInfoPlistFile Debug/cmTC_e5e53.app/Info.plist CMakeFiles/cmTC_e5e53.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e5e53.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e5e53.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e5e53.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/Objects-normal/arm64/feature_tests.o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -std=c99 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/Objects-normal/arm64/feature_tests.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.c -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_e5e53.app/cmTC_e5e53 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/Objects-normal/arm64/cmTC_e5e53.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/Objects-normal/arm64/cmTC_e5e53_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e5e53.build/Objects-normal/arm64/cmTC_e5e53_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e5e53.app/cmTC_e5e53
+
+GenerateDSYMFile Debug/cmTC_e5e53.app.dSYM Debug/cmTC_e5e53.app/cmTC_e5e53
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e5e53.app/cmTC_e5e53 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e5e53.app.dSYM
+
+Touch Debug/cmTC_e5e53.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e5e53.app
+
+Validate Debug/cmTC_e5e53.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e5e53.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_12f3c" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_12f3c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_12f3c" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/Objects-normal/arm64/cmTC_12f3c.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_12f3c.app
+
+ProcessInfoPlistFile Debug/cmTC_12f3c.app/Info.plist CMakeFiles/cmTC_12f3c.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_12f3c.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_12f3c.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_12f3c.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/Objects-normal/arm64/feature_tests.o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -std=c90 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/Objects-normal/arm64/feature_tests.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.c -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_12f3c.app/cmTC_12f3c normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/Objects-normal/arm64/cmTC_12f3c.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/Objects-normal/arm64/cmTC_12f3c_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_12f3c.build/Objects-normal/arm64/cmTC_12f3c_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_12f3c.app/cmTC_12f3c
+
+GenerateDSYMFile Debug/cmTC_12f3c.app.dSYM Debug/cmTC_12f3c.app/cmTC_12f3c
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_12f3c.app/cmTC_12f3c -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_12f3c.app.dSYM
+
+Touch Debug/cmTC_12f3c.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_12f3c.app
+
+Validate Debug/cmTC_12f3c.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_12f3c.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_fd317" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_fd317 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_fd317" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/Objects-normal/arm64/cmTC_fd317.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_fd317.app
+
+ProcessInfoPlistFile Debug/cmTC_fd317.app/Info.plist CMakeFiles/cmTC_fd317.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_fd317.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_fd317.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_fd317.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/Objects-normal/arm64/testCXXCompiler.o testCXXCompiler.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -std=c++14 -std=c++14 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/Objects-normal/arm64/testCXXCompiler.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/Objects-normal/arm64/testCXXCompiler.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/Objects-normal/arm64/testCXXCompiler.o
+
+Ld Debug/cmTC_fd317.app/cmTC_fd317 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/Objects-normal/arm64/cmTC_fd317.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/Objects-normal/arm64/cmTC_fd317_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_fd317.build/Objects-normal/arm64/cmTC_fd317_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_fd317.app/cmTC_fd317
+
+GenerateDSYMFile Debug/cmTC_fd317.app.dSYM Debug/cmTC_fd317.app/cmTC_fd317
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_fd317.app/cmTC_fd317 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_fd317.app.dSYM
+
+Touch Debug/cmTC_fd317.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_fd317.app
+
+Validate Debug/cmTC_fd317.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_fd317.app
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_0f9e7" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_0f9e7 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_0f9e7" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app
+
+ProcessInfoPlistFile Debug/cmTC_0f9e7.app/Info.plist CMakeFiles/cmTC_0f9e7.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0f9e7.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -std=c++14 -std=c++14 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTC_0f9e7.app/cmTC_0f9e7 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/cmTC_0f9e7
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+Target: aarch64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/cmTC_0f9e7 -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_dependency_info.dat -L/usr/local/lib -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em arm64e arm64_32
+Library search paths:
+	/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug
+	/usr/local/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib
+Framework search paths:
+	/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/
+
+GenerateDSYMFile Debug/cmTC_0f9e7.app.dSYM Debug/cmTC_0f9e7.app/cmTC_0f9e7
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/cmTC_0f9e7 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app.dSYM
+
+Touch Debug/cmTC_0f9e7.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app
+
+Validate Debug/cmTC_0f9e7.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_0f9e7" "-configuration" "Debug"]
+  ignore line: [Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':]
+  ignore line: [    CODE_SIGNING_REQUIRED = NO]
+  ignore line: []
+  ignore line: [Prepare build]
+  ignore line: [note: Using legacy build system]
+  ignore line: []
+  ignore line: [=== BUILD TARGET cmTC_0f9e7 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: [Code Signing Warning: "cmTC_0f9e7" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64]
+  ignore line: [write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7.LinkFileList]
+  ignore line: []
+  ignore line: [Create product structure]
+  ignore line: [/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app]
+  ignore line: []
+  ignore line: [ProcessInfoPlistFile Debug/cmTC_0f9e7.app/Info.plist CMakeFiles/cmTC_0f9e7.dir/Info.plist]
+  ignore line: [    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"]
+  ignore line: [    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0f9e7.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/Info.plist]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -std=c++14 -std=c++14 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/CMakeCXXCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_0f9e7.app/cmTC_0f9e7 normal arm64]
+  ignore line: [    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp]
+  ignore line: [    export IPHONEOS_DEPLOYMENT_TARGET=12.1]
+  ignore line: [    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/cmTC_0f9e7]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.11.45.5)]
+  ignore line: [Target: aarch64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/cmTC_0f9e7 -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_dependency_info.dat -L/usr/local/lib -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/cmTC_0f9e7 -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_dependency_info.dat -L/usr/local/lib -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -dead_strip -iphoneos_version_min 12.1.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/cmTC_0f9e7 -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7.LinkFileList -object_path_lto /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_lto.o -no_deduplicate -v -headerpad_max_install_names -dependency_info /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_dependency_info.dat -L/usr/local/lib -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-dead_strip] ==> ignore
+    arg [-iphoneos_version_min] ==> ignore
+    arg [12.1.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_0f9e7.app/cmTC_0f9e7] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0f9e7.build/Objects-normal/arm64/cmTC_0f9e7_dependency_info.dat] ==> ignore
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a]
+  Library search paths: [;/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug;/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib]
+  Framework search paths: [;/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.ios.a]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug] ==> [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib]
+  collapse framework dir [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug] ==> [/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ffc42" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_ffc42 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_ffc42" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/Objects-normal/arm64/cmTC_ffc42.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_ffc42.app
+
+ProcessInfoPlistFile Debug/cmTC_ffc42.app/Info.plist CMakeFiles/cmTC_ffc42.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_ffc42.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_ffc42.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_ffc42.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/Objects-normal/arm64/feature_tests.o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -std=c++14 -std=c++14 -std=c++1z -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/Objects-normal/arm64/feature_tests.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.cxx -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_ffc42.app/cmTC_ffc42 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/Objects-normal/arm64/cmTC_ffc42.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/Objects-normal/arm64/cmTC_ffc42_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_ffc42.build/Objects-normal/arm64/cmTC_ffc42_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_ffc42.app/cmTC_ffc42
+
+GenerateDSYMFile Debug/cmTC_ffc42.app.dSYM Debug/cmTC_ffc42.app/cmTC_ffc42
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_ffc42.app/cmTC_ffc42 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_ffc42.app.dSYM
+
+Touch Debug/cmTC_ffc42.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_ffc42.app
+
+Validate Debug/cmTC_ffc42.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_ffc42.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_7d8ed" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_7d8ed OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_7d8ed" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/Objects-normal/arm64/cmTC_7d8ed.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_7d8ed.app
+
+ProcessInfoPlistFile Debug/cmTC_7d8ed.app/Info.plist CMakeFiles/cmTC_7d8ed.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_7d8ed.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_7d8ed.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_7d8ed.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/Objects-normal/arm64/feature_tests.o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -std=c++14 -std=c++14 -std=c++14 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/Objects-normal/arm64/feature_tests.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.cxx -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_7d8ed.app/cmTC_7d8ed normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/Objects-normal/arm64/cmTC_7d8ed.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/Objects-normal/arm64/cmTC_7d8ed_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_7d8ed.build/Objects-normal/arm64/cmTC_7d8ed_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_7d8ed.app/cmTC_7d8ed
+
+GenerateDSYMFile Debug/cmTC_7d8ed.app.dSYM Debug/cmTC_7d8ed.app/cmTC_7d8ed
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_7d8ed.app/cmTC_7d8ed -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_7d8ed.app.dSYM
+
+Touch Debug/cmTC_7d8ed.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_7d8ed.app
+
+Validate Debug/cmTC_7d8ed.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_7d8ed.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_e3bae" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_e3bae OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_e3bae" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/Objects-normal/arm64/cmTC_e3bae.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e3bae.app
+
+ProcessInfoPlistFile Debug/cmTC_e3bae.app/Info.plist CMakeFiles/cmTC_e3bae.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e3bae.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e3bae.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e3bae.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/Objects-normal/arm64/feature_tests.o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -std=c++14 -std=c++14 -std=c++11 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/Objects-normal/arm64/feature_tests.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.cxx -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_e3bae.app/cmTC_e3bae normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/Objects-normal/arm64/cmTC_e3bae.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/Objects-normal/arm64/cmTC_e3bae_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_e3bae.build/Objects-normal/arm64/cmTC_e3bae_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e3bae.app/cmTC_e3bae
+
+GenerateDSYMFile Debug/cmTC_e3bae.app.dSYM Debug/cmTC_e3bae.app/cmTC_e3bae
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e3bae.app/cmTC_e3bae -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e3bae.app.dSYM
+
+Touch Debug/cmTC_e3bae.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e3bae.app
+
+Validate Debug/cmTC_e3bae.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_e3bae.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_43307" "-configuration" "Debug"
+Build settings from configuration file '/Users/lbajo/ros2_mod_ws/src/ruslo/polly/scripts/NoCodeSign.xcconfig':
+    CODE_SIGNING_REQUIRED = NO
+
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_43307 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Signing Warning: "cmTC_43307" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+
+Write auxiliary files
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/Objects-normal/arm64
+write-file /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/Objects-normal/arm64/cmTC_43307.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_43307.app
+
+ProcessInfoPlistFile Debug/cmTC_43307.app/Info.plist CMakeFiles/cmTC_43307.dir/Info.plist
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    builtin-infoPlistUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_43307.dir/Info.plist -genpkginfo /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_43307.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_43307.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/Objects-normal/arm64/feature_tests.o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/include -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/DerivedSources/arm64 -I/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -std=c++14 -std=c++14 -std=c++98 -MMD -MT dependencies -MF /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/Objects-normal/arm64/feature_tests.d --serialize-diagnostics /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/Objects-normal/arm64/feature_tests.dia -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/feature_tests.cxx -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/Objects-normal/arm64/feature_tests.o
+
+Ld Debug/cmTC_43307.app/cmTC_43307 normal arm64
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -F/Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug -filelist /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/Objects-normal/arm64/cmTC_43307.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/Objects-normal/arm64/cmTC_43307_lto.o -Xlinker -no_deduplicate -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_43307.build/Objects-normal/arm64/cmTC_43307_dependency_info.dat -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_43307.app/cmTC_43307
+
+GenerateDSYMFile Debug/cmTC_43307.app.dSYM Debug/cmTC_43307.app/cmTC_43307
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_43307.app/cmTC_43307 -o /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_43307.app.dSYM
+
+Touch Debug/cmTC_43307.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    /usr/bin/touch -c /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_43307.app
+
+Validate Debug/cmTC_43307.app
+    cd /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lbajo/ros2_mod_ws/install/bin:/Users/lbajo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/bin:/Users/lbajo/apache-maven-3.6.0/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/lbajo/ros2_mod_ws/build/sensor_msgs/CMakeFiles/CMakeTmp/Debug/cmTC_43307.app
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

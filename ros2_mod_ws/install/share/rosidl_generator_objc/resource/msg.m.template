@@ -1,0 +1,202 @@
+@{
+message_c_name = '%s__%s__%s' % (spec.base_type.pkg_name, subfolder, spec.base_type.type)
+message_objc_name = 'ROS_{}_{}_{}'.format(spec.base_type.pkg_name, subfolder, spec.base_type.type)
+}@
+#include <assert.h>
+#include <stdint.h>
+#include <stdio.h>
+
+#include <@(spec.base_type.pkg_name)/@(subfolder)/@(module_name).h>
+
+@[for field in spec.fields]@
+@[    if not field.type.is_array and not field.type.is_primitive_type()]@
+@{
+field_type_pkg = str(field.type).split("/")[0]
+field_msg_name = str(field.type).split("/")[1]
+type_name = 'ROS_{}_msg_{}'.format(field_type_pkg, field_msg_name)
+}@
+// #include <@(field_type_pkg)/msg/@(field_msg_name).h>
+@[    end if]@
+@[end for]@
+
+#include "rosidl_generator_c/message_type_support_struct.h"
+
+#include "rosidl_generator_c/string.h"
+#include "rosidl_generator_c/string_functions.h"
+#include "rosidl_generator_c/primitives_array.h"
+#include "rosidl_generator_c/primitives_array_functions.h"
+
+#import "ROS_@(spec.base_type.pkg_name)/@(subfolder)/@(spec.base_type.type).h"
+
+@@interface @(message_objc_name) ()
+@@end
+
+@@implementation @(message_objc_name)
+
+@[for field in spec.fields]@
+@[    if field.type.is_array]@
+@[        if field.type.is_fixed_size_array()]@
+  // TODO(fmrico): Bounded Array is not supported
+@[        else]@
+// TODO(fmrico): Implemening array
+@[            if field.type.is_primitive_type()]@
+@@synthesize @(field.name);
+@[            end if]@
+@[        end if]@
+@[    else]@
+@@synthesize @(field.name);
+@[    end if]@
+@[end for]@
+
++ (intptr_t)typesupportHandle {
+  intptr_t ptr = (intptr_t)ROSIDL_GET_MSG_TYPE_SUPPORT(@(spec.base_type.pkg_name), @(subfolder),
+                                                       @(spec.msg_name));
+  return ptr;
+}
+
+@(message_c_name)*
+@(message_objc_name)_convert_from_objc(
+    @(message_objc_name)* _message_objc) {
+  // NOTE(esteve): avoid unused parameter warning
+  (void)_message_objc;
+
+  @(message_c_name)* ros_message =
+      @(message_c_name)__create();
+
+@[for field in spec.fields]@
+@[    if field.type.is_array]@
+// TODO(fmrico): Implemening array
+@[        if field.type.is_primitive_type()]@
+@[            if field.type.is_fixed_size_array()]@
+  // TODO(fmrico): Bounded Array is not supported
+@[            else]@
+@[                if field.type.type != 'string']@
+  rosidl_generator_c__@(field.type.type)__Array__init(&ros_message->@(field.name), [[_message_objc @(field.name)] count]);
+  for (unsigned long i=0; i<[[_message_objc @(field.name)] count]; i++)
+    ros_message->@(field.name).data[i] =
+    (@(get_builtin_objc_type(field.type.type)))[[_message_objc @(field.name)][i] @(get_extract_objc_func(field.type.type))];
+    //[[_message_objc.@(field.name)[i]);
+@[                end if]@
+@[            end if]@
+@[        end if]@
+@[    else]@
+@[        if field.type.is_primitive_type()]@
+@[            if field.type.type == 'string']@
+  const char* _value@(field.name) = [[_message_objc @(field.name)] UTF8String];
+  rosidl_generator_c__String__assign(&ros_message->@(field.name), _value@(field.name));
+@[            else]@
+  ros_message->@(field.name) = [_message_objc @(field.name)];
+@[            end if]@
+@[        else]@
+@{
+field_type_pkg = str(field.type).split("/")[0]
+field_msg_name = str(field.type).split("/")[1]
+type_name = 'ROS_{}_msg_{}'.format(field_type_pkg, field_msg_name)
+}@
+//  ros_message->@(field.name) = [_message_objc @(field.name)];
+    ros_message->@(field.name) = *[@(type_name) fromObjc:[_message_objc @(field.name)]]; // @(type_name)_convert_from_objc([_message_objc primitive_values])
+@[        end if]@
+@[    end if]@
+@[end for]@
+  return ros_message;
+}
+
+@(message_objc_name)*
+@(message_objc_name)_convert_to_objc(
+    @(message_c_name)* ros_message) {
+  // NOTE(esteve): avoid unused parameter warning
+  (void)ros_message;
+
+  @(message_objc_name)* message =
+      [[@(message_objc_name) alloc] init];
+
+@[for field in spec.fields]@
+@[    if field.type.is_array]@
+@[        if field.type.is_primitive_type()]@
+@[            if field.type.type != 'string']@
+@[                if field.type.is_fixed_size_array()]@
+  // TODO(fmrico): Bounded Array is not supported
+@[                else]@
+  size_t @(field.name)_size = ros_message->@(field.name).size;
+  for (size_t i = 0; i < @(field.name)_size; i++) {
+    //NSNumber *num = [NSNumber init:ros_message->@(field.name).data[i]];
+    [message.@(field.name) addObject: @@(ros_message->@(field.name).data[i])];
+  }
+@[                end if]@
+@[            else]@
+  // TODO(fmrico): Array of string is not supported
+@[            end if]@
+@[        end if]@
+@[    else]@
+@[        if field.type.is_primitive_type()]@
+@[            if field.type.type == 'string']@
+  message.@(field.name) = [NSString stringWithUTF8String:ros_message->@(field.name).data];
+@[            else]@
+  message.@(field.name) = ros_message->@(field.name);
+@[            end if]@
+@[        else]@
+  message.@(field.name) = [@(type_name) toObjc:&ros_message->@(field.name)];
+@[        end if]@
+@[    end if]@
+@[end for]@
+  return message;
+}
+
++ (intptr_t)destroyMsgPtr {
+   intptr_t ptr =
+       (intptr_t)@(message_c_name)__destroy;
+   return ptr;
+ }
+
++ (intptr_t)fromObjcConverterPtr {
+  intptr_t ptr =
+      (intptr_t)@(message_objc_name)_convert_from_objc;
+  return ptr;
+}
+
++ (intptr_t)toObjcConverterPtr {
+  intptr_t ptr = (intptr_t)
+      @(message_objc_name)_convert_to_objc;
+  return ptr;
+}
+
+
++ (@(message_c_name)*)fromObjc:(@(message_objc_name)*) message_objc_ {
+  return @(message_objc_name)_convert_from_objc(message_objc_);
+}
+
++ (@(message_objc_name)*)toObjc:(@(message_c_name)*) message_c_ {
+  return @(message_objc_name)_convert_to_objc(message_c_);
+}
+
+- (id)init {
+@[for field in spec.fields]@
+@[    if field.type.is_array]@
+@[        if field.type.is_fixed_size_array()]@
+  // TODO(fmrico): Bounded Array is not supported
+@[        else]@
+// TODO(fmrico): Implemening array
+@[            if field.type.is_primitive_type()]@
+  self.@(field.name) = [[NSMutableArray alloc] init];
+@[            end if]@
+@[        end if]@
+@[    else]@
+@[        if field.type.is_primitive_type()]@
+@[            if field.type.type == 'string']@
+  self.@(field.name) = [[NSString alloc] init];
+@[            else]@
+@[            end if]@
+@[        else]@
+@{
+field_type_pkg = str(field.type).split("/")[0]
+field_msg_name = str(field.type).split("/")[1]
+type_name = 'ROS_{}_msg_{}'.format(field_type_pkg, field_msg_name)
+}@
+  self.@(field.name) = [[@(type_name) alloc] init];
+@[        end if]@
+@[    end if]@
+@[end for]@
+  return self;
+}
+
+@@end

@@ -1,0 +1,13 @@
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_target_dependencies
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_target_dependencies
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_target_dependencies/environment/ament_prefix_path.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_target_dependencies/environment/path.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_target_dependencies/local_setup.bash
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_target_dependencies/local_setup.sh
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_target_dependencies/local_setup.zsh
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/packages/ament_cmake_target_dependencies
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependencies-extras.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependenciesConfig.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependenciesConfig-version.cmake
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_target_dependencies/package.xml
+/Users/lbajo/ros2_mod_ws/install/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake

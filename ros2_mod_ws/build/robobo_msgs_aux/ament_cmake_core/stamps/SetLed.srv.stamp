@@ -1,0 +1,4 @@
+string id
+string color
+---
+int8 error

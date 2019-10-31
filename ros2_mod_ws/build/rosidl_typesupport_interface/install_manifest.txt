@@ -1,0 +1,13 @@
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_interface
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_interface
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_interface/environment/ament_prefix_path.sh
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_interface/environment/path.sh
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_interface/local_setup.bash
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_interface/local_setup.sh
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_interface/local_setup.zsh
+/Users/lbajo/ros2_mod_ws/install/share/ament_index/resource_index/packages/rosidl_typesupport_interface
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceConfig.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceConfig-version.cmake
+/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_interface/package.xml
+/Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_interface/macros.h

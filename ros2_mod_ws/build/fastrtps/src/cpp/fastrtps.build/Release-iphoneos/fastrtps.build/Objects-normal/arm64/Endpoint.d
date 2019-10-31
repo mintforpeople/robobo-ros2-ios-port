@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/src/cpp/rtps/Endpoint.cpp \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/Endpoint.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/Types.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/../../fastrtps_dll.h \
+  /Users/lbajo/ros2_mod_ws/build/fastrtps/include/fastrtps/config.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/Locator.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/common/Guid.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/EndpointAttributes.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../common/Types.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../common/Locator.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/PropertyPolicy.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../common/Property.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../common/BinaryProperty.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../../fastrtps_dll.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../security/accesscontrol/EndpointSecurityAttributes.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/WriterAttributes.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../common/Time_t.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../common/Guid.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/rtps/attributes/../flowcontrol/ThroughputControllerDescriptor.h \
+  /Users/lbajo/ros2_mod_ws/src/eProsima/Fast-RTPS/include/fastrtps/fastrtps_dll.h

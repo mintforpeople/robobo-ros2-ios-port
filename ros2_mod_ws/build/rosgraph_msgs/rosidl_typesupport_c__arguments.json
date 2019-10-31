@@ -1,0 +1,21 @@
+{
+  "package_name": "rosgraph_msgs",
+  "output_dir": "/Users/lbajo/ros2_mod_ws/build/rosgraph_msgs/rosidl_typesupport_c/rosgraph_msgs",
+  "template_dir": "/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_c/resource",
+  "ros_interface_files": [
+    "/Users/lbajo/ros2_mod_ws/src/ros2/rcl_interfaces/rosgraph_msgs/msg/Clock.msg"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/Users/lbajo/ros2_mod_ws/install/share/builtin_interfaces/msg/Duration.msg",
+    "builtin_interfaces:/Users/lbajo/ros2_mod_ws/install/share/builtin_interfaces/msg/Time.msg"
+  ],
+  "target_dependencies": [
+    "/Users/lbajo/ros2_mod_ws/install/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/Users/lbajo/ros2_mod_ws/install/lib/python3.7/site-packages/rosidl_typesupport_c/__init__.py",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/Users/lbajo/ros2_mod_ws/install/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/Users/lbajo/ros2_mod_ws/src/ros2/rcl_interfaces/rosgraph_msgs/msg/Clock.msg",
+    "/Users/lbajo/ros2_mod_ws/install/share/builtin_interfaces/msg/Duration.msg",
+    "/Users/lbajo/ros2_mod_ws/install/share/builtin_interfaces/msg/Time.msg"
+  ]
+}

@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_objc/ROS_robobo_msgs_aux/srv/MovePanTilt_s.ep.rosidl_typesupport_introspection_c.m \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/srv/move_pan_tilt.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/srv/move_pan_tilt__request.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/srv/move_pan_tilt__request__struct.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/srv/move_pan_tilt__request__functions.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/msg/rosidl_generator_c__visibility_control.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/srv/move_pan_tilt__request__type_support.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/message_type_support_struct.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_typesupport_interface/macros.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/srv/move_pan_tilt__response.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/srv/move_pan_tilt__response__struct.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/srv/move_pan_tilt__response__functions.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_c/robobo_msgs_aux/srv/move_pan_tilt__response__type_support.h \
+  /Users/lbajo/ros2_mod_ws/install/include/rosidl_generator_c/service_type_support_struct.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_objc/ROS_robobo_msgs_aux/srv/MovePanTilt.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_objc/ROS_robobo_msgs_aux/srv/MovePanTilt_Request.h \
+  /Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/rosidl_generator_objc/ROS_robobo_msgs_aux/srv/MovePanTilt_Response.h

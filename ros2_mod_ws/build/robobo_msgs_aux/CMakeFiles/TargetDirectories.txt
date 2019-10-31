@@ -1,0 +1,13 @@
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/robobo_msgs_aux__cpp.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/robobo_msgs_aux__rosidl_typesupport_introspection_cpp.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/robobo_msgs_aux__rosidl_typesupport_introspection_c.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/robobo_msgs_aux__rosidl_typesupport_cpp.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/robobo_msgs_aux__objc.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/robobo_msgs_aux__rosidl_typesupport_c.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/ROS_robobo_msgs_aux__rosidl_typesupport_introspection_c.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/robobo_msgs_aux.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/install.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/robobo_msgs_aux__rosidl_generator_c.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/uninstall.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/ALL_BUILD.dir
+/Users/lbajo/ros2_mod_ws/build/robobo_msgs_aux/CMakeFiles/ZERO_CHECK.dir
